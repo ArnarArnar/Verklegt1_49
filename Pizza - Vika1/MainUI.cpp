@@ -2,11 +2,8 @@
 #include <string>
 #include <fstream>
 #include "MainUI.h"
-
-
-
+#include "Pizza.h"
 using namespace std;
-
 
 
 MainUI::MainUI()
@@ -108,7 +105,6 @@ void MainUI::adminUI() {
 }
 void MainUI::salesUI() {
     char selection = '\0';
-
     while (selection != 'q'){
         //mun breyta og setja í function. Er skýrara ef þetta er.
         for(int i = 0; i < 50; i++)
@@ -224,25 +220,53 @@ void MainUI::deliveryUI() {
         }
     }
 }
-void MainUI::startUI(){
+void MainUI::makeOrderUI(){
     char selection = '\0';
-
     while (selection != 'q'){
 
-        cout << "p: pizzas" << endl;
+        cout << "p: Pizza Order" << endl;
         cout << "w: write" << endl;
         cout << "r: read" << endl;
         cout << "q: quit" << endl;
 
         cin >> selection;
-        if (selection == 'p'){
-        cout << endl;
-        }
+        if (selection == 'o'){
+            MainUI makePizzaMenu;
+            makePizzaMenu.makePizzaUI();
+            }
         if (selection == 'w'){
         cout << endl;
         }
         else if (selection == 'r'){
         cout << endl;
         }
+    }
+}
+void MainUI::makePizzaUI(){
+    char selection = '\0';
+    cout << "m: make pizza" << endl;
+    cout << "r: read pizza" << endl;
+    cin >> selection;
+    if (selection == 'm') {
+        int topCnt;
+        cout << "How many toppings: ";
+        cin >> topCnt;
+        Pizza pizza(topCnt);
+        for (int i = 0; i < topCnt; i++) {
+            Topping topping;
+            cin >> topping;
+            pizza.addTopping(topping);
+        }
+        cout << pizza;
+
+        pizzaRepo.storePizza(pizza);
+        cout << endl;
+    }
+    if (selection == 'r') {
+        PizzaRepository repo;
+        Pizza pizza = pizzaRepo.retrievePizza();
+        cout << pizza;
+        cout << endl;
+
     }
 }

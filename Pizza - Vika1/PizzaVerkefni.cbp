@@ -32,26 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="AdminUI.cpp" />
-		<Unit filename="AdminUI.h" />
-		<Unit filename="BakerUI.cpp" />
-		<Unit filename="BakerUI.h" />
-		<Unit filename="DeliveryUI.cpp" />
-		<Unit filename="DeliveryUI.h" />
 		<Unit filename="MainUI.cpp" />
 		<Unit filename="MainUI.h" />
 		<Unit filename="Pizza.cpp" />
 		<Unit filename="Pizza.h" />
 		<Unit filename="PizzaRepository.cpp" />
 		<Unit filename="PizzaRepository.h" />
-		<Unit filename="PizzaUI.cpp" />
-		<Unit filename="PizzaUI.h" />
-		<Unit filename="SalesUI.cpp" />
-		<Unit filename="SalesUI.h" />
 		<Unit filename="Topping.cpp" />
 		<Unit filename="Topping.h" />
-		<Unit filename="Welcomescreen.cpp" />
-		<Unit filename="Welcomescreen.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

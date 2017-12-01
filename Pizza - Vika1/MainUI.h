@@ -11,7 +11,7 @@ class MainUI
         void salesUI();
         void bakerUI();
         void deliveryUI();
-        void startUI();
+        void makeOrderUI();
         virtual ~MainUI();
 
     protected:

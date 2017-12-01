@@ -1,5 +1,5 @@
 #include "Pizza.h"
-#include <stddef.h>
+
 using namespace std;
 Pizza::Pizza()
 {
@@ -22,9 +22,7 @@ void Pizza::clean(){
         toppings = 0;
         currentToppingNum = 0;
     }
-
 }
-
 Pizza::~Pizza()
 {
     clean();

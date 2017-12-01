@@ -30,7 +30,7 @@
 	"BakerUI.h"
 	"DeliveryUI.h"
 
-1512146683 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\mainui.h
+1512148838 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\mainui.h
 
 1512129528 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\bakerui.h
 	"Welcomescreen.h"
@@ -54,17 +54,16 @@
 	<fstream>
 	"MainUI.h"
 
-1512146660 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\mainui.cpp
+1512148271 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\mainui.cpp
 	<iostream>
 	<string>
 	<fstream>
 	"MainUI.h"
 
-1512049788 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizza.cpp
+1512148602 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizza.cpp
 	"Pizza.h"
-	<stddef.h>
 
-1512048196 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizzarepository.cpp
+1512148480 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizzarepository.cpp
 	"PizzaRepository.h"
 	<fstream>
 	"pizza.h"
