@@ -7,7 +7,6 @@ class PizzaRepository
     public:
         PizzaRepository();
         virtual ~PizzaRepository();
-
         void storePizza(const Pizza& pizza);
         Pizza retrievePizza();
 

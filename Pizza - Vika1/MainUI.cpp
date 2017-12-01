@@ -3,6 +3,9 @@
 #include <fstream>
 #include "MainUI.h"
 #include "Pizza.h"
+#include "PizzaRepository.h"
+#include "Topping.h"
+
 using namespace std;
 
 
@@ -120,6 +123,8 @@ void MainUI::salesUI() {
 
         cin >> selection;
         if (selection == 'o' || selection == 'O'){
+            MainUI makeOrderMenu;
+            makeOrderMenu.makeOrderUI();
         cout << endl;
         }
         if (selection == 'p' || selection == 'P'){
@@ -224,7 +229,7 @@ void MainUI::makeOrderUI(){
     char selection = '\0';
     while (selection != 'q'){
 
-        cout << "p: Pizza Order" << endl;
+        cout << "o: Pizza Order" << endl;
         cout << "w: write" << endl;
         cout << "r: read" << endl;
         cout << "q: quit" << endl;
@@ -248,23 +253,24 @@ void MainUI::makePizzaUI(){
     cout << "r: read pizza" << endl;
     cin >> selection;
     if (selection == 'm') {
-        int topCnt;
+        int toppingCnt;
         cout << "How many toppings: ";
-        cin >> topCnt;
-        Pizza pizza(topCnt);
-        for (int i = 0; i < topCnt; i++) {
+        cin >> toppingCnt;
+        Pizza pizza(toppingCnt);
+        for (int i = 0; i < toppingCnt; i++) {
             Topping topping;
             cin >> topping;
             pizza.addTopping(topping);
         }
         cout << pizza;
-
+        PizzaRepository pizzaRepo;
         pizzaRepo.storePizza(pizza);
         cout << endl;
     }
     if (selection == 'r') {
+
         PizzaRepository repo;
-        Pizza pizza = pizzaRepo.retrievePizza();
+        Pizza pizza = repo.retrievePizza();
         cout << pizza;
         cout << endl;
 

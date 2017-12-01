@@ -89,3 +89,42 @@
 	"Welcomescreen.h"
 	"SalesUI.h"
 
+1512152618 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512152896 c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\mainui.h
+
+1512152618 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\pizza.cpp
+	"Pizza.h"
+
+1512152618 c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512152618 c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\topping.h
+	<iostream>
+
+1512152618 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512153906 c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\pizzarepository.h
+	"Pizza.h"
+
+1512152618 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\topping.cpp
+	<strings.h>
+	"Topping.h"
+
+1512154513 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"PizzaRepository.h"
+	"Topping.h"
+

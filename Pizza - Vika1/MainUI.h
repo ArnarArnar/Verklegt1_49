@@ -12,6 +12,7 @@ class MainUI
         void bakerUI();
         void deliveryUI();
         void makeOrderUI();
+        void makePizzaUI();
         virtual ~MainUI();
 
     protected:
