@@ -6,9 +6,13 @@ class MainUI
 {
     public:
         MainUI();
-        virtual ~MainUI();
-
+        void welcomeUI();
+        void adminUI();
+        void salesUI();
+        void bakerUI();
+        void deliveryUI();
         void startUI();
+        virtual ~MainUI();
 
     protected:
 
