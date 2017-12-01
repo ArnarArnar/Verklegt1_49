@@ -1,0 +1,348 @@
+# depslib dependency file v1.0
+1511982637 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1511982637 source:f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1511989248 source:f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizzaui.h"
+
+1511978494 f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\mainui.h
+
+1511987783 source:f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\topping.cpp
+	<strings.h>
+	"Topping.h"
+
+1511983028 f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\topping.h
+	<iostream>
+
+1511995130 source:f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizza.cpp
+	"Pizza.h"
+	<stddef.h>
+
+1511993925 f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizza.h
+	"Topping.h"
+	<iostream>
+
+1511995853 f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizzaui.h
+	"PizzaRepository.h"
+
+1511995844 source:f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizzaui.cpp
+	"PizzaUI.h"
+	<iostream>
+	"Pizza.h"
+
+1511995722 source:f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1511996110 f:\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizzarepository.h
+	"Pizza.h"
+
+1511978494 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\mainui.h
+
+1511989248 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizzaui.h"
+
+1511995853 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizzaui.h
+	"PizzaRepository.h"
+
+1511996110 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizzarepository.h
+	"Pizza.h"
+
+1511993925 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizza.h
+	"Topping.h"
+	<iostream>
+
+1511983028 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\topping.h
+	<iostream>
+
+1511995130 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizza.cpp
+	"Pizza.h"
+	<stddef.h>
+
+1511996110 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1511995844 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\pizzaui.cpp
+	"PizzaUI.h"
+	<iostream>
+	"Pizza.h"
+
+1511987783 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár\topping.cpp
+	<strings.h>
+	"Topping.h"
+
+1512042887 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Welcomescreen.h"
+
+1511978494 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\mainui.h
+
+1512049788 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\pizza.cpp
+	"Pizza.h"
+	<stddef.h>
+
+1511993925 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\pizza.h
+	"Topping.h"
+	<iostream>
+
+1511983028 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\topping.h
+	<iostream>
+
+1512048196 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1511996110 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\pizzarepository.h
+	"Pizza.h"
+
+1511995844 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\pizzaui.cpp
+	"PizzaUI.h"
+	<iostream>
+	"Pizza.h"
+
+1511995853 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\pizzaui.h
+	"PizzaRepository.h"
+
+1511987783 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\topping.cpp
+	<strings.h>
+	"Topping.h"
+
+1512043315 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizzaui.h"
+	"Welcomescreen.h"
+
+1512042915 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\welcomescreen.h
+	<string>
+	<iostream>
+	"AdminUI.h"
+	"MainUI.h"
+
+1512043391 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\adminui.h
+	"Pizzaui.h"
+	<string>
+	<iostream>
+
+1512043315 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\adminui.cpp
+	"AdminUI.h"
+
+1512043068 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klasar í skrár - pizza\welcomescreen.cpp
+	"Welcomescreen.h"
+
+1512073522 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\adminui.cpp
+	"AdminUI.h"
+
+1512064519 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\adminui.h
+	"Pizzaui.h"
+	"Welcomescreen.h"
+	<string>
+	<iostream>
+
+1512064533 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\pizzaui.h
+	"PizzaRepository.h"
+	"Welcomescreen.h"
+
+1512061222 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\pizzarepository.h
+	"Pizza.h"
+
+1512061222 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512061222 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\topping.h
+	<iostream>
+
+1512062090 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Welcomescreen.h"
+
+1512061222 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\mainui.h
+
+1512076717 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\welcomescreen.h
+	<string>
+	<iostream>
+	"AdminUI.h"
+	"MainUI.h"
+	"BakerUI.h"
+	"DeliveryUI.h"
+
+1512065236 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizzaui.h"
+	"Welcomescreen.h"
+
+1512061222 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\pizza.cpp
+	"Pizza.h"
+	<stddef.h>
+
+1512061222 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512064485 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\pizzaui.cpp
+	"PizzaUI.h"
+	<iostream>
+	"Pizza.h"
+
+1512061222 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\topping.cpp
+	<strings.h>
+	"Topping.h"
+
+1512077411 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\welcomescreen.cpp
+	"Welcomescreen.h"
+	"SalesUI.h"
+
+1512073433 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\salesui.cpp
+	"SalesUI.h"
+
+1512062087 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\salesui.h
+	"Pizzaui.h"
+	<string>
+	<iostream>
+
+1512065770 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\baker.h
+
+1512074307 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\bakerui.h
+	"Welcomescreen.h"
+	<string>
+	<iostream>
+
+1512074307 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\bakerui.cpp
+	"BakerUI.h"
+	<string>
+	<iostream>
+
+1512076823 source:c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\deliveryui.cpp
+	"DeliveryUI.h"
+
+1512074307 c:\users\arnar\documents\github\3viknaverkl\pizza - vika1\deliveryui.h
+	"Welcomescreen.h"
+
+1512129709 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\adminui.cpp
+	"AdminUI.h"
+
+1512129709 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\adminui.h
+	"Pizzaui.h"
+	"Welcomescreen.h"
+	<string>
+	<iostream>
+
+1512129709 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\pizzaui.h
+	"PizzaRepository.h"
+	"Welcomescreen.h"
+
+1512129848 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\pizzarepository.h
+	"Pizza.h"
+
+1512129846 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512129851 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\topping.h
+	<iostream>
+
+1512129709 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\welcomescreen.h
+	<string>
+	<iostream>
+	"AdminUI.h"
+	"MainUI.h"
+	"BakerUI.h"
+	"DeliveryUI.h"
+
+1512129843 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\mainui.h
+
+1512129709 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\bakerui.h
+	"Welcomescreen.h"
+	<string>
+	<iostream>
+
+1512129709 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\deliveryui.h
+	"Welcomescreen.h"
+
+1512129709 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\bakerui.cpp
+	"BakerUI.h"
+	<string>
+	<iostream>
+
+1512129709 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\deliveryui.cpp
+	"DeliveryUI.h"
+
+1512129842 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Welcomescreen.h"
+
+1512129709 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizzaui.h"
+	"Welcomescreen.h"
+
+1512129844 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\pizza.cpp
+	"Pizza.h"
+	<stddef.h>
+
+1512129847 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512129709 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\pizzaui.cpp
+	"PizzaUI.h"
+	<iostream>
+	"Pizza.h"
+
+1512129709 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\salesui.cpp
+	"SalesUI.h"
+
+1512129709 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\salesui.h
+	"Pizzaui.h"
+	<string>
+	<iostream>
+
+1512129850 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\topping.cpp
+	<strings.h>
+	"Topping.h"
+
+1512129709 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\3viknaverkl\pizza - vika1\welcomescreen.cpp
+	"Welcomescreen.h"
+	"SalesUI.h"
+

@@ -1,0 +1,26 @@
+Music Programming
+
+Music and computation have always been a good match. Human perception is fundamental to musical composition, and
+it turns out that natural perceptual phenomena can often best be described and modeled using mathematical
+relationships. For example, the interval between two notes played together as a chord, or one after the other in a melody,
+can be described by taking the frequency of each sound and looking at the ratio between them. Certain ratios will be
+more "pleasant" to the ear than others. Furthermore, structure of music is often quite regular, with well recognized
+patterns of repetition (from rhythm to whole sections) and variation, which lends itself well to the paradigms of
+programming.
+
+There is therefore nothing strange about learning music through programming and/or learning programming through
+music. This idea has been explored since the dawn of modern computing, and an idea that Sonic P in particular embraces:
+
+"Sonic Pi is an open-source programming environment developed by Dr Sam Aaron, designed to explore and teach
+programming concepts through the process of creating new sounds [and music]. This is a scheme of work which
+emphasises the importance of creativity in the learning process and gives users the control to turn their sonic ideas
+into reality."
+
+Sonic Pi is actually a lot more than a great educational tool, it is also a new kind of a musical instrument that supports live
+performances, an art that has become known as "live coding":
+
+"Live coding is a new direction in electronic music and video, and is getting somewhere interesting. Live coders
+expose and rewire the innards of software while it generates improvised music and/or visuals. All code manipulation
+is projected for your pleasure. Live coding works across musical genres, and has been seen in concert halls, late night
+jazz bars, as well as algoraves. There is also a strong movement of video-based live coders, writing code to make
+visuals, and many environments can do both sound and video, creating synaesthetic experiences."

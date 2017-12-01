@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511970789 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\textaskrab\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+

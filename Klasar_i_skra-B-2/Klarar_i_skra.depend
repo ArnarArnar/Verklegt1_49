@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1511883927 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klarar_i_skra\main.cpp
+	<iostream>
+	"Superhero.h"
+	<fstream>
+	<string>
+
+1511883748 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klarar_i_skra\src\superhero.cpp
+	"Superhero.h"
+
+1511883598 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klarar_i_skra\include\superhero.h
+	<iostream>
+	<string>
+	<fstream>
+
+1511966380 source:c:\users\arnar\documents\github\3viknaverkl\klarar_i_skra-annar hluti\main.cpp
+	<iostream>
+	"Superhero.h"
+	<fstream>
+	<string>
+
+1511966380 c:\users\arnar\documents\github\3viknaverkl\klarar_i_skra-annar hluti\include\superhero.h
+	<iostream>
+	<string>
+	<fstream>
+
+1511966380 source:c:\users\arnar\documents\github\3viknaverkl\klarar_i_skra-annar hluti\src\superhero.cpp
+	"Superhero.h"
+
+1511966380 source:c:\users\arnar\documents\github\3viknaverkl\klasar_i_skra-b-2\main.cpp
+	<iostream>
+	"Superhero.h"
+	<fstream>
+	<string>
+
+1511966380 c:\users\arnar\documents\github\3viknaverkl\klasar_i_skra-b-2\include\superhero.h
+	<iostream>
+	<string>
+	<fstream>
+
+1511966380 source:c:\users\arnar\documents\github\3viknaverkl\klasar_i_skra-b-2\src\superhero.cpp
+	"Superhero.h"
+

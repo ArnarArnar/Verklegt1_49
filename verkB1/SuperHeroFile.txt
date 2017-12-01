@@ -1,0 +1,5 @@
+Batman 22 Hacker 
+Superman 44 Flying 
+Hulk 77 Giant 
+Hilmar 36 weakling 
+Robin 22 None 

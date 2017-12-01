@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1512046604 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\verk1\main.cpp
+	<iostream>
+	<fstream>
+
+1512046604 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\verk1a\main.cpp
+	<iostream>
+	<fstream>
+

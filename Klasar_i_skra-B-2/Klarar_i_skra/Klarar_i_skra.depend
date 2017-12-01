@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1511883927 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klarar_i_skra\main.cpp
+	<iostream>
+	"Superhero.h"
+	<fstream>
+	<string>
+
+1511883748 source:c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klarar_i_skra\src\superhero.cpp
+	"Superhero.h"
+
+1511883598 c:\users\arnar\onedrive - reykjavik university\verklegt_namskeid\klarar_i_skra\include\superhero.h
+	<iostream>
+	<string>
+	<fstream>
+
