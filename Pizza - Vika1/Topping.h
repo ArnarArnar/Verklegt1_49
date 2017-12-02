@@ -10,13 +10,16 @@ class Topping
         Topping(char *name, double price);
         virtual ~Topping();
         friend istream& operator >> (istream& in, Topping& topping);
-         friend ostream& operator << (ostream& out, const Topping& topping);
+        friend ostream& operator << (ostream& out, const Topping& topping);
+        void setVerbose(bool v);
+        void start();
 
     protected:
 
     private:
         char name[32];
         double price;
+        bool verbose;
 };
 
 #endif // TOPPING_H

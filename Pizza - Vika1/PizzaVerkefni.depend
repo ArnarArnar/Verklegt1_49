@@ -167,3 +167,43 @@
 	<strings.h>
 	"Topping.h"
 
+1512147887 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512213365 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\mainui.h
+
+1512224007 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"PizzaRepository.h"
+	"Topping.h"
+
+1512147887 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512223962 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\topping.h
+	<iostream>
+
+1512213366 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\pizzarepository.h
+	"Pizza.h"
+
+1512213365 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\pizza.cpp
+	"Pizza.h"
+
+1512213366 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512224083 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\topping.cpp
+	<strings.h>
+	<fstream>
+	"Topping.h"
+

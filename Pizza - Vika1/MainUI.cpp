@@ -90,37 +90,50 @@ void MainUI::adminUI() {
         cin >> selection;
         switch (selection){
             case 's':
-            case 'S':
+            case 'S':{
                 cout << "Change pizza sizes" << endl;
+                }break;
 
             case 't':
-            case 'T':
+            case 'T':{
+                Topping topping;
+                topping.start();
                 cout << endl;
+                }break;
 
             case 'm':
-            case 'M':
+            case 'M':{
                 cout << endl;
+                }break;
+
 
             case 'i':
-            case 'I':
+            case 'I':{
                 cout << endl;
+                }break;
+
 
             case 'p':
-            case 'P':
+            case 'P':{
                 cout << endl;
+                }break;
+
 
             case 'o':
-            case 'O':
+            case 'O':{
                 cout << endl;
+                }break;
+
 
             case 'q':
-            case 'Q':
+            case 'Q':{}
                 MainUI welcomeMenu;
                 welcomeMenu.welcomeUI();
                 cout << endl;
+                }break;
         }
     }
-}
+
 void MainUI::salesUI() {
     char selection = '\0';
     while (selection != 'q'){
