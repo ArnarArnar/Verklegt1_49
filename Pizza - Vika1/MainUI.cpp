@@ -84,9 +84,6 @@ void MainUI::adminUI() {
         if (selection == 's' || selection == 'S') {
             cout << endl;
         }
-        if (selection == 's' || selection == 'S') {
-            cout << endl;
-        }
         if (selection == 'm' || selection == 'M') {
             cout << endl;
         }

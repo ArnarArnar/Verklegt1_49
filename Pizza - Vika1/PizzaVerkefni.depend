@@ -128,3 +128,42 @@
 	"PizzaRepository.h"
 	"Topping.h"
 
+1512147887 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512213365 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\mainui.h
+
+1512213365 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"PizzaRepository.h"
+	"Topping.h"
+
+1512147887 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512147887 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\topping.h
+	<iostream>
+
+1512213366 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizzarepository.h
+	"Pizza.h"
+
+1512213365 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizza.cpp
+	"Pizza.h"
+
+1512213366 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512147887 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\topping.cpp
+	<strings.h>
+	"Topping.h"
+
