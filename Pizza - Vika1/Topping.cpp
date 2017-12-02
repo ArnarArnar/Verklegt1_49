@@ -18,7 +18,7 @@ Topping::~Topping()
     //dtor
 }
 void Topping::start(){
-char answer;
+    char answer;
     Topping topping;
     topping.setVerbose(true);
     cin >> topping;

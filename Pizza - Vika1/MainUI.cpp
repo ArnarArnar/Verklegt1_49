@@ -79,7 +79,7 @@ void MainUI::adminUI() {
             cout << endl;
         }
         cout << "ADMIN MODE"<< endl << endl;
-        cout << "S: Change pizza sizes" << endl;
+        cout << "S: Edit pizza sizes and price" << endl;
         cout << "T: Edit toppings selection" << endl;
         cout << "M: Edit menu" << endl;
         cout << "I: Edit items for sale" << endl;
@@ -91,7 +91,7 @@ void MainUI::adminUI() {
         switch (selection){
             case 's':
             case 'S':{
-                cout << "Change pizza sizes" << endl;
+                cout << endl;
                 }break;
 
             case 't':

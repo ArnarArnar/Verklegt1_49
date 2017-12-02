@@ -136,7 +136,7 @@
 
 1512213365 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\mainui.h
 
-1512215728 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\mainui.cpp
+1512226618 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\mainui.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -149,22 +149,23 @@
 	"Topping.h"
 	<iostream>
 
-1512147887 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\topping.h
+1512223962 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\topping.h
 	<iostream>
 
-1512213366 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizzarepository.h
+1512226618 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizzarepository.h
 	"Pizza.h"
 
 1512213365 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizza.cpp
 	"Pizza.h"
 
-1512213366 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizzarepository.cpp
+1512226618 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizzarepository.cpp
 	"PizzaRepository.h"
 	<fstream>
 	"pizza.h"
 
-1512147887 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\topping.cpp
+1512225552 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\topping.cpp
 	<strings.h>
+	<fstream>
 	"Topping.h"
 
 1512147887 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\main.cpp
