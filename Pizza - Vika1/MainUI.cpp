@@ -36,25 +36,36 @@ void MainUI::welcomeUI() {
         cout << "Q: Quit" << endl;
 
         cin >> selection;
-        if (selection == 'a' || selection == 'A') {
-            MainUI adminMenueUI;
-            adminMenueUI.adminUI();
-        }
-        if (selection == 's' || selection == 'S') {
-            MainUI salesMenuUI;
-            salesMenuUI.salesUI();
+        switch(selection){
+            case 'a':
+            case 'A':{
+                MainUI adminMenuUI;
+                adminMenuUI.adminUI();
+                }break;
 
-        }
-        if (selection == 'b' || selection == 'B') {
-            MainUI bakerMenuUI;
-            bakerMenuUI.bakerUI();
-        }
-        if (selection == 'd' || selection == 'D') {
-            MainUI deliveryMenuUI;
-            deliveryMenuUI.deliveryUI();
-        }
-        else if (selection == 'q' || selection == 'Q') {
-            cout << endl;
+            case 's':
+            case 'S':{
+                MainUI salesMenuUI;
+                salesMenuUI.salesUI();
+                }break;
+
+            case 'b':
+            case 'B':{
+                MainUI bakerMenuUI;
+                bakerMenuUI.bakerUI();
+                }break;
+
+            case 'd':
+            case 'D':{
+                MainUI deliveryMenuUI;
+                deliveryMenuUI.deliveryUI();
+                }break;
+
+            case 'q':
+            case 'Q':{
+                cout << endl;
+                }break;
+
         }
     }
 }
@@ -77,29 +88,36 @@ void MainUI::adminUI() {
         cout << "Q: quit" << endl;
 
         cin >> selection;
+        switch (selection){
+            case 's':
+            case 'S':
+                cout << "Change pizza sizes" << endl;
 
-        if (selection == 'p' || selection == 'P') {
-            cout << endl;
-        }
-        if (selection == 's' || selection == 'S') {
-            cout << endl;
-        }
-        if (selection == 'm' || selection == 'M') {
-            cout << endl;
-        }
-        if (selection == 'i' || selection == 'I') {
-            cout << endl;
-        }
-        if (selection == 'p' || selection == 'P') {
-            cout << endl;
-        }
-        if (selection == 'o'  || selection == 'O') {
-            cout << endl;
-        }
-        else if (selection == 'q' || selection == 'Q') {
-            MainUI welcomeMenu;
-            welcomeMenu.welcomeUI();
-            cout << endl;
+            case 't':
+            case 'T':
+                cout << endl;
+
+            case 'm':
+            case 'M':
+                cout << endl;
+
+            case 'i':
+            case 'I':
+                cout << endl;
+
+            case 'p':
+            case 'P':
+                cout << endl;
+
+            case 'o':
+            case 'O':
+                cout << endl;
+
+            case 'q':
+            case 'Q':
+                MainUI welcomeMenu;
+                welcomeMenu.welcomeUI();
+                cout << endl;
         }
     }
 }
@@ -119,27 +137,44 @@ void MainUI::salesUI() {
         cout << "q: quit to menu" << endl;
 
         cin >> selection;
-        if (selection == 'o' || selection == 'O'){
-            MainUI makeOrderMenu;
-            makeOrderMenu.makeOrderUI();
-        cout << endl;
-        }
-        if (selection == 'p' || selection == 'P'){
-        cout << endl;
-        }
-        if (selection == 'b' || selection == 'B'){
-        cout << endl;
-        }
-        if (selection == 'd' || selection == 'D'){
-        cout << endl;
-        }
-        if (selection == 'n' || selection == 'N'){
-        cout << endl;
-        }
-        else if (selection == 'q' || selection == 'Q'){
-            MainUI welcomeMenu;
-            welcomeMenu.welcomeUI();
-        cout << endl;
+        switch(selection){
+            case 'o':
+            case 'O':{
+                MainUI makeOrderMenu;
+                makeOrderMenu.makeOrderUI();
+                cout << endl;
+                }break;
+
+            case 'p':
+            case 'P':{
+
+                cout << endl;
+                }break;
+
+            case 'b':
+            case 'B':{
+
+                cout << endl;
+                }break;
+
+            case 'd':
+            case 'D':{
+
+                cout << endl;
+                }break;
+
+            case 'n':
+            case 'N':{
+
+                cout << endl;
+                }break;
+
+            case 'q':
+            case 'Q':{
+                MainUI welcomeMenu;
+                welcomeMenu.welcomeUI();
+                cout << endl;
+                }break;
         }
     }
 }
@@ -155,27 +190,42 @@ void MainUI::bakerUI() {
         cout << "BAKERS MENU" << endl << endl;
         cout << "P: Pizza queue" << endl;
         cout << "N: List of ordered pizza's" << endl;
-        cout << "P: Mark as in progress" << endl;
+        cout << "S: Mark as in progress" << endl;
         cout << "R: Mark as ready" << endl;
         cout << "q: quit to menu" << endl;
 
         cin >> selection;
-        if (selection == 'p' || selection == 'P'){
-        cout << endl;
-        }
-        if (selection == 'n' || selection == 'N'){
-        cout << endl;
-        }
-        if (selection == 'p' || selection == 'P'){
-        cout << endl;
-        }
-        if (selection == 'r' || selection == 'R'){
-        cout << endl;
-        }
-        else if (selection == 'q' || selection == 'Q'){
-            MainUI welcomeMenu;
-            welcomeMenu.welcomeUI();
-        cout << endl;
+        switch(selection){
+            case 'p':
+            case 'P':{
+
+                cout << endl;
+                }break;
+
+            case 'n':
+            case 'N':{
+
+                cout << endl;
+                }break;
+
+            case 's':
+            case 'S':{
+
+                cout << endl;
+                }break;
+
+            case 'r':
+            case 'R':{
+
+                cout << endl;
+                }break;
+
+            case 'q':
+            case 'Q':{
+                MainUI welcomeMenu;
+                welcomeMenu.welcomeUI();
+                cout << endl;
+                }break;
         }
     }
 }
@@ -197,28 +247,49 @@ void MainUI::deliveryUI() {
         cout << "Q: quit to menu" << endl;
 
         cin >> selection;
-        if (selection == 'o' || selection == 'O'){
-        cout << endl;
-        }
-        if (selection == 'l' || selection == 'L'){
-        cout << endl;
-        }
-        if (selection == 'r' || selection == 'R'){
-        cout << endl;
-        }
-        if (selection == 's' || selection == 'S'){
-        cout << endl;
-        }
-        if (selection == 'p' || selection == 'P'){
-        cout << endl;
-        }
-        if (selection == 'f' || selection == 'F'){
-        cout << endl;
-        }
-        else if (selection == 'q' || selection == 'Q'){
-            MainUI welcomeMenu;
-            welcomeMenu.welcomeUI();
-        cout << endl;
+        switch(selection){
+            case 'o':
+            case 'O':{
+
+                cout << endl;
+                }break;
+
+            case 'l':
+            case 'L':{
+
+                cout << endl;
+                }break;
+
+            case 'r':
+            case 'R':{
+
+                cout << endl;
+                }break;
+
+            case 's':
+            case 'S':{
+
+                cout << endl;
+                }break;
+
+            case 'p':
+            case 'P':{
+
+                cout << endl;
+                }break;
+
+            case 'f':
+            case 'F':{
+
+                cout << endl;
+                }break;
+
+            case 'q':
+            case 'Q':{
+                MainUI welcomeMenu;
+                welcomeMenu.welcomeUI();
+                cout << endl;
+                }break;
         }
     }
 }
@@ -232,15 +303,31 @@ void MainUI::makeOrderUI(){
         cout << "q: quit" << endl;
 
         cin >> selection;
-        if (selection == 'o'){
-            MainUI makePizzaMenu;
-            makePizzaMenu.makePizzaUI();
-            }
-        if (selection == 'w'){
-        cout << endl;
-        }
-        else if (selection == 'r'){
-        cout << endl;
+        switch(selection){
+            case 'o':
+            case 'O':{
+                MainUI makePizzaMenu;
+                makePizzaMenu.makePizzaUI();
+                cout << endl;
+                }break;
+
+            case 'w':
+            case 'W':{
+
+                cout << endl;
+                }break;
+            case 'r':
+            case 'R':{
+
+                cout << endl;
+                }break;
+
+            case 'q':
+            case 'Q':{
+                MainUI welcomeMenu;
+                welcomeMenu.welcomeUI();
+                cout << endl;
+                }break;
         }
     }
 }
@@ -249,27 +336,30 @@ void MainUI::makePizzaUI(){
     cout << "m: make pizza" << endl;
     cout << "r: read pizza" << endl;
     cin >> selection;
-    if (selection == 'm') {
-        int toppingCnt;
-        cout << "How many toppings: ";
-        cin >> toppingCnt;
-        Pizza pizza(toppingCnt);
-        for (int i = 0; i < toppingCnt; i++) {
-            Topping topping;
-            cin >> topping;
-            pizza.addTopping(topping);
-        }
-        cout << pizza;
-        PizzaRepository pizzaRepo;
-        pizzaRepo.storePizza(pizza);
-        cout << endl;
-    }
-    if (selection == 'r') {
+    switch(selection){
+            case 'm':
+            case 'M':{
+                int toppingCnt;
+                cout << "How many toppings: ";
+                cin >> toppingCnt;
+                Pizza pizza(toppingCnt);
+                    for (int i = 0; i < toppingCnt; i++) {
+                    Topping topping;
+                    cin >> topping;
+                    pizza.addTopping(topping);
+                    }
+                cout << pizza;
+                PizzaRepository pizzaRepo;
+                pizzaRepo.storePizza(pizza);
+                cout << endl;
+                }break;
 
-        PizzaRepository repo;
-        Pizza pizza = repo.retrievePizza();
-        cout << pizza;
-        cout << endl;
-
+            case 'r':
+            case 'R':{
+                PizzaRepository repo;
+                Pizza pizza = repo.retrievePizza();
+                cout << pizza;
+                cout << endl;
+                }break;
     }
 }
