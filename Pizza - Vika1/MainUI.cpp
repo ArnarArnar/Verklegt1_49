@@ -130,11 +130,11 @@ void MainUI::salesUI() {
             cout << endl;
         }
         cout << "SALES MENU" << endl << endl;
-        cout << "o: Make order" << endl;
-        cout << "p: Get price" << endl;
-        cout << "d: Delivery or pickup" << endl;
-        cout << "n: Notes" << endl;
-        cout << "q: quit to menu" << endl;
+        cout << "O: Make order" << endl;
+        cout << "P: Get price" << endl;
+        cout << "D: Delivery or pickup" << endl;
+        cout << "N: Notes" << endl;
+        cout << "Q: quit to menu" << endl;
 
         cin >> selection;
         switch(selection){
@@ -192,7 +192,7 @@ void MainUI::bakerUI() {
         cout << "N: List of ordered pizza's" << endl;
         cout << "S: Mark as in progress" << endl;
         cout << "R: Mark as ready" << endl;
-        cout << "q: quit to menu" << endl;
+        cout << "Q: quit to menu" << endl;
 
         cin >> selection;
         switch(selection){
@@ -297,10 +297,10 @@ void MainUI::makeOrderUI(){
     char selection = '\0';
     while (selection != 'q'){
 
-        cout << "o: Pizza Order" << endl;
-        cout << "w: write" << endl;
-        cout << "r: read" << endl;
-        cout << "q: quit" << endl;
+        cout << "O: Pizza Order" << endl;
+        cout << "W: write" << endl;
+        cout << "R: read" << endl;
+        cout << "Q: quit" << endl;
 
         cin >> selection;
         switch(selection){
@@ -333,8 +333,8 @@ void MainUI::makeOrderUI(){
 }
 void MainUI::makePizzaUI(){
     char selection = '\0';
-    cout << "m: make pizza" << endl;
-    cout << "r: read pizza" << endl;
+    cout << "M: make pizza" << endl;
+    cout << "R: read pizza" << endl;
     cin >> selection;
     switch(selection){
             case 'm':
