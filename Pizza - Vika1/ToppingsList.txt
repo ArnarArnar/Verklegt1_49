@@ -6,3 +6,4 @@ beikon 66
 hakk 44
 bananar 22
 pipar 11
+paprika 22

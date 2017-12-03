@@ -11,3 +11,5 @@ medium 444
 sdfgs 33
 adfga 444
 ‘sfg‘h 7677
+kids 11
+fullsize 999
