@@ -12,7 +12,7 @@ class Topping
         friend istream& operator >> (istream& in, Topping& topping);
         friend ostream& operator << (ostream& out, const Topping& topping);
         void setVerbose(bool v);
-        void start();
+        void set_toppings();
 
     protected:
 

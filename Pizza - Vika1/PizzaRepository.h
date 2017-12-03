@@ -15,7 +15,7 @@ class PizzaRepository
         void setVerbose(bool v);
         friend istream& operator >> (istream& in, PizzaRepository& pizzaRepository);
         friend ostream& operator << (ostream& out, const PizzaRepository& pizzaRepository);
-        void start();
+        void set_size_price();
 
     protected:
 

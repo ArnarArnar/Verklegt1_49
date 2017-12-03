@@ -17,7 +17,7 @@ Topping::~Topping()
 {
     //dtor
 }
-void Topping::start(){
+void Topping::set_toppings(){
     char answer;
     do{
     Topping topping;

@@ -16,11 +16,11 @@ void PizzaRepository::setVerbose(bool v){
         verbose = v;
     }
 
-void PizzaRepository::start(){
+void PizzaRepository::set_size_price(){
     char answer;
     do {
-    PizzaRepository pizzaRepository;
-    pizzaRepository.setVerbose(true);
+    PizzaRepository size_price;
+    size_price.setVerbose(true);
     ifstream fin;
     string str;
     fin.open("size_price.txt");
@@ -36,17 +36,17 @@ void PizzaRepository::start(){
     }
     fin.close();
 
-    cin >> pizzaRepository;
+    cin >> size_price;
     ofstream fout;
     fout.open("size_price.txt", ios::app);
-    pizzaRepository.setVerbose(false);
-    fout << pizzaRepository;
+    size_price.setVerbose(false);
+    fout << size_price;
     fout.close();
 
     fin.open("size_price.txt", ios::app);
     fin.close();
-    pizzaRepository.setVerbose(true);
-    cout << pizzaRepository;
+    size_price.setVerbose(true);
+    cout << size_price;
 
     cout << "Do you want to add another pizza?(y/n)";
 

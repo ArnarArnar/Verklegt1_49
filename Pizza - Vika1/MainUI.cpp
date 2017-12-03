@@ -91,15 +91,15 @@ void MainUI::adminUI() {
         switch (selection){
             case 's':
             case 'S':{
-                PizzaRepository pizzaRepository;
-                pizzaRepository.start();
+                PizzaRepository size_price;
+                size_price.set_size_price();
                 cout << endl;
                 }break;
 
             case 't':
             case 'T':{
                 Topping topping;
-                topping.start();
+                topping.set_toppings();
                 cout << endl;
                 }break;
 
