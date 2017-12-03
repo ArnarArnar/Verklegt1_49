@@ -3,3 +3,6 @@ skinka 44
 ananas 22
 sveppir 44
 beikon 66
+hakk 44
+bananar 22
+pipar 11

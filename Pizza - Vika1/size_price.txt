@@ -1,0 +1,13 @@
+small 100
+medium 300
+large 600
+big 333
+very 0
+dsfg 333
+dfa‘ad 222
+small 200
+big 222
+medium 444
+sdfgs 33
+adfga 444
+‘sfg‘h 7677

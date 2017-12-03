@@ -19,26 +19,10 @@ Topping::~Topping()
 }
 void Topping::start(){
     char answer;
+    do{
     Topping topping;
     topping.setVerbose(true);
-    cin >> topping;
-    ofstream fout;
-    fout.open("ToppingsList.txt", ios::app);
-    topping.setVerbose(false);
-    fout << topping;
-    fout.close();
-
     ifstream fin;
-    fin.open("ToppingsList.txt", ios::app);
-    fin.close();
-    topping.setVerbose(true);
-    cout << topping;
-
-    cout << "Do you want a list of toppings?(y/n)";
-
-    cin >> answer;
-
-    if (answer == 'y'){
     string str;
     fin.open("ToppingsList.txt");
     if(fin.is_open()){
@@ -52,7 +36,23 @@ void Topping::start(){
         cout << "File not open" << endl;
     }
     fin.close();
+    cin >> topping;
+    ofstream fout;
+    fout.open("ToppingsList.txt", ios::app);
+    topping.setVerbose(false);
+    fout << topping;
+    fout.close();
+
+    fin.open("ToppingsList.txt", ios::app);
+    fin.close();
+    topping.setVerbose(true);
+    cout << topping;
+
+    cout << "Do you want to add another to topping?(y/n)";
+
+    cin >> answer;
     }
+    while (answer == 'y');
 }
 istream& operator >> (istream& in, Topping& topping){
     //cout << "Name: ";
