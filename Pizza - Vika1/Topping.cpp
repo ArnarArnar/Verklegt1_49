@@ -48,19 +48,19 @@ void Topping::start(){
     topping.setVerbose(true);
     cout << topping;
 
-    cout << "Do you want to add another to topping?(y/n)";
+    cout << "Do you want to add another topping?(y/n)";
 
     cin >> answer;
     }
     while (answer == 'y');
 }
 istream& operator >> (istream& in, Topping& topping){
-    //cout << "Name: ";
+
     if (topping.verbose){
     cout << "Pleas enter topping name: ";
     }
     in >> topping.name;
-   // cout << "price: ";
+
    if (topping.verbose){
     cout << "Pleas enter topping price: ";
     }
@@ -69,8 +69,14 @@ istream& operator >> (istream& in, Topping& topping){
 }
 ostream& operator << (ostream& out, const Topping& topping){
 
-    out << topping.name << " " << topping.price << endl;
-    cout << endl;
+        if (topping.verbose) {
+            out << "Topping: ";
+        }
+        out << topping.name << " ";
+        if (topping.verbose) {
+            out << "Price: ";
+        }
+        out << topping.price << endl;
 
     return out;
 }

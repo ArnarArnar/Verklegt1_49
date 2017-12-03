@@ -78,7 +78,7 @@ istream& operator >> (istream& in, PizzaRepository& pizzaRepository){
     cout << "Pleas enter pizza size: ";
     }
     in >> pizzaRepository.name;
-   // cout << "price: ";
+
    if (pizzaRepository.verbose){
     cout << "Pleas enter pizza price: ";
     }
@@ -87,8 +87,14 @@ istream& operator >> (istream& in, PizzaRepository& pizzaRepository){
 }
 ostream& operator << (ostream& out, const PizzaRepository& pizzaRepository){
 
-    out << pizzaRepository.name << " " << pizzaRepository.price << endl;
-    cout << endl;
+        if (pizzaRepository.verbose) {
+            out << "Pizza: ";
+        }
+        out << pizzaRepository.name << " ";
+        if (pizzaRepository.verbose) {
+            out << "Price: ";
+        }
+        out << pizzaRepository.price << endl;
 
     return out;
 }

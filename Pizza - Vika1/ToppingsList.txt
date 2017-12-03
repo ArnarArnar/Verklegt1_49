@@ -1,9 +1,4 @@
-pepperoni 50
-skinka 44
-ananas 22
-sveppir 44
-beikon 66
-hakk 44
-bananar 22
-pipar 11
-paprika 22
+Pepperoni 50
+Ham 50
+Mushroom 30
+Beef 50
