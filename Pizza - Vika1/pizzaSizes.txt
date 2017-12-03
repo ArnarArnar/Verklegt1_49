@@ -1,3 +1,4 @@
-2 Topping: pepperoni Price: 50
- Topping: ham Price: 50
+Pizza with 2 toppings: 
+Topping: HamPrice: 50
+ Topping: BeefPrice: 50
  

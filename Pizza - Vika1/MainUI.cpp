@@ -357,9 +357,25 @@ void MainUI::makePizzaUI(){
                 int toppingCnt;
                 cout << "How many toppings: ";
                 cin >> toppingCnt;
+                cout << endl;
+    ifstream fin;
+    string str;
+    fin.open("ToppingsList.txt");
+    if(fin.is_open()){
+        while(!fin.eof()){
+            getline(fin, str);
+            cout << str << endl;
+        }
+        cout << fin.eof() << endl;
+    }
+    else {
+        cout << "File not open" << endl;
+    }
+    fin.close();
                 Pizza pizza(toppingCnt);
                     for (int i = 0; i < toppingCnt; i++) {
                     Topping topping;
+
                     cin >> topping;
                     pizza.addTopping(topping);
                     }

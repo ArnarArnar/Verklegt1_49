@@ -46,11 +46,10 @@ istream& operator >> (istream& in, Pizza& pizza){
     return in;
 }
 ostream& operator << (ostream& out, const Pizza& pizza){
-   /// out << "pizza with toppings: " << " ";
-    out << pizza.toppingCount << " ";
+    out << "Pizza with " << pizza.toppingCount << " toppings: " << endl;
+
     for(int i = 0; i < pizza.toppingCount; i++){
         out << pizza.toppings[i] << " ";
-
     }
 
     return out;
