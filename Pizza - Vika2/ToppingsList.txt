@@ -1,3 +1,0 @@
-Ham 50
-Pepperoni 50
-Beef 50
