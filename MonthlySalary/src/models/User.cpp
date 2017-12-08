@@ -12,8 +12,9 @@ void Menu::main_menu() {
         cout << "Pick the number for the corrresponding option" << endl;
         cout << "1. Add a salary record" << endl;
         cout << "2. Get all salary records for a given SSN" << endl;
-        cout << "3. Get a total salary for a given year and a given SSN" << endl;
-        cout << "4. Get the name of the employee with the highest total salary for a given year" << endl;
+        cout << "3. Get a total salary for a given year" << endl;
+        cout << "4. Get a total salary for a given SSN" << endl;
+        cout << "5. Get the name of the employee with the highest total salary for a given year" << endl;
 
         char input;
         cin >> input;
@@ -25,7 +26,7 @@ void Menu:: validate_user_input(char input) {
 
     if (input == '1') {
 
-       salaryservice.add_salary(create_salary_record());
+        salaryservice.add_salary(create_salary_record());
     }
 
     else if (input == '2') {
@@ -34,22 +35,40 @@ void Menu:: validate_user_input(char input) {
         string SSN_to_look_for;
         cin >> SSN_to_look_for;
         ///setja inn check if valid;
-        SalaryRepository salaryRepo;
-        salaryRepo.get_salary_for_an_SSN(SSN_to_look_for);
+        SalaryService lookForSalary;
+        lookForSalary.get_salary_for_an_SSN_service(SSN_to_look_for);
 
     }
 
     else if (input == '3') {
-
-
-       // salaryRepo.get_all_salaries();
+        cout << "Please enter a year: " << endl;
+        int year_to_check;
+        cin >> year_to_check;
+        Invalid_Year_exception Check_year;
+        while (Check_year.isValdYear(year_to_check)) {
+            try {
+                if (year_to_check != 2017) {
+                    throw Invalid_Year_exception("That is not a valid year!");
+                }
+            }
+            catch (Invalid_Year_exception e) {
+                cout << e.getMessage() << endl;
+            }
+        }
+        salaryservice.get_salary_for_a_given_year_service(year_to_check);
     }
 
     else if (input == '4') {
+        cout << "Please enter a SSN: ";
+        string SSNtoCheck;
+        cin >> SSNtoCheck;
+        salaryservice.get_total_salary_for_a_given_SSN_service(SSNtoCheck);
 
-        ////////
     }
 
+    else if (input == '5') {
+
+    }
     else {
         cout << "Invalid input" << endl;
         isdigit(input);
@@ -89,7 +108,7 @@ Salary_record Menu :: create_salary_record() {
     cout << "Month ";
     cin >> month;
     Invalid_Month_exception Check_if_valid;
-    while (Check_if_valid.isValdMonth(month)){
+    while (Check_if_valid.isValdMonth(month)) {
         try {
             while (Check_if_valid.isValdMonth(month)) {
                 throw Invalid_Month_exception("That is not a valid month!");
@@ -104,7 +123,7 @@ Salary_record Menu :: create_salary_record() {
     cout << "Year ";
     cin >> year;
     Invalid_Year_exception Check_if_valid_year;
-    while (Check_if_valid_year.isValdYear(year)){
+    while (Check_if_valid_year.isValdYear(year)) {
         try {
 
             if (year != 2017) {

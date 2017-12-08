@@ -9,7 +9,9 @@ class SalaryService {
 
     public:
         void add_salary (const Salary_record& salary_record);
-
+        void get_salary_for_an_SSN_service (string SSN_to_look_for);
+        void get_salary_for_a_given_year_service (int year_to_look_for);
+        void get_total_salary_for_a_given_SSN_service(string SSN_to_look_for);
     private:
 //    SalaryRepository sal_repo;
 
