@@ -21,5 +21,4 @@ bool Invalid_Salary_exception::isValdSalary(double salary) {
     else  {
         return false;
     }
-
 }

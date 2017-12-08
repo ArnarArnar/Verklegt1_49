@@ -17,11 +17,12 @@ bool Invalid_Name_exception::isValdName(string name) {
 
     bool retVal = false;
 
-    for (int i = 0; i < name.size(); i++) {
+        for (unsigned int i = 0; i < name.size(); i++) {
 
-        if (!isalpha(name[i]) && !isspace(name[i])) {
+            if (!isalpha(name[i]) && !isspace(name[i])) {
                 retVal = true;
+            }
         }
-    }
+
     return retVal;
 }
