@@ -31,12 +31,18 @@ void Menu:: validate_user_input(char input) {
     else if (input == '2') {
 
         cout << "Enter social security number ";
+        string SSN_to_look_for;
+        cin >> SSN_to_look_for;
+        ///setja inn check if valid;
+        SalaryRepository salaryRepo;
+        salaryRepo.get_salary_for_an_SSN(SSN_to_look_for);
 
     }
 
     else if (input == '3') {
 
-        /////////
+
+       // salaryRepo.get_all_salaries();
     }
 
     else if (input == '4') {
@@ -45,7 +51,7 @@ void Menu:: validate_user_input(char input) {
     }
 
     else {
-        cout << "invalid input" << endl;
+        cout << "Invalid input" << endl;
         isdigit(input);
         isalpha(input);
     }
@@ -63,10 +69,10 @@ Salary_record Menu :: create_salary_record() {
     cin >> ws;
     getline(cin,name);
 
-    cout << "soicial security number ";
+    cout << "Soicial security number ";
     cin >> social_sec_number;
 
-    cout << "salary given month ";
+    cout << "Salary given month ";
 
     try {
         cin >> salary_given_month;
@@ -76,11 +82,11 @@ Salary_record Menu :: create_salary_record() {
     }
     catch (Invalid_Salary_exception e) {
         cout << e.getMessage() << endl;
-        cout << "salary given month ";
+        cout << "Salary given month ";
         cin >> salary_given_month;
     }
 
-    cout << "month ";
+    cout << "Month ";
     cin >> month;
     Invalid_Month_exception Check_if_valid;
     while (Check_if_valid.isValdMonth(month)){
@@ -91,24 +97,26 @@ Salary_record Menu :: create_salary_record() {
         }
         catch (Invalid_Month_exception e) {
             cout << e.getMessage() << endl;
-            cout << "month ";
+            cout << "Month ";
             cin >> month;
         }
     }
-    cout << "year ";
-
-    try {
+    cout << "Year ";
     cin >> year;
-        if (year != 2017) {
-            throw Invalid_Year_exception("That is not a valid year!");
+    Invalid_Year_exception Check_if_valid_year;
+    while (Check_if_valid_year.isValdYear(year)){
+        try {
+
+            if (year != 2017) {
+                throw Invalid_Year_exception("That is not a valid year!");
+            }
+        }
+        catch (Invalid_Year_exception e) {
+            cout << e.getMessage() << endl;
+            cout << "Year ";
+            cin >> year;
         }
     }
-    catch (Invalid_Year_exception e) {
-        cout << e.getMessage() << endl;
-        cout << "year ";
-        cin >> year;
-    }
-
     return Salary_record(name, social_sec_number, salary_given_month,month, year);
 
 }

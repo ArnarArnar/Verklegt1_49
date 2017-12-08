@@ -8,8 +8,10 @@ using namespace std;
 class Invalid_Year_exception {
 
 public:
+    Invalid_Year_exception ();
     Invalid_Year_exception (string message);
     string getMessage();
+    bool isValdYear(int year);
 
 private:
     string message;
