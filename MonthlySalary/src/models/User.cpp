@@ -60,7 +60,8 @@ Salary_record Menu :: create_salary_record() {
     int year;
 
     cout << "Name ";
-    cin >> name;      ////getline(cin,name);
+    cin >> ws;
+    getline(cin,name);
 
     cout << "soicial security number ";
     cin >> social_sec_number;
@@ -80,19 +81,20 @@ Salary_record Menu :: create_salary_record() {
     }
 
     cout << "month ";
-
-    try {
-        cin >> month;
-        if (month < 1 || month > 12) {
-            throw Invalid_Month_exception("That is not a valid month!");
+    cin >> month;
+    Invalid_Month_exception Check_if_valid;
+    while (Check_if_valid.isValdMonth(month)){
+        try {
+            while (Check_if_valid.isValdMonth(month)) {
+                throw Invalid_Month_exception("That is not a valid month!");
+            }
+        }
+        catch (Invalid_Month_exception e) {
+            cout << e.getMessage() << endl;
+            cout << "month ";
+            cin >> month;
         }
     }
-    catch (Invalid_Month_exception e) {
-        cout << e.getMessage() << endl;
-        cout << "month ";
-        cin >> month;
-    }
-
     cout << "year ";
 
     try {
@@ -105,7 +107,6 @@ Salary_record Menu :: create_salary_record() {
         cout << e.getMessage() << endl;
         cout << "year ";
         cin >> year;
-
     }
 
     return Salary_record(name, social_sec_number, salary_given_month,month, year);

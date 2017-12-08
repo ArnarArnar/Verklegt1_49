@@ -8,9 +8,10 @@ using namespace std;
 class Invalid_Month_exception {
 
 public:
+    Invalid_Month_exception();
     Invalid_Month_exception (string message);
     string getMessage();
-
+    bool isValdMonth (int month);
 private:
     string message;
 
