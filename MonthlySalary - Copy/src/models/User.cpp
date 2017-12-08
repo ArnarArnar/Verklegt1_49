@@ -7,10 +7,9 @@ Menu::Menu() {
 void Menu::main_menu() {
 
     while (true) {
-        cout << endl;
-        cout << "********************************************" << endl;
-        cout << "Pick the number for the corresponding option" << endl;
-        cout << "********************************************" << endl;
+
+        cout << "Employee's monthly salary" << endl << endl;
+        cout << "Pick the number for the corrresponding option" << endl;
         cout << "1. Add a salary record" << endl;
         cout << "2. Get all salary records for a given SSN" << endl;
         cout << "3. Get a total salary for a given year" << endl;
@@ -89,51 +88,22 @@ Salary_record Menu :: create_salary_record() {
     cout << "Name ";
     cin >> ws;
     getline(cin,name);
-    Invalid_Name_exception Check_if_valid_name;
-    while(Check_if_valid_name.isValdName(name)) {
-        try {
-            while (Check_if_valid_name.isValdName(name)) {
-                throw Invalid_Name_exception("That is not a valid name!");
-            }
-        }
-        catch (Invalid_Name_exception e) {
-            cout << e.getMessage() << endl;
-            cout << "Name ";
-            cin >> ws;
-            getline(cin, name);
-        }
-    }
 
-    cout << "Social security number ";
+    cout << "Soicial security number ";
     cin >> social_sec_number;
-    Invalid_SSN_exception Check_if_valid_SNN;
-    while (Check_if_valid_SNN.isValdSSN(social_sec_number)) {
-        try {
-            while (Check_if_valid_SNN.isValdSSN(social_sec_number)) {
-                throw Invalid_SSN_exception("That is not a valid social security number");
-            }
-        }
-        catch (Invalid_SSN_exception e) {
-            cout << e.getMessage() << endl;
-            cout << "social security number ";
-            cin >> social_sec_number;
-        }
-    }
 
     cout << "Salary given month ";
-    cin >> salary_given_month;
-    Invalid_Salary_exception Check_if_valid_salary;
-    while (Check_if_valid_salary.isValdSalary(salary_given_month)) {
-        try {
-            while (Check_if_valid_salary.isValdSalary(salary_given_month)) {
-                throw Invalid_Salary_exception("That is not a valid salary");
-            }
+
+    try {
+        cin >> salary_given_month;
+        if (salary_given_month < 10000 || salary_given_month > 500000) {
+            throw Invalid_Salary_exception("That is not a valid salary");
         }
-        catch (Invalid_Salary_exception e) {
-            cout << e.getMessage() << endl;
-            cout << "salary given month ";
-            cin >> salary_given_month;
-        }
+    }
+    catch (Invalid_Salary_exception e) {
+        cout << e.getMessage() << endl;
+        cout << "Salary given month ";
+        cin >> salary_given_month;
     }
 
     cout << "Month ";
@@ -156,7 +126,8 @@ Salary_record Menu :: create_salary_record() {
     Invalid_Year_exception Check_if_valid_year;
     while (Check_if_valid_year.isValdYear(year)) {
         try {
-            while (Check_if_valid_year.isValdYear(year)) {
+
+            if (year != 2017) {
                 throw Invalid_Year_exception("That is not a valid year!");
             }
         }
