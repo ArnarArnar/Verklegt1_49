@@ -96,19 +96,21 @@ Salary_record Menu :: create_salary_record() {
         }
     }
     cout << "year ";
-
-    try {
     cin >> year;
-        if (year != 2017) {
-            throw Invalid_Year_exception("That is not a valid year!");
+    Invalid_Year_exception Check_if_valid_year;
+    while (Check_if_valid_year.isValdYear(year)){
+        try {
+
+            if (year != 2017) {
+                throw Invalid_Year_exception("That is not a valid year!");
+            }
+        }
+        catch (Invalid_Year_exception e) {
+            cout << e.getMessage() << endl;
+            cout << "year ";
+            cin >> year;
         }
     }
-    catch (Invalid_Year_exception e) {
-        cout << e.getMessage() << endl;
-        cout << "year ";
-        cin >> year;
-    }
-
     return Salary_record(name, social_sec_number, salary_given_month,month, year);
 
 }
