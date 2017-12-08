@@ -11,7 +11,7 @@ class SalaryService {
         void add_salary (const Salary_record& salary_record);
 
     private:
-        SalaryRepository sal_repo;
+//    SalaryRepository sal_repo;
 
 
 };

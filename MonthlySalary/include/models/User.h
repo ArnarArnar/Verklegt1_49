@@ -22,6 +22,7 @@ class Menu {
         void validate_user_input(char input);
         SalaryService salaryservice;
         Salary_record create_salary_record();
+       // SalaryRepository salaryRepo; //remove
 
 };
 

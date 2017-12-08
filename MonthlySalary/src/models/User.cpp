@@ -31,12 +31,18 @@ void Menu:: validate_user_input(char input) {
     else if (input == '2') {
 
         cout << "Enter social security number ";
+        string SSN_to_look_for;
+        cin >> SSN_to_look_for;
+        ///setja inn check if valid;
+        SalaryRepository salaryRepo;
+        salaryRepo.get_salary_for_an_SSN(SSN_to_look_for);
 
     }
 
     else if (input == '3') {
 
-        /////////
+
+       // salaryRepo.get_all_salaries();
     }
 
     else if (input == '4') {
