@@ -47,10 +47,10 @@ int Salary_record::get_year() {
 }
 ostream& operator << (ostream& out, const Salary_record& salary_record) {
 
-    out << salary_record.name << ", ";
-    out << salary_record.social_sec_number << ", ";
-    out << salary_record.salary_given_month << ", ";
-    out << salary_record.month << ", ";
+    out << salary_record.name << ",";
+    out << salary_record.social_sec_number << ",";
+    out << salary_record.salary_given_month << ",";
+    out << salary_record.month << ",";
     out << salary_record.year << endl;
 
     return out;
