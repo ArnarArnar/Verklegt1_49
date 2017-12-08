@@ -51,7 +51,9 @@ void SalaryRepository::get_salary_for_an_SSN(string SSN_to_look_for){
             //cout << "SSN found: " << SSN_to_look_for;
             int index = line.find(',');
             int index2 = line.find(',', index+1);
-            cout << " line: " << countLine << "index" << index2 << endl;
+            int index3 = line.find (',', index2+1);
+            string salary = line.substr(index2+1, (index3-1) - index2);
+            cout << " line: " << countLine << ", Salary: " << salary << endl;
 
     }
 }
