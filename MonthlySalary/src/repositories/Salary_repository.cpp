@@ -90,7 +90,6 @@ void SalaryRepository::get_total_salary_for_a_given_SSN(string SSN_to_look_for) 
     string total_salary = "";
     while(getline(fin, line)) {
         if (line.find(SSN_to_look_for, 0) != string::npos) {
-            //cout << "SSN found: " << SSN_to_look_for;
             int index = line.find(',');
             int index2 = line.find(',', index+1);
             int index3 = line.find (',', index2+1);
@@ -99,63 +98,42 @@ void SalaryRepository::get_total_salary_for_a_given_SSN(string SSN_to_look_for) 
             ///temp = stoi(salary) Virkar ekki heldur get ekki breytt streng 'i int.
             total_salary += salary;
             ///cout  << total_salary << endl;
+            }
         }
 
+    if (total_salary != ""){
+        cout << "The total salary for the given SSN is " << SSN_to_look_for;
+        cout << " is " << total_salary << endl;
     }
-    cout << "The total salary for the given SSN is " << SSN_to_look_for;
-    cout << " is " << total_salary << endl;
+    else {
+        cout << "No SSN was found in the database." << endl;
+    }
 }
 void SalaryRepository::get_name_of_highest_salary() {
-    ifstream fin;
-    fin.open ("Salary.txt");
-    string line;
-    string higest_salary = "";
-    int largest;
-    while(getline(fin, line)) {
-        if (!fin.eof()) {
-            int index = line.find(',');
-            int index2 = line.find(',', index+1);
-            int index3 = line.find (',', index2+1);
-            string salary = line.substr(index2+1, (index3-1) - index2);
-            ///int temp = 0;
+    /// ifstream fin;
+    /// fin.open ("Salary.txt");
+    /// string line;
+    /// string higest_salary = "";
+    /// int largest;
+    /// while(getline(fin, line)) {
+        /// if (!fin.eof()) {
+            /// int index = line.find(',');
+            /// int index2 = line.find(',', index+1);
+            /// int index3 = line.find (',', index2+1);
+            /// string salary = line.substr(index2+1, (index3-1) - index2);
+            /// int temp = 0;
             ///temp = stoi(salary) Virkar ekki heldur get ekki breytt streng 'i int.
             /// if (largest < number) {
                 /// largest = number;
                /// }
     ///}
     ///higest_salary = stoi(largest);
-    }
-    while(getline(fin, line)) {
-        if (line.find(higest_salary, 0) != string::npos) {
-            int index = line.find(',');
-            string name_of_person_with_highest_salary = line.substr(0, index);
-    }
+    ///}
+   /// while(getline(fin, line)) {
+      ///  if (line.find(higest_salary, 0) != string::npos) {
+           /// int index = line.find(',');
+           /// string name_of_person_with_highest_salary = line.substr(0, index);
+      ///  }
 ///cout << "The person with the highest salary is " << name_of_person_with_highest_salary << endl;
 
-}
-
-void SalaryRepository::get_salary () {  ///breyta
-
-    /*string a;
-    Salary_record salary_record;  ///////
-    ifstream fin;
-    fin.open ("Salary.txt");
-
-    if (fin.is_open()) {
-        while (!fin.eof()) {
-            getline(fin, a, ',');   /////
-            cout << a << endl;
-        }
-    }
-    fin.close();
-     */
-
-
-    /* ifstream fin;
-     fin.open("Salary.txt");
-
-     Salary_record salary_record;
-     fin >> salary_record;
-     fin.close();
-     */
 }
