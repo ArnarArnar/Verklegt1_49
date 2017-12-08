@@ -26,11 +26,12 @@ void Menu::main_menu()
         cin >> input;
         validate_user_input(input);
 
-        cout << endl << "Do you want to continue?(y/n) " << endl;
+        cout << endl << "Do you want to continue (y/n)? " << endl;
 
         cin >> option;
     }
-    while (option == 'y' || 'Y' );
+    while (option == 'y');
+
 }
 void Menu:: validate_user_input(char input)
 {
@@ -48,11 +49,11 @@ void Menu:: validate_user_input(char input)
         string SSN_to_look_for;
         cin >> SSN_to_look_for;
         Invalid_SSN_exception Check_if_valid_SNN;
-        while (Check_if_valid_SNN.isValdSSN(SSN_to_look_for))
+        while (!Check_if_valid_SNN.isValdSSN(SSN_to_look_for))
         {
             try
             {
-                while (Check_if_valid_SNN.isValdSSN(SSN_to_look_for))
+                while (!Check_if_valid_SNN.isValdSSN(SSN_to_look_for))
                 {
                     throw Invalid_SSN_exception("That is not a valid social security number");
                 }
@@ -75,21 +76,23 @@ void Menu:: validate_user_input(char input)
         cout << "Please enter a year: " << endl;
         int year_to_check;
         cin >> year_to_check;
-        Invalid_Year_exception Check_year;
-        while (Check_year.isValdYear(year_to_check))
+       Invalid_Year_exception Check_if_valid_year;
+    while (Check_if_valid_year.isValdYear(year_to_check))
+    {
+        try
         {
-            try
+            while (Check_if_valid_year.isValdYear(year_to_check))
             {
-                if (year_to_check != 2017)
-                {
-                    throw Invalid_Year_exception("That is not a valid year!");
-                }
-            }
-            catch (Invalid_Year_exception e)
-            {
-                cout << e.getMessage() << endl;
+                throw Invalid_Year_exception("That is not a valid year!");
             }
         }
+        catch (Invalid_Year_exception e)
+        {
+            cout << e.getMessage() << endl;
+            cout << "Please enter a year: ";
+            cin >> year_to_check;
+        }
+    }
         salaryservice.get_salary_for_a_given_year_service(year_to_check);
     }
 
