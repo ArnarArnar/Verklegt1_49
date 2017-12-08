@@ -101,12 +101,13 @@
 	<string>
 	<stdio.h>
 
-1512767150 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\include\service\salary_service.h
+1512772256 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\include\service\salary_service.h
+	<string>
 	<stdio.h>
 	"salary_record.h"
 	"Salary_repository.h"
 
-1512762456 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\include\repositories\salary_repository.h
+1512772256 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\include\repositories\salary_repository.h
 	"salary_record.h"
 	<stdio.h>
 	<stdlib.h>
@@ -139,7 +140,7 @@
 1512772059 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\exeptions\invalid_month_exeption.cpp
 	"Invalid_Month_Exeption.h"
 
-1512772142 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\exeptions\invalid_name_exeption.cpp
+1512772184 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\exeptions\invalid_name_exeption.cpp
 	"Invalid_Name_Exeption.h"
 
 1512768800 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\exeptions\invalid_salary_exeption.cpp
@@ -154,14 +155,14 @@
 1512771408 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\models\user.cpp
 	"User.h"
 
-1512768766 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\repositories\salary_repository.cpp
+1512772256 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\repositories\salary_repository.cpp
 	"Salary_repository.h"
 	"Salary_record.h"
 
 1512768471 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\service\salary_record.cpp
 	"Salary_record.h"
 
-1512762456 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\service\salary_service.cpp
+1512772256 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\service\salary_service.cpp
 	"Salary_service.h"
 
 1512654912 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\main.cpp
