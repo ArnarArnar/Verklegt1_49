@@ -260,15 +260,19 @@
 	<string>
 	<stdio.h>
 
-1512760436 c:\users\oddny\documents\github\verklegt1_49\monthlysalary\include\service\salary_service.h
+1512769841 c:\users\oddny\documents\github\verklegt1_49\monthlysalary\include\service\salary_service.h
+	<string>
 	<stdio.h>
 	"salary_record.h"
 	"Salary_repository.h"
 
-1512760436 c:\users\oddny\documents\github\verklegt1_49\monthlysalary\include\repositories\salary_repository.h
+1512770481 c:\users\oddny\documents\github\verklegt1_49\monthlysalary\include\repositories\salary_repository.h
 	"salary_record.h"
 	<stdio.h>
+	<stdlib.h>
 	<fstream>
+	<sstream>
+	<bits/stdc++.h>
 	<iostream>
 	<string>
 
@@ -304,16 +308,19 @@
 1512760437 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\exeptions\invalid_year_exeption.cpp
 	"Invalid_Year_Exeption.h"
 
-1512764552 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\models\user.cpp
+1512768445 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\models\user.cpp
 	"User.h"
 
-1512760437 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\repositories\salary_repository.cpp
+1512770492 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\repositories\salary_repository.cpp
 	"Salary_repository.h"
 	"Salary_record.h"
 
-1512760437 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\service\salary_record.cpp
+1512768132 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\service\salary_record.cpp
 	"Salary_record.h"
 
-1512760437 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\service\salary_service.cpp
+1512770686 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\service\salary_service.cpp
 	"Salary_service.h"
+
+1512765252 source:c:\users\oddny\documents\github\verklegt1_49\monthlysalary\src\exeptions\invalid_ssn_exeption.cpp
+	"Invalid_SSN_Exeption.h"
 
