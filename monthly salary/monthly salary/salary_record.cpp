@@ -19,8 +19,6 @@ Salary_record:: Salary_record() {
 
 
 }
-
-
 Salary_record::Salary_record (string name, string social_sec_number, double salary_given_month, int month, int year) {
     
     this -> name = name;
@@ -73,8 +71,4 @@ istream& operator << (istream& in, Salary_record& salary_record) {
     
     return in;
 }
-
-
-
-
 

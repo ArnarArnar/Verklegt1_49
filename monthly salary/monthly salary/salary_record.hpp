@@ -18,7 +18,7 @@ class Salary_record {
 
     private:
         string name;
-        string social_sec_number;  ////hafa frekar char????
+        string social_sec_number;  
         double salary_given_month;
         int month;
         int year;

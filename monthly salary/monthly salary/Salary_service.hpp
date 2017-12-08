@@ -12,11 +12,13 @@
 #include <stdio.h>
 #include "salary_record.hpp"
 #include "Salary_repository.hpp"
+#include <vector>
 
 class SalaryService {
 
     public:
         void add_salary (const Salary_record& salary_record);
+        void parseString (string line);
     
     private:
         SalaryRepository sal_repo;
