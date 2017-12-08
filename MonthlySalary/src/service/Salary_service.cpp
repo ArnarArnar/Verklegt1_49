@@ -12,7 +12,11 @@ void SalaryService:: get_salary_for_an_SSN_service (string SSN_to_look_for){
 }
 void SalaryService::get_salary_for_a_given_year_service (int year_to_look_for){
     SalaryRepository lookForYear;
-    lookForYear.get_salary_for_a_given_year(year_to_look_for);
+    string total_salary;
+    total_salary = lookForYear.get_salary_for_a_given_year(year_to_look_for);
+    cout << "The total salary payed out for the year " << year_to_look_for;
+    cout << " is " << total_salary << endl;
+
 }
 void SalaryService::get_total_salary_for_a_given_SSN_service(string SSN_to_look_for){
     SalaryRepository totalSSN;
@@ -22,3 +26,4 @@ void SalaryService::get_name_of_highest_salary_service(){
     SalaryRepository highest_salary;
     highest_salary.get_name_of_highest_salary();
 }
+

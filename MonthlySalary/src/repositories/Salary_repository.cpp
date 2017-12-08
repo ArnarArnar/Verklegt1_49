@@ -37,25 +37,8 @@ void SalaryRepository:: get_all_salaries () {  ///breyta
         fin.close();
     }
 }
-void SalaryRepository::get_salary_for_an_SSN(string SSN_to_look_for) {
-    ifstream fin;
-    fin.open ("Salary.txt");
-    string line;
-    unsigned int countLine = 0;
-    while(getline(fin, line)) {
-        countLine++;
-        if (line.find(SSN_to_look_for, 0) != string::npos) {
-            //cout << "SSN found: " << SSN_to_look_for;
-            int index = line.find(',');
-            int index2 = line.find(',', index+1);
-            int index3 = line.find (',', index2+1);
-            string salary = line.substr(index2+1, (index3-1) - index2);
-            cout << " line: " << countLine << ", Salary: " << salary << endl;
 
-        }
-    }
-}
-void SalaryRepository::get_salary_for_a_given_year(int year_to_look_for) {
+string SalaryRepository::get_salary_for_a_given_year(int year_to_look_for) {
     ifstream fin;
     fin.open ("Salary.txt");
     string line;
@@ -75,13 +58,27 @@ void SalaryRepository::get_salary_for_a_given_year(int year_to_look_for) {
             ///temp = stoi(salary) Virkar ekki heldur
             total_salary += salary;
             ///cout  << total_salary << endl;
+        }
+    }
+return total_salary;
+}
+void SalaryRepository::get_salary_for_an_SSN(string SSN_to_look_for) {
+    ifstream fin;
+    fin.open ("Salary.txt");
+    string line;
+    while(getline(fin, line)) {
+        if (line.find(SSN_to_look_for, 0) != string::npos) {
+            //cout << "SSN found: " << SSN_to_look_for;
+            int index = line.find(',');
+            int index2 = line.find(',', index+1);
+            int index3 = line.find (',', index2+1);
+            string salary = line.substr(index2+1, (index3-1) - index2);
+            cout << "Salary: " << salary << endl;
 
         }
-
     }
-    cout << "The total salary payed out for the year" << year_to_look_for;
-    cout << "is " << total_salary << endl;
 }
+
 
 void SalaryRepository::get_total_salary_for_a_given_SSN(string SSN_to_look_for) {
     ifstream fin;
