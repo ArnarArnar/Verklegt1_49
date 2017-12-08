@@ -161,3 +161,78 @@
 1512737532 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\monthlysalary\src\service\salary_service.cpp
 	"Salary_service.h"
 
+1512654912 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\main.cpp
+	<iostream>
+	"User.h"
+	"Salary_record.h"
+
+1512654559 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\include\models\user.h
+	<iostream>
+	<stdio.h>
+	"salary_record.h"
+	"Salary_service.h"
+	"Invalid_SSN_Exeption.h"
+	"Invalid_Month_Exeption.h"
+	"Invalid_Year_Exeption.h"
+	"Invalid_Salary_Exeption.h"
+	"Invalid_Name_Exeption.h"
+
+1512654419 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\include\service\salary_record.h
+	<iostream>
+	<string>
+	<stdio.h>
+
+1512654459 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\include\service\salary_service.h
+	<stdio.h>
+	"salary_record.h"
+	"Salary_repository.h"
+
+1512654467 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\include\repositories\salary_repository.h
+	"salary_record.h"
+	<stdio.h>
+	<fstream>
+	<iostream>
+	<string>
+
+1512654418 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\include\exeptions\invalid_ssn_exeption.h
+	<stdio.h>
+	<string>
+
+1512739436 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\include\exeptions\invalid_month_exeption.h
+	<stdio.h>
+	<string>
+
+1512740991 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\include\exeptions\invalid_year_exeption.h
+	<stdio.h>
+	<string>
+
+1512654880 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\include\exeptions\invalid_salary_exeption.h
+	<stdio.h>
+	<string>
+
+1512654890 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\include\exeptions\invalid_name_exeption.h
+	<stdio.h>
+	<string>
+
+1512739436 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\src\exeptions\invalid_month_exeption.cpp
+	"Invalid_Month_Exeption.h"
+
+1512654968 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\src\exeptions\invalid_name_exeption.cpp
+	"Invalid_Name_Exeption.h"
+
+1512654979 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\src\exeptions\invalid_salary_exeption.cpp
+	"Invalid_Salary_Exeption.h"
+
+1512655006 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\src\exeptions\invalid_ssn_exeption.cpp
+	"Invalid_SSN_Exeption.h"
+
+1512681012 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\src\repositories\salary_repository.cpp
+	"Salary_repository.h"
+	"Salary_record.h"
+
+1512655062 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\src\service\salary_record.cpp
+	"Salary_record.h"
+
+1512655072 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\monthlysalary\src\service\salary_service.cpp
+	"Salary_service.h"
+

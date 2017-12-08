@@ -45,7 +45,7 @@ void Menu:: validate_user_input(char input) {
     }
 
     else {
-        cout << "invalid input" << endl;
+        cout << "Invalid input" << endl;
         isdigit(input);
         isalpha(input);
     }
@@ -63,10 +63,10 @@ Salary_record Menu :: create_salary_record() {
     cin >> ws;
     getline(cin,name);
 
-    cout << "soicial security number ";
+    cout << "Soicial security number ";
     cin >> social_sec_number;
 
-    cout << "salary given month ";
+    cout << "Salary given month ";
 
     try {
         cin >> salary_given_month;
@@ -76,11 +76,11 @@ Salary_record Menu :: create_salary_record() {
     }
     catch (Invalid_Salary_exception e) {
         cout << e.getMessage() << endl;
-        cout << "salary given month ";
+        cout << "Salary given month ";
         cin >> salary_given_month;
     }
 
-    cout << "month ";
+    cout << "Month ";
     cin >> month;
     Invalid_Month_exception Check_if_valid;
     while (Check_if_valid.isValdMonth(month)){
@@ -91,11 +91,11 @@ Salary_record Menu :: create_salary_record() {
         }
         catch (Invalid_Month_exception e) {
             cout << e.getMessage() << endl;
-            cout << "month ";
+            cout << "Month ";
             cin >> month;
         }
     }
-    cout << "year ";
+    cout << "Year ";
     cin >> year;
     Invalid_Year_exception Check_if_valid_year;
     while (Check_if_valid_year.isValdYear(year)){
@@ -107,7 +107,7 @@ Salary_record Menu :: create_salary_record() {
         }
         catch (Invalid_Year_exception e) {
             cout << e.getMessage() << endl;
-            cout << "year ";
+            cout << "Year ";
             cin >> year;
         }
     }
