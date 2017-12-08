@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C3BDA011FD5F61400EE8CE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BDA001FD5F61400EE8CE3 /* main.cpp */; };
+		5C3BDA091FD5F8F700EE8CE3 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BDA071FD5F8F700EE8CE3 /* User.cpp */; };
+		5C3BDA0C1FD5FBD700EE8CE3 /* salary_record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BDA0A1FD5FBD700EE8CE3 /* salary_record.cpp */; };
+		5C565E231FD6DF84008154E9 /* Salary_service.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C565E211FD6DF84008154E9 /* Salary_service.cpp */; };
+		5C565E261FD6E0CB008154E9 /* Salary_repository.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C565E241FD6E0CB008154E9 /* Salary_repository.cpp */; };
+		5C565E2D1FD855AB008154E9 /* Invalid_SSN_Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C565E2B1FD855AB008154E9 /* Invalid_SSN_Exception.cpp */; };
+		5C565E301FD85AF8008154E9 /* Invalid_Month_Exeption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C565E2E1FD85AF8008154E9 /* Invalid_Month_Exeption.cpp */; };
+		5C565E331FD85E73008154E9 /* Invalid_Year_Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C565E311FD85E73008154E9 /* Invalid_Year_Exception.cpp */; };
+		5C565E361FD865FC008154E9 /* Invalid_Salary_Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C565E341FD865FC008154E9 /* Invalid_Salary_Exception.cpp */; };
+		5C565E3A1FD86C84008154E9 /* Invalid_Name_Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C565E381FD86C84008154E9 /* Invalid_Name_Exception.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C3BD9FB1FD5F61400EE8CE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C3BD9FD1FD5F61400EE8CE3 /* monthly salary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "monthly salary"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3BDA001FD5F61400EE8CE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C3BDA071FD5F8F700EE8CE3 /* User.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		5C3BDA081FD5F8F700EE8CE3 /* User.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = User.hpp; sourceTree = "<group>"; };
+		5C3BDA0A1FD5FBD700EE8CE3 /* salary_record.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = salary_record.cpp; sourceTree = "<group>"; };
+		5C3BDA0B1FD5FBD700EE8CE3 /* salary_record.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = salary_record.hpp; sourceTree = "<group>"; };
+		5C565E211FD6DF84008154E9 /* Salary_service.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Salary_service.cpp; sourceTree = "<group>"; };
+		5C565E221FD6DF84008154E9 /* Salary_service.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Salary_service.hpp; sourceTree = "<group>"; };
+		5C565E241FD6E0CB008154E9 /* Salary_repository.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Salary_repository.cpp; sourceTree = "<group>"; };
+		5C565E251FD6E0CB008154E9 /* Salary_repository.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Salary_repository.hpp; sourceTree = "<group>"; };
+		5C565E2B1FD855AB008154E9 /* Invalid_SSN_Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Invalid_SSN_Exception.cpp; sourceTree = "<group>"; };
+		5C565E2C1FD855AB008154E9 /* Invalid_SSN_Exception.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Invalid_SSN_Exception.hpp; sourceTree = "<group>"; };
+		5C565E2E1FD85AF8008154E9 /* Invalid_Month_Exeption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Invalid_Month_Exeption.cpp; sourceTree = "<group>"; };
+		5C565E2F1FD85AF8008154E9 /* Invalid_Month_Exeption.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Invalid_Month_Exeption.hpp; sourceTree = "<group>"; };
+		5C565E311FD85E73008154E9 /* Invalid_Year_Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Invalid_Year_Exception.cpp; sourceTree = "<group>"; };
+		5C565E321FD85E73008154E9 /* Invalid_Year_Exception.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Invalid_Year_Exception.hpp; sourceTree = "<group>"; };
+		5C565E341FD865FC008154E9 /* Invalid_Salary_Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Invalid_Salary_Exception.cpp; sourceTree = "<group>"; };
+		5C565E351FD865FC008154E9 /* Invalid_Salary_Exception.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Invalid_Salary_Exception.hpp; sourceTree = "<group>"; };
+		5C565E381FD86C84008154E9 /* Invalid_Name_Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Invalid_Name_Exception.cpp; sourceTree = "<group>"; };
+		5C565E391FD86C84008154E9 /* Invalid_Name_Exception.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Invalid_Name_Exception.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C3BD9FA1FD5F61400EE8CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3BD9F41FD5F61400EE8CE3 = {
+			isa = PBXGroup;
+			children = (
+				5C3BD9FF1FD5F61400EE8CE3 /* monthly salary */,
+				5C3BD9FE1FD5F61400EE8CE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C3BD9FE1FD5F61400EE8CE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C3BD9FD1FD5F61400EE8CE3 /* monthly salary */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C3BD9FF1FD5F61400EE8CE3 /* monthly salary */ = {
+			isa = PBXGroup;
+			children = (
+				5C3BDA001FD5F61400EE8CE3 /* main.cpp */,
+				5C565E371FD86C05008154E9 /* Exceptions */,
+				5C565E281FD82A7C008154E9 /* UI */,
+				5C565E271FD82A0D008154E9 /* Models */,
+				5C565E2A1FD82AA9008154E9 /* Repositories */,
+				5C565E291FD82A92008154E9 /* Services */,
+			);
+			path = "monthly salary";
+			sourceTree = "<group>";
+		};
+		5C565E271FD82A0D008154E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C3BDA0A1FD5FBD700EE8CE3 /* salary_record.cpp */,
+				5C3BDA0B1FD5FBD700EE8CE3 /* salary_record.hpp */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5C565E281FD82A7C008154E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5C3BDA081FD5F8F700EE8CE3 /* User.hpp */,
+				5C3BDA071FD5F8F700EE8CE3 /* User.cpp */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		5C565E291FD82A92008154E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5C565E221FD6DF84008154E9 /* Salary_service.hpp */,
+				5C565E211FD6DF84008154E9 /* Salary_service.cpp */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		5C565E2A1FD82AA9008154E9 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5C565E241FD6E0CB008154E9 /* Salary_repository.cpp */,
+				5C565E251FD6E0CB008154E9 /* Salary_repository.hpp */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		5C565E371FD86C05008154E9 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				5C565E341FD865FC008154E9 /* Invalid_Salary_Exception.cpp */,
+				5C565E351FD865FC008154E9 /* Invalid_Salary_Exception.hpp */,
+				5C565E2E1FD85AF8008154E9 /* Invalid_Month_Exeption.cpp */,
+				5C565E2F1FD85AF8008154E9 /* Invalid_Month_Exeption.hpp */,
+				5C565E2B1FD855AB008154E9 /* Invalid_SSN_Exception.cpp */,
+				5C565E2C1FD855AB008154E9 /* Invalid_SSN_Exception.hpp */,
+				5C565E311FD85E73008154E9 /* Invalid_Year_Exception.cpp */,
+				5C565E321FD85E73008154E9 /* Invalid_Year_Exception.hpp */,
+				5C565E381FD86C84008154E9 /* Invalid_Name_Exception.cpp */,
+				5C565E391FD86C84008154E9 /* Invalid_Name_Exception.hpp */,
+			);
+			name = Exceptions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C3BD9FC1FD5F61400EE8CE3 /* monthly salary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3BDA041FD5F61400EE8CE3 /* Build configuration list for PBXNativeTarget "monthly salary" */;
+			buildPhases = (
+				5C3BD9F91FD5F61400EE8CE3 /* Sources */,
+				5C3BD9FA1FD5F61400EE8CE3 /* Frameworks */,
+				5C3BD9FB1FD5F61400EE8CE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "monthly salary";
+			productName = "monthly salary";
+			productReference = 5C3BD9FD1FD5F61400EE8CE3 /* monthly salary */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C3BD9F51FD5F61400EE8CE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Oddný Karen Arnardóttir";
+				TargetAttributes = {
+					5C3BD9FC1FD5F61400EE8CE3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C3BD9F81FD5F61400EE8CE3 /* Build configuration list for PBXProject "monthly salary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C3BD9F41FD5F61400EE8CE3;
+			productRefGroup = 5C3BD9FE1FD5F61400EE8CE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C3BD9FC1FD5F61400EE8CE3 /* monthly salary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C3BD9F91FD5F61400EE8CE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C565E331FD85E73008154E9 /* Invalid_Year_Exception.cpp in Sources */,
+				5C3BDA091FD5F8F700EE8CE3 /* User.cpp in Sources */,
+				5C565E3A1FD86C84008154E9 /* Invalid_Name_Exception.cpp in Sources */,
+				5C3BDA0C1FD5FBD700EE8CE3 /* salary_record.cpp in Sources */,
+				5C565E2D1FD855AB008154E9 /* Invalid_SSN_Exception.cpp in Sources */,
+				5C565E361FD865FC008154E9 /* Invalid_Salary_Exception.cpp in Sources */,
+				5C565E261FD6E0CB008154E9 /* Salary_repository.cpp in Sources */,
+				5C3BDA011FD5F61400EE8CE3 /* main.cpp in Sources */,
+				5C565E301FD85AF8008154E9 /* Invalid_Month_Exeption.cpp in Sources */,
+				5C565E231FD6DF84008154E9 /* Salary_service.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C3BDA021FD5F61400EE8CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C3BDA031FD5F61400EE8CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C3BDA051FD5F61400EE8CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C3BDA061FD5F61400EE8CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C3BD9F81FD5F61400EE8CE3 /* Build configuration list for PBXProject "monthly salary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3BDA021FD5F61400EE8CE3 /* Debug */,
+				5C3BDA031FD5F61400EE8CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3BDA041FD5F61400EE8CE3 /* Build configuration list for PBXNativeTarget "monthly salary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3BDA051FD5F61400EE8CE3 /* Debug */,
+				5C3BDA061FD5F61400EE8CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C3BD9F51FD5F61400EE8CE3 /* Project object */;
+}
