@@ -148,18 +148,13 @@ Salary_record Menu :: create_salary_record()
     cout << "Social security number ";
     cin >> social_sec_number;
     Invalid_SSN_exception Check_if_valid_SNN;
-<<<<<<< HEAD
-    while (Check_if_valid_SNN.isValdSSN(social_sec_number))
+
+    while (!Check_if_valid_SNN.isValdSSN(social_sec_number))
     {
         try
         {
-            while (Check_if_valid_SNN.isValdSSN(social_sec_number))
+            while (!Check_if_valid_SNN.isValdSSN(social_sec_number))
             {
-=======
-    while (!Check_if_valid_SNN.isValdSSN(social_sec_number)) {
-        try {
-            while (!Check_if_valid_SNN.isValdSSN(social_sec_number)) {
->>>>>>> 53506397f9f40574123433105daaa99fa7cb49c4
                 throw Invalid_SSN_exception("That is not a valid social security number");
             }
         }
