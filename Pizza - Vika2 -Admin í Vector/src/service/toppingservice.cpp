@@ -24,12 +24,12 @@ void ToppingService::addToppingsVector(vector<Topping>& addtopping){
 
     for(int i = 0; i < numberOfToppings; i++){
         cout << "Topping: ";
-        cin >> addtopping;
+  //      cin >> addtopping;
 
         ToppingRepository printToFile;
-        printToFile.PrintToppingsVector(printVector);
+//        printToFile.PrintToppingsVector(printVector);
 
-        printVector.push_back(topping);
+//        printVector.push_back(topping);
         cout << endl;
     }
     cout << endl;
