@@ -7,12 +7,22 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
+<<<<<<< HEAD
+				<Option output="bin/Debug/Klasar í skrár" prefix_auto="1" extension_auto="1" />
+=======
 				<Option output="bin/Debug/PizzaVerkefni" prefix_auto="1" extension_auto="1" />
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+<<<<<<< HEAD
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Klasar í skrár" prefix_auto="1" extension_auto="1" />
+=======
 					<Add directory="include/UI" />
 					<Add directory="include/models" />
 					<Add directory="include/repositories" />
@@ -22,16 +32,20 @@
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/PizzaVerkefni" prefix_auto="1" extension_auto="1" />
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+<<<<<<< HEAD
+=======
 					<Add directory="include/UI" />
 					<Add directory="include/models" />
 					<Add directory="include/repositories" />
 					<Add directory="include/service" />
 					<Add directory="include/exeptions" />
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -42,6 +56,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+<<<<<<< HEAD
+		<Unit filename="MainUI.cpp" />
+		<Unit filename="MainUI.h" />
+		<Unit filename="Pizza.cpp" />
+		<Unit filename="Pizza.h" />
+		<Unit filename="PizzaRepository.cpp" />
+		<Unit filename="PizzaRepository.h" />
+		<Unit filename="Topping.cpp" />
+		<Unit filename="Topping.h" />
+		<Unit filename="main.cpp" />
+=======
 		<Unit filename="include/UI/MainUI.h" />
 		<Unit filename="include/exeptions/InvalidTopping.h" />
 		<Unit filename="include/models/Pizza.h" />
@@ -53,11 +78,15 @@
 		<Unit filename="src/models/Pizza.cpp" />
 		<Unit filename="src/repositories/PizzaRepository.cpp" />
 		<Unit filename="src/service/Topping.cpp" />
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 		<Extensions>
 			<code_completion />
 			<envvars />
 			<debugger />
+<<<<<<< HEAD
+=======
 			<lib_finder disable_auto="1" />
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

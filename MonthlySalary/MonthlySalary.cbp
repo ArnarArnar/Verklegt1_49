@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MonthlySalary" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MonthlySalary" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include/exeptions" />
+					<Add directory="include/repositories" />
+					<Add directory="include/service" />
+					<Add directory="include/models" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MonthlySalary" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include/exeptions" />
+					<Add directory="include/repositories" />
+					<Add directory="include/service" />
+					<Add directory="include/models" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/exeptions/Invalid_Month_Exeption.h" />
+		<Unit filename="include/exeptions/Invalid_Name_Exeption.h" />
+		<Unit filename="include/exeptions/Invalid_SSN_Exeption.h" />
+		<Unit filename="include/exeptions/Invalid_Salary_Exeption.h" />
+		<Unit filename="include/exeptions/Invalid_Year_Exeption.h" />
+		<Unit filename="include/models/User.h" />
+		<Unit filename="include/repositories/Salary_repository.h" />
+		<Unit filename="include/service/Salary_record.h" />
+		<Unit filename="include/service/Salary_service.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/exeptions/Invalid_Month_Exeption.cpp" />
+		<Unit filename="src/exeptions/Invalid_Name_Exeption.cpp" />
+		<Unit filename="src/exeptions/Invalid_SSN_Exeption.cpp" />
+		<Unit filename="src/exeptions/Invalid_Salary_Exeption.cpp" />
+		<Unit filename="src/exeptions/Invalid_Year_Exeption.cpp" />
+		<Unit filename="src/models/User.cpp" />
+		<Unit filename="src/repositories/Salary_repository.cpp" />
+		<Unit filename="src/service/Salary_record.cpp" />
+		<Unit filename="src/service/Salary_service.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

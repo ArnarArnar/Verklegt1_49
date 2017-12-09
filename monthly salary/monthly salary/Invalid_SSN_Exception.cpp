@@ -8,6 +8,10 @@
 
 #include "Invalid_SSN_Exception.hpp"
 
+Invalid_SSN_exception::Invalid_SSN_exception() {
+
+
+}
 
 Invalid_SSN_exception::Invalid_SSN_exception (string message) {
 
@@ -18,3 +22,23 @@ string Invalid_SSN_exception:: getMessage() {
 
     return message;
 }
+bool Invalid_SSN_exception:: isValdSNN(string ssn) {
+
+    bool retVal = false;
+
+    for (int i = 0; i < ssn.size(); i++) {
+        if (!isdigit(ssn[i]) && !isspace(ssn[i])) {
+        retVal = true;
+        }
+    }
+    
+    if (retVal == true && ssn.size() != 10) {
+        retVal = false;;
+    }
+    
+    return retVal;
+}
+
+
+
+

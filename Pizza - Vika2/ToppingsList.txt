@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+pepperoni 50
+skinka 44
+ananas 22
+sveppir 44
+=======
 Ham 50
 Pepperoni 50
 Beef 50
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f

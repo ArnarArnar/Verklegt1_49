@@ -1,4 +1,74 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
+1512145731 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\adminui.cpp
+	"AdminUI.h"
+
+1512129528 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\adminui.h
+	"Pizzaui.h"
+	"Welcomescreen.h"
+	<string>
+	<iostream>
+
+1512129528 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizzaui.h
+	"PizzaRepository.h"
+	"Welcomescreen.h"
+
+1512214715 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizzarepository.h
+	"Pizza.h"
+
+1511993925 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512225369 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\topping.h
+	<iostream>
+
+1512129528 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\welcomescreen.h
+	<string>
+	<iostream>
+	"AdminUI.h"
+	"MainUI.h"
+	"BakerUI.h"
+	"DeliveryUI.h"
+
+1512214715 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\mainui.h
+
+1512129528 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\bakerui.h
+	"Welcomescreen.h"
+	<string>
+	<iostream>
+
+1512129528 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\deliveryui.h
+	"Welcomescreen.h"
+
+1512129528 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\bakerui.cpp
+	"BakerUI.h"
+	<string>
+	<iostream>
+
+1512129528 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\deliveryui.cpp
+	"DeliveryUI.h"
+
+1512146683 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512225369 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"PizzaRepository.h"
+	"Topping.h"
+
+1512148602 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizza.cpp
+	"Pizza.h"
+
+1512148480 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizzarepository.cpp
+=======
 1512652318 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\main.cpp
 	<iostream>
 	<string>
@@ -22,24 +92,78 @@
 
 1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\src\repositories\pizzarepository.cpp
 	<strings.h>
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 	"PizzaRepository.h"
 	<fstream>
 	"pizza.h"
 
+<<<<<<< HEAD
+1512146275 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\pizzaui.cpp
+	"PizzaUI.h"
+	<iostream>
+	"Pizza.h"
+
+1512129528 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\salesui.cpp
+	"SalesUI.h"
+
+1512054758 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\salesui.h
+	"Pizzaui.h"
+	<string>
+	<iostream>
+
+1512225369 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\topping.cpp
+=======
 1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\include\repositories\pizzarepository.h
 	"Pizza.h"
 	<iostream>
 
 1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\src\service\topping.cpp
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 	<strings.h>
 	<fstream>
 	"Topping.h"
 
+<<<<<<< HEAD
+1512129528 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika1\welcomescreen.cpp
+	"Welcomescreen.h"
+	"SalesUI.h"
+
+1512152618 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\main.cpp
+=======
 1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\src\ui\mainui.cpp
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 	<iostream>
 	<string>
 	<fstream>
 	"MainUI.h"
+<<<<<<< HEAD
+
+1512152896 c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\mainui.h
+
+1512152618 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\pizza.cpp
+	"Pizza.h"
+
+1512152618 c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512152618 c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\topping.h
+	<iostream>
+
+1512152618 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512153906 c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\pizzarepository.h
+	"Pizza.h"
+
+1512152618 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\topping.cpp
+	<strings.h>
+	"Topping.h"
+
+1512154513 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika1\mainui.cpp
+=======
 	"Pizza.h"
 	"PizzaRepository.h"
 	"Topping.h"
@@ -52,10 +176,48 @@
 1512652816 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\include\exeptions\invalidtopping.h
 
 1512652318 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\main.cpp
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 	<iostream>
 	<string>
 	<fstream>
 	"MainUI.h"
+<<<<<<< HEAD
+	"Pizza.h"
+	"PizzaRepository.h"
+	"Topping.h"
+
+1512147887 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512213365 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\mainui.h
+
+1512215728 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"PizzaRepository.h"
+	"Topping.h"
+
+1512147887 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512147887 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\topping.h
+	<iostream>
+
+1512213366 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizzarepository.h
+	"Pizza.h"
+
+1512213365 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizza.cpp
+	"Pizza.h"
+
+1512213366 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\pizzarepository.cpp
+=======
 
 1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\include\ui\mainui.h
 
@@ -76,10 +238,26 @@
 
 1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\src\repositories\pizzarepository.cpp
 	<strings.h>
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 	"PizzaRepository.h"
 	<fstream>
 	"pizza.h"
 
+<<<<<<< HEAD
+1512147887 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika1\topping.cpp
+	<strings.h>
+	"Topping.h"
+
+1512147887 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512213365 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\mainui.h
+
+1512224007 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\mainui.cpp
+=======
 1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\include\repositories\pizzarepository.h
 	"Pizza.h"
 	<iostream>
@@ -90,6 +268,7 @@
 	"Topping.h"
 
 1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\src\ui\mainui.cpp
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
 	<iostream>
 	<string>
 	<fstream>
@@ -98,3 +277,29 @@
 	"PizzaRepository.h"
 	"Topping.h"
 
+<<<<<<< HEAD
+1512147887 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512223962 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\topping.h
+	<iostream>
+
+1512213366 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\pizzarepository.h
+	"Pizza.h"
+
+1512213365 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\pizza.cpp
+	"Pizza.h"
+
+1512213366 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\pizzarepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512224083 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika1 - eg2\topping.cpp
+	<strings.h>
+	<fstream>
+	"Topping.h"
+
+=======
+>>>>>>> 296d831af0ea4f924b0a489b417f63a4280af68f
