@@ -18,25 +18,25 @@ string Topping::get_name() const{
 double Topping::get_price()const{
     return this->price;
 }
-
+/*
 ostream& operator << (ostream& out, const Topping& topping) {
     out << topping.name << endl;
     out << topping.price << endl;
     return out;
 }
-
-
+*/
+/*
 istream& operator >> (istream& in, Topping& topping) {
-
+    cout << "Name of topping: ";
     in >> ws;
     getline(in, topping.name);
 
+    cout << "Price of topping: ";
     in >> topping.price;
 
     return in;
 }
-
-
+*/
 
 void Topping::addTopping(Topping topping){
     toppings.push_back(topping);

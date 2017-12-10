@@ -5,20 +5,26 @@ ToppingRepository::ToppingRepository()
     //ctor
 }
 
-void ToppingRepository::PrintToppingsVector(vector<Topping>& printTopping){
+void ToppingRepository::storeAllToppings(vector<Topping>& printTopping){
     ofstream fout;
-
+    ToppingRepository removeText; ///Til ad eyða gamla listanum áður en sá nýji er skrifaðu í skránna
+    removeText.deleteTextFromTXT();
     fout.open ("toppings.txt", ios::app);
     int toppingCount = printTopping.size();
-    cout << toppingCount;
 
     for(int i = 0; i < toppingCount; i++){
         fout << printTopping[i].get_name() << ",";
-        fout << printTopping[i].get_price() << "," << endl;
+        fout << printTopping[i].get_price() << ",";
+        fout << endl;
     }
     fout.close();
 }
-vector<Topping> ToppingRepository::FillToppingsVectorFromTXT(vector<Topping>& retrieveToppings){
+void ToppingRepository::deleteTextFromTXT(){
+    ofstream fout;
+    fout.open("toppings.txt", ofstream::out | ofstream::trunc);
+    fout.close();
+}
+vector<Topping> ToppingRepository::FillToppingsVectorFromTXT(){
     vector<Topping> toppingsFromFile;
     ifstream fin("toppings.txt");
     if (fin.is_open()){
@@ -27,10 +33,12 @@ vector<Topping> ToppingRepository::FillToppingsVectorFromTXT(vector<Topping>& re
             Topping topp = parseString(line);
             toppingsFromFile.push_back(topp);
         }
+       // cout << "The file 'toppings.txt' was sucsessfully loaded to vector" << endl;
     }
     else {
         cout << "unable to open file" << endl;
     }
+
     return toppingsFromFile;
 }
 Topping ToppingRepository::parseString (string line){

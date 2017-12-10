@@ -16,6 +16,11 @@ void ToppingService::printToppingsToScreenFromVector(vector<Topping>& toppingFro
     }
 }
 
+void ToppingService::printToppingsToTXT(vector<Topping>& toppingFromVector){
+        ToppingRepository printToTXT;
+        printToTXT.PrintToppingsVector(toppingFromVector);
+}
+
 void ToppingService::addToppingsVector(vector<Topping>& addtopping){
     cout << "how many toppins?";
     int numberOfToppings;
@@ -24,11 +29,10 @@ void ToppingService::addToppingsVector(vector<Topping>& addtopping){
 
     for(int i = 0; i < numberOfToppings; i++){
         cout << "Topping: ";
-  //      cin >> addtopping;
+//        cin >> addtopping;
 
         ToppingRepository printToFile;
 //        printToFile.PrintToppingsVector(printVector);
-
 //        printVector.push_back(topping);
         cout << endl;
     }
