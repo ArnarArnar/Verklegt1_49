@@ -2,7 +2,7 @@
 
 PizzaService::PizzaService()
 {
-    //ctor
+
 }
 /*
 void PizzaService::FillPizzaVector(vector<Pizza>& pizzaOrder){
@@ -20,38 +20,33 @@ void PizzaService::FillPizzaVector(vector<Pizza>& pizzaOrder){
         pizzaOrder.push_back(newPizzaOrder);
 }
 */
-void PizzaService::PrintPizzaVector (const vector<Pizza>& pizzaOrder) {
+void PizzaService::PrintToScreenPizzaVector (const vector<Pizza>& pizzaOrder) {
     size_t vectorSize = pizzaOrder.size();
     for(size_t i = 0; i < vectorSize; i++) {
         cout << "Costumer Name: " << pizzaOrder[i].getCostumerName() << endl;
+        switch (pizzaOrder[i].getPizzaSize()){
+            case '1':{cout << "Pizza Size:    Small" << endl;} break;
+            case '2':{cout << "Pizza Size:    Medium" << endl;} break;
+            case '3':{cout << "Pizza Size:    Large" << endl;} break;
+        }
         cout << "Pizza Size:    " << pizzaOrder[i].getPizzaSize() << endl;
-//            cout << "Topping:       " << pizzaOrder[i].get
-        cout << "Pickup Y/N:    " << pizzaOrder[i].getPickup() << endl;
+        cout << "Topping:       Virkni ekki tilbúin" << endl;
+        if (pizzaOrder[i].getDelivery() == '1'){
+            cout << "Delivery:      YES" << endl;
+            cout << "Address:       " << pizzaOrder[i].getAddress() << endl;
+        }
+        else{
+            cout << "Delivery:      NO" << endl;
+        }
         cout << "PizzaPrice:    " << pizzaOrder[i].getPizzaPrice() << endl;
     }
 }
+/*
 void PizzaService::ToppingsInOrder (const vector<Topping>& topping) {
     Pizza toppingName;
     for (unsigned int i = 0; i < topping.size(); i++) {
-//        cout << toppingName.getToppingName();
+        cout << toppingName.getToppingName();
     }
 }
-
-
-/*
-void ToppingService::listAllToppings(){
-    ToppingRepository toppRepo;
-    vector<Topping> addtopping = toppRepo.FillToppingsVectorFromTXT();
-    int toppingSelection = -1;
-    while (toppingSelection != 0){
-        cout << "Please enter id for toppings to add (0 to quit)" << endl;
-        for (size_t i = 0; i < addtopping.size(); i++){
-            cout << "[" << i+1 << "] " << addtopping[i].name << endl;
-        }
-        //cin >> toppingSelection;
-
-  //      if (toppingSelection > 0 && toppingSelection <= (int)topping.size()){
-         ///  ----halda áfram, 4:30
-        }
-    }
 */
+

@@ -25,9 +25,9 @@ void SalesUI::SalesMenuUI() {
         }
         break;
         case '2': {
-            vector<Pizza> order;
-            PizzaService pizzaService;
-            pizzaService.PrintPizzaVector(pizzas);
+           vector<Pizza> order;
+        PizzaService pizzaService;
+        pizzaService.PrintToScreenPizzaVector(pizzas);
             cout << endl;
         }
         break;
@@ -78,3 +78,5 @@ void SalesUI::OrderUI() {
         }
     }
 }
+
+

@@ -4,29 +4,33 @@
 Pizza::Pizza(){
     /*    string costumerName = "";
         string pizzaSize = "";
-        int pickup = 0; /// If 0 = no - if 1 = yes
+        int delivery = 0; /// If 2 = no - if 1 = yes
         double pizzaPrice = 0.0;
     */
 }
-Pizza::Pizza(string costumerName, string pizzaSize, vector<Topping> toppings, int pickup, double pizzaPrice)
+Pizza::Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char delivery, string address, double pizzaPrice)
 {
         this-> costumerName = costumerName;
         this-> pizzaSize = pizzaSize;
-        this-> pickup = pickup;
-        this-> pizzaPrice = pizzaPrice;
         this-> toppings = toppings;
+        this-> delivery = delivery;
+        this-> address = address;
+        this-> pizzaPrice = pizzaPrice;
 }
 string Pizza::getCostumerName() const {
         return this->costumerName;
 }
-string Pizza::getPizzaSize() const{
+char Pizza::getPizzaSize() const{
         return this->pizzaSize;
 }
 vector<Topping> Pizza::getToppingName() const{
         return this->toppings;
 }
-int Pizza::getPickup() const{
-        return this->pickup;
+char Pizza::getDelivery() const{
+        return this->delivery;
+}
+string Pizza::getAddress() const{
+        return this->address;
 }
 double Pizza::getPizzaPrice() const {
         return this->pizzaPrice;
@@ -43,52 +47,58 @@ void Pizza::PrintPizzaVector (const vector<Pizza>& pizzaOrder){
 
         for(size_t i = 0; i < vectorSize; i++){
             cout << pizzaOrder << endl;
-
                 }
 }
-
 */
 void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder){
-        cout << "costumerName: ";
         string costumerName;
-        cin >> costumerName;
-        cout << "pizzaSize: ";
-        string pizzaSize;
-        cin >> pizzaSize;
+        char pizzaSize;
         ToppingService listToppings;
+        char delivery;
+        string address = "";
+        pizzaPrice = 0.0;
+        //char confirm = '0';
+        cout << endl;
+        cout << "Costumer name: " << endl;
+        cout << "Menu>Sales>Order: ";
+        cin >> ws;
+        getline(cin, costumerName);
+        cout << endl;
+        cout << "pizzaSize: " << endl;
+        cout << "1: Small" << endl;
+        cout << "2: Medium" << endl;
+        cout << "3: Large" << endl;
+        cout << "Menu>Sales>Order: ";
+        cin >> pizzaSize;
+        cout << endl;
         toppings = listToppings.listAllToppings();
-        cout << "pickup: ";
-        int pickup;
-        cin >> pickup;
-        cout << "pizzaPrice: ";
-        double pizzaPrice;
-        cin >> pizzaPrice;
-
-        Pizza newPizzaOrder(costumerName, pizzaSize, toppings, pickup, pizzaPrice);
+        cout << endl;
+        cout << "Delivery: " << endl;
+        cout << "1: YES" << endl;
+        cout << "2: NO" << endl;
+        cout << "Menu>Sales>Order: ";
+        cin >> delivery;
+        if (delivery == '1'){
+            cout << endl << "Please enter a delivery address: " << endl;
+            cout << "Menu>Sales>Order: ";
+            cin >> ws;
+            getline(cin, address);
+        }
+        Pizza newPizzaOrder(costumerName, pizzaSize, toppings, delivery, address, pizzaPrice);
         pizzaOrder.push_back(newPizzaOrder);
+
+
 //}
 /*
-ostream& operator << (ostream& out, const vector<Pizza>& pizzaOrder) {
-       // if (pizza.verbose) {
-            out << "Costumer name: ";
-      //  }
-        out << pizzaOrder.getCostumerName() << endl;
-      //  if (pizza.verbose) {
-            out << "Pizza size: ";
-      //  }
-        out << pizzaOrder.getPizzaSize() << endl;
-      //  if (pizza.verbose) {
-          //  out << "number of toppings: ";
-      //  }
-       // out << pizza.numberOfToppings << endl;
-      //  if (pizza.verbose) {
-            out << "Pickup ";
-     //   }
-        out << pizzaOrder.getPickup() << endl;
-       // cout << endl;
-        return out;
+ostream& operator << (ostream& out, const Pizza& toppings) {
+    out << "toppings: " << endl;
+    for (unsigned int i = 0; i < toppings.getToppingName().size(); i++) {
+        out << toppings.getToppingName();
+    }
 
+        return out;
 */
+
 };
 
 

@@ -48,6 +48,7 @@ vector<Topping> ToppingService::listAllToppings(){
         for (size_t i = 0; i < toppingToSelectFrom.size(); i++){
             cout << "[" << i+1 << "] " << toppingToSelectFrom[i].name << endl;
         }
+        cout << "Menu>Sales>Order: ";
         cin >> toppingSelection;
 
         if (toppingSelection > 0 && toppingSelection <= (int)toppingToSelectFrom.size()){
