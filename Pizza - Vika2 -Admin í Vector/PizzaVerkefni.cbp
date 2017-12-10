@@ -43,6 +43,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/UI/MainUI.h" />
+		<Unit filename="include/exeptions/InvalidPizzaSize.h" />
 		<Unit filename="include/exeptions/InvalidTopping.h" />
 		<Unit filename="include/models/Pizza.h" />
 		<Unit filename="include/models/topping.h" />
@@ -51,6 +52,7 @@
 		<Unit filename="include/service/toppingservice.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/UI/MainUI.cpp" />
+		<Unit filename="src/exeptions/InvalidPizzaSize.cpp" />
 		<Unit filename="src/exeptions/InvalidTopping.cpp" />
 		<Unit filename="src/models/Pizza.cpp" />
 		<Unit filename="src/models/topping.cpp" />

@@ -98,8 +98,10 @@ void MainUI::adminUI() {
         }
         break;
         case '3': {
-            //PizzaToppings add;
-            //add.fillToppingsVector(toppingVector);
+
+            Topping topping;
+            cin >> topping;
+
         }
         break;
         case '4': {

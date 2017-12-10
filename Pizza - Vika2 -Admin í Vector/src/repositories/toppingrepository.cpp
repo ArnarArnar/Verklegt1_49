@@ -28,6 +28,9 @@ vector<Topping> ToppingRepository::FillToppingsVectorFromTXT(vector<Topping>& re
             toppingsFromFile.push_back(topp);
         }
     }
+    else {
+        cout << "unable to open file" << endl;
+    }
     return toppingsFromFile;
 }
 Topping ToppingRepository::parseString (string line){

@@ -25,6 +25,7 @@ ostream& operator << (ostream& out, const Topping& topping) {
     return out;
 }
 
+
 istream& operator >> (istream& in, Topping& topping) {
 
     in >> ws;
@@ -33,5 +34,11 @@ istream& operator >> (istream& in, Topping& topping) {
     in >> topping.price;
 
     return in;
+}
+
+
+
+void Topping::addTopping(Topping topping){
+    toppings.push_back(topping);
 }
 

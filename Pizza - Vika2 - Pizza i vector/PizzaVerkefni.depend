@@ -1,0 +1,211 @@
+# depslib dependency file v1.0
+1512652318 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512652035 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\src\exceptions\invalidtoppingonpizza.cpp
+	"InvalidToppingOnPizza.h"
+
+1512652035 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\include\exceptions\invalidtoppingonpizza.h
+
+1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\src\models\pizza.cpp
+	"Pizza.h"
+
+1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\include\models\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\include\service\topping.h
+	<iostream>
+
+1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\src\repositories\pizzarepository.cpp
+	<strings.h>
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\include\repositories\pizzarepository.h
+	"Pizza.h"
+	<iostream>
+
+1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\src\service\topping.cpp
+	<strings.h>
+	<fstream>
+	"Topping.h"
+
+1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\src\ui\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"PizzaRepository.h"
+	"Topping.h"
+
+1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\include\ui\mainui.h
+
+1512652816 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\src\exeptions\invalidtopping.cpp
+	"InvalidTopping.h"
+
+1512652816 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizzaverkefni\include\exeptions\invalidtopping.h
+
+1512652318 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\include\ui\mainui.h
+
+1512652816 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\src\exeptions\invalidtopping.cpp
+	"InvalidTopping.h"
+
+1512652816 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\include\exeptions\invalidtopping.h
+
+1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\src\models\pizza.cpp
+	"Pizza.h"
+
+1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\include\models\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\include\service\topping.h
+	<iostream>
+
+1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\src\repositories\pizzarepository.cpp
+	<strings.h>
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512652982 c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\include\repositories\pizzarepository.h
+	"Pizza.h"
+	<iostream>
+
+1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\src\service\topping.cpp
+	<strings.h>
+	<fstream>
+	"Topping.h"
+
+1512652982 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2\src\ui\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"PizzaRepository.h"
+	"Topping.h"
+
+1512674102 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512839102 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\ui\mainui.h
+	"adminui.h"
+
+1512674102 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\exeptions\invalidtopping.cpp
+	"InvalidTopping.h"
+
+1512674102 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\exeptions\invalidtopping.h
+
+1512920407 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\models\pizza.cpp
+	"Pizza.h"
+
+1512920407 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\models\pizza.h
+	"Topping.h"
+	"toppingservice.h"
+	<iostream>
+
+1512919477 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\models\topping.h
+	<string>
+	<iostream>
+	<vector>
+
+1512919477 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\models\topping.cpp
+	"topping.h"
+
+1512853387 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\repositories\pizzarepository.cpp
+	<strings.h>
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512674102 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\repositories\pizzarepository.h
+	"Pizza.h"
+	<iostream>
+
+1512845036 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\ui\adminui.cpp
+	"adminui.h"
+
+1512838891 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\ui\adminui.h
+	"topping.h"
+	"toppingservice.h"
+	"MainUI.h"
+
+1512853387 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\ui\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"salesui.h"
+	"bakerui.h"
+	"deliveryui.h"
+
+1512919807 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\service\toppingservice.cpp
+	"toppingservice.h"
+
+1512919477 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\service\toppingservice.h
+	"topping.h"
+	"toppingrepository.h"
+
+1512918841 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\repositories\toppingrepository.cpp
+	"toppingrepository.h"
+
+1512845010 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\repositories\toppingrepository.h
+	<fstream>
+	"toppingservice.h"
+	<stdlib.h>
+
+1512918254 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\ui\salesui.cpp
+	"salesui.h"
+
+1512918193 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\ui\salesui.h
+	"pizzaservice.h"
+	"MainUI.h"
+	"Pizza.h"
+
+1512843436 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\ui\bakerui.cpp
+	"bakerui.h"
+
+1512843490 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\ui\bakerui.h
+	"MainUI.h"
+	<iostream>
+
+1512843675 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\ui\deliveryui.cpp
+	"deliveryui.h"
+
+1512843719 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\deliveryui\deliveryui.h
+	"MainUI.h"
+	<iostream>
+
+1512850027 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\ui\orderui.h
+	<iostream>
+	"orderui.h"
+	"MainUI.h"
+
+1512847400 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\ui\orderui.cpp
+	"orderui.h"
+
+1512920063 f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\include\service\pizzaservice.h
+	"Pizza.h"
+	"pizzaservice.h"
+	"MainUI.h"
+
+1512918701 source:f:\onedrive - reykjavik university\verklegt_namskeid\pizza - vika2\src\service\pizzaservice.cpp
+	"pizzaservice.h"
+

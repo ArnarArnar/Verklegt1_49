@@ -11,6 +11,7 @@ class ToppingService
         vector<Topping> FillToppingsVectorFromTXTService(vector<Topping>& retrieveToppings);
         void printToppingsToScreenFromVector(vector<Topping>& toppingFromVector);
         void addToppingsVector(vector<Topping>& addtopping);
+        void printToppingsToTXT(vector<Topping>& toppingFromVector);
     private:
 };
 

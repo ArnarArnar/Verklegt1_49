@@ -169,3 +169,74 @@
 	"toppingservice.h"
 	<stdlib.h>
 
+1512674102 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512686029 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\include\ui\mainui.h
+	"topping.h"
+	"toppingservice.h"
+
+1512833008 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\include\models\topping.h
+	<string>
+	<iostream>
+	<vector>
+
+1512829799 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\include\service\toppingservice.h
+	"topping.h"
+	"toppingrepository.h"
+
+1512686897 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\include\repositories\toppingrepository.h
+	<fstream>
+	"toppingservice.h"
+	<stdlib.h>
+
+1512827034 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\src\exeptions\invalidtopping.cpp
+	"InvalidTopping.h"
+
+1512827034 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\include\exeptions\invalidtopping.h
+	<string>
+
+1512687329 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\src\models\pizza.cpp
+	"Pizza.h"
+
+1512674102 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\include\models\pizza.h
+	"Topping.h"
+	<iostream>
+
+1512833417 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\src\models\topping.cpp
+	"topping.h"
+
+1512674102 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\src\repositories\pizzarepository.cpp
+	<strings.h>
+	"PizzaRepository.h"
+	<fstream>
+	"pizza.h"
+
+1512674102 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\include\repositories\pizzarepository.h
+	"Pizza.h"
+	<iostream>
+
+1512830123 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\src\repositories\toppingrepository.cpp
+	"toppingrepository.h"
+
+1512833540 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\src\ui\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"PizzaRepository.h"
+	"Topping.h"
+
+1512827034 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\src\exeptions\invalidpizzasize.cpp
+	"InvalidPizzaSize.h"
+
+1512827034 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\include\exeptions\invalidpizzasize.h
+	<string>
+
+1512829783 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 -admin í vector\src\service\toppingservice.cpp
+	"toppingservice.h"
+

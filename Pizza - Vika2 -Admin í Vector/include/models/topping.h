@@ -13,7 +13,8 @@ class Topping
         string get_name() const;
         double get_price() const;
         friend ostream& operator << (ostream& out, const Topping& getTopping);
-        friend istream& operator >> (istream& in, Topping& getTopping);
+        friend istream& operator >> (istream& in, Topping& getTopping); ///Mögulega henda ekki virkt
+        void addTopping(Topping topping);
     private:
         string name;
         double price;

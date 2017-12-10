@@ -5,7 +5,12 @@ InvalidTopping::InvalidTopping()
     //ctor
 }
 
-InvalidTopping::~InvalidTopping()
+InvalidTopping::InvalidTopping(string message)
 {
-    //dtor
+    this-> message = message;
+}
+
+string InvalidTopping::getMessage()
+{
+    return message;
 }
