@@ -33,7 +33,7 @@ void PizzaService::PrintPizzaVector (const vector<Pizza>& pizzaOrder) {
 void PizzaService::ToppingsInOrder (const vector<Topping>& topping) {
     Pizza toppingName;
     for (unsigned int i = 0; i < topping.size(); i++) {
-        cout << toppingName.getToppingName();
+//        cout << toppingName.getToppingName();
     }
 }
 
