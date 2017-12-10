@@ -2,6 +2,8 @@
 #define TOPPINGSERVICE_H
 #include "topping.h"
 #include "toppingrepository.h"
+#include "InvalidTopping.h"
+#include <climits>
 
 
 class ToppingService

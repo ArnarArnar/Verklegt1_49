@@ -30,13 +30,13 @@ void PizzaService::PrintPizzaVector (const vector<Pizza>& pizzaOrder) {
         cout << "PizzaPrice:    " << pizzaOrder[i].getPizzaPrice() << endl;
     }
 }
-void PizzaService::ToppingsInOrder (const vector<Topping>& topping) {
+/*void PizzaService::ToppingsInOrder (const vector<Topping>& topping) {  //muna opna aftur oddny
     Pizza toppingName;
     for (unsigned int i = 0; i < topping.size(); i++) {
         cout << toppingName.getToppingName();
     }
 }
-
+*/
 
 /*
 void ToppingService::listAllToppings(){
