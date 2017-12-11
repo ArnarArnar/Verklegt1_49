@@ -437,3 +437,127 @@
 1512955638 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invaliddelivery.cpp
 	"InvalidDelivery.h"
 
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\mainui.h
+	"adminui.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\adminui.h
+	"topping.h"
+	"toppingservice.h"
+	"MainUI.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\topping.h
+	<string>
+	<iostream>
+	<vector>
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\toppingservice.h
+	"topping.h"
+	"toppingrepository.h"
+	"InvalidTopping.h"
+	<climits>
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\repositories\toppingrepository.h
+	<fstream>
+	"toppingservice.h"
+	<stdlib.h>
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidtopping.h
+	<string>
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invaliddelivery.cpp
+	"InvalidDelivery.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invaliddelivery.h
+	<string>
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidname.cpp
+	"InvalidName.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidname.h
+	<string>
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidpizzasize.cpp
+	"InvalidPizzaSize.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidpizzasize.h
+	<string>
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidtopping.cpp
+	"InvalidTopping.h"
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\pizza.cpp
+	"Pizza.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\pizza.h
+	"Topping.h"
+	"toppingservice.h"
+	"InvalidName.h"
+	"InvalidPizzaSize.h"
+	"InvalidDelivery.h"
+	<iostream>
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\topping.cpp
+	"topping.h"
+
+1512999332 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\repositories\pizzarepository.cpp
+	"PizzaRepository.h"
+
+1512999090 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\repositories\pizzarepository.h
+	"Pizza.h"
+	<iostream>
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\repositories\toppingrepository.cpp
+	"toppingrepository.h"
+
+1512999635 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\pizzaservice.cpp
+	"pizzaservice.h"
+
+1512999494 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\pizzaservice.h
+	"Pizza.h"
+	"PizzaRepository.h"
+	"MainUI.h"
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\toppingservice.cpp
+	"toppingservice.h"
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\adminui.cpp
+	"adminui.h"
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\bakerui.cpp
+	"bakerui.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\bakerui.h
+	"MainUI.h"
+	<iostream>
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\deliveryui.cpp
+	"deliveryui.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\deliveryui\deliveryui.h
+	"MainUI.h"
+	<iostream>
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"salesui.h"
+	"bakerui.h"
+	"deliveryui.h"
+
+1512994081 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\salesui.h
+	"pizzaservice.h"
+	"MainUI.h"
+	"Pizza.h"
+
+1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\salesui.cpp
+	"salesui.h"
+

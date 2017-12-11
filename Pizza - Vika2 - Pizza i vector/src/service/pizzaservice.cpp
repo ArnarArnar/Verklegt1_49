@@ -50,3 +50,10 @@ void PizzaService::ToppingsInOrder (const vector<Topping>& topping) {
 }
 */
 
+void PizzaService::addNewOrderToTXTService(vector<Pizza>& pizzaOrder){
+    PizzaRepository pizzaRepo;
+    pizzaRepo.addNewOrderToTXT(pizzaOrder);
+
+
+}
+

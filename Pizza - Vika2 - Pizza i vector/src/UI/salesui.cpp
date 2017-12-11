@@ -32,6 +32,8 @@ void SalesUI::SalesMenuUI() {
         }
         break;
         case '3': {
+        PizzaService sendtoTXT;
+        sendtoTXT.addNewOrderToTXTService(pizzas);
             cout << endl;
         }
         break;
