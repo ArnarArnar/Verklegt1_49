@@ -9,49 +9,29 @@ void BakerUI::BakerMenuUI() {
     char selection = '\0';
 
     while (selection != 'q') {
-        //mun breyta og setja í function. Er skýrara ef þetta er.
-        for(int i = 0; i < 50; i++)
-        {
-            cout << endl;
-        }
         cout << "BAKERS MENU" << endl << endl;
-        cout << "P: Pizza queue" << endl;
-        cout << "N: List of ordered pizza's" << endl;
-        cout << "S: Mark as in progress" << endl;
-        cout << "R: Mark as ready" << endl;
-        cout << "Q: Quit to menu" << endl;
-
+        cout << "1: List of ordered pizza's - Not ready" << endl;
+        cout << "2: Mark as in progress - Not ready" << endl;
+        cout << "3: Mark as ready - Not ready" << endl;
+        cout << "0: Quit to menu" << endl;
+        cout << "Menu>Bakers: ";
         cin >> selection;
         switch(selection) {
-        case 'p':
-        case 'P': {
+        case '1': {
             cout << endl;
         }
         break;
-
-        case 'n':
-        case 'N': {
-
-            cout << endl;
-        }
-        break;
-
-        case 's':
-        case 'S': {
+        case '2': {
 
             cout << endl;
         }
         break;
-
-        case 'r':
-        case 'R': {
+        case '3': {
 
             cout << endl;
         }
         break;
-
-        case 'q':
-        case 'Q': {
+        case '0': {
             MainUI welcomeMenu;
             welcomeMenu.welcomeUI();
             cout << endl;
