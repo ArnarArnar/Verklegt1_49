@@ -18,6 +18,8 @@ void BakerUI::BakerMenuUI() {
         cin >> selection;
         switch(selection) {
         case '1': {
+            PizzaRepository viewOrders;
+            viewOrders.viewOrdersInTXT();
             cout << endl;
         }
         break;

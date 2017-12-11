@@ -17,6 +17,7 @@ class PizzaRepository
         friend ostream& operator << (ostream& out, const PizzaRepository& pizzaRepository);
         void set_size_price();
         void addNewOrderToTXT(vector<Pizza>& pizzaOrder);
+        void viewOrdersInTXT();
 
     protected:
 
