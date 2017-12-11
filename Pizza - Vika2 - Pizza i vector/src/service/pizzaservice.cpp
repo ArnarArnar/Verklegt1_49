@@ -38,6 +38,10 @@ void PizzaService::PrintToScreenPizzaVector (const vector<Pizza>& pizzaOrder) {
         else{
             cout << "Delivery:      NO" << endl;
         }
+        if (pizzaOrder[i].getNotes() != ""){
+            cout << pizzaOrder[i].getNotes() << endl;
+        }
+
         cout << "PizzaPrice:    " << pizzaOrder[i].getPizzaPrice() << endl;
     }
 }

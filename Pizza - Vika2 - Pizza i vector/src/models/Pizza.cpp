@@ -9,7 +9,7 @@ Pizza::Pizza()
         double pizzaPrice = 0.0;
     */
 }
-Pizza::Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char delivery, string address, double pizzaPrice, char notes, string writeNotes)
+Pizza::Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char delivery, string address, double pizzaPrice, string notes, char inTheOven, char ready, char payed)
 {
     this-> costumerName = costumerName;
     this-> pizzaSize = pizzaSize;
@@ -17,8 +17,15 @@ Pizza::Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char
     this-> delivery = delivery;
     this-> address = address;
     this-> pizzaPrice = pizzaPrice;
-    this -> notes = notes;
-    this -> writeNotes = writeNotes;
+    this-> notes = notes;
+    this-> inTheOven = inTheOven;
+    this-> ready = ready;
+    this-> payed = payed;
+    this-> notes = notes;
+    this-> inTheOven = inTheOven;
+    this-> ready = ready;
+    this-> payed = payed;
+
 }
 string Pizza::getCostumerName() const
 {
@@ -44,13 +51,21 @@ double Pizza::getPizzaPrice() const
 {
     return this->pizzaPrice;
 }
-char Pizza:: getNotes() const
+string Pizza:: getNotes() const
 {
-    return this -> notes;
+    return this->notes;
 }
-string Pizza::getWriteNotes() const
+char Pizza::getInTheOven() const
 {
-    return this ->writeNotes;
+    return this->inTheOven;
+}
+char Pizza::GetReady() const
+{
+    return this->ready;
+}
+char Pizza::GetpPayed() const
+{
+    return this->payed;
 }
 
 istream& operator >> (istream& in, Pizza& pizza)
@@ -77,8 +92,11 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
     char delivery;
     string address = "";
     pizzaPrice = 0.0;
-    char notes;
-    string writeNotes;
+    string notes = "";
+    char inTheOven = '0';
+    char ready = '0';
+    char payed = '0';
+    char youWantToAddNote = '0';
     //char confirm = '0';
     cout << endl;
     cout << "Costumer name: " << endl;
@@ -174,22 +192,20 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
         getline(cin, address);
     }
 
-    cout << endl;
-    cout << "Notes: " << endl;
+    cout << endl << "do you want to add a note?" << endl;
     cout << "1: YES" << endl;
     cout << "2: NO" << endl;
     cout << "Menu>Sales>Order: ";
-    cin >> notes;
-
-    if (notes == '1')
+    cin >> youWantToAddNote;
+    if (youWantToAddNote == '1')
     {
         cout << endl << "Please enter notes: " << endl;
         cout << "Menu>Sales>Order: ";
         cin >> ws;
-        getline (cin, writeNotes);
+        getline (cin, notes);
     }
 
-    Pizza newPizzaOrder(costumerName, pizzaSize, toppings, delivery, address, pizzaPrice, notes, writeNotes);
+    Pizza newPizzaOrder(costumerName, pizzaSize, toppings, delivery, address, pizzaPrice, notes,  inTheOven, ready, payed);
     pizzaOrder.push_back(newPizzaOrder);
 
 
