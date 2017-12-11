@@ -2,6 +2,9 @@
 #define PIZZA_H
 #include "Topping.h"
 #include "toppingservice.h"
+#include "InvalidName.h"
+#include "InvalidPizzaSize.h"
+#include "InvalidDelivery.h"
 //#include "salesui.h"
 #include <iostream>
 using namespace std;

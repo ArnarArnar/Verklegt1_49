@@ -51,6 +51,9 @@
 		<Unit filename="include/UI/adminui.h" />
 		<Unit filename="include/UI/bakerui.h" />
 		<Unit filename="include/UI/salesui.h" />
+		<Unit filename="include/exeptions/InvalidDelivery.h" />
+		<Unit filename="include/exeptions/InvalidName.h" />
+		<Unit filename="include/exeptions/InvalidPizzaSize.h" />
 		<Unit filename="include/exeptions/InvalidTopping.h" />
 		<Unit filename="include/models/Pizza.h" />
 		<Unit filename="include/models/topping.h" />
@@ -64,6 +67,9 @@
 		<Unit filename="src/UI/bakerui.cpp" />
 		<Unit filename="src/UI/deliveryui.cpp" />
 		<Unit filename="src/UI/salesui.cpp" />
+		<Unit filename="src/exeptions/InvalidDelivery.cpp" />
+		<Unit filename="src/exeptions/InvalidName.cpp" />
+		<Unit filename="src/exeptions/InvalidPizzaSize.cpp" />
 		<Unit filename="src/exeptions/InvalidTopping.cpp" />
 		<Unit filename="src/models/Pizza.cpp" />
 		<Unit filename="src/models/topping.cpp" />
