@@ -30,6 +30,24 @@ void PizzaRepository::addNewOrderToTXT(vector<Pizza>& pizzaOrder){
     fout.close();
 }
 
+void PizzaRepository::viewOrdersInTXT(){
+    string str;
+    ifstream fin;
+    fin.open("pizzaorders.txt");
+    if(fin.is_open()){
+        while(!fin.eof()){
+            getline(fin, str);
+            cout << str << endl;
+        }
+        cout << fin.eof() << endl;
+    }
+    else {
+        cout << "File not open" << endl;
+    }
+    fin.close();
+}
+
+
 
 
 

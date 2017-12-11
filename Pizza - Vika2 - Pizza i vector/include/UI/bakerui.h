@@ -1,6 +1,7 @@
 #ifndef BAKERUI_H
 #define BAKERUI_H
 #include "MainUI.h"
+#include "PizzaRepository.h"
 #include <iostream>
 using namespace std;
 
