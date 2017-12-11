@@ -11,7 +11,7 @@ void SalesUI::SalesMenuUI() {
         cout << "SALES MENU" << endl << endl;
         cout << "1: Make order" << endl;
         cout << "2: View order" << endl;
-        cout << "3: Delivery or pickup" << endl;
+        cout << "3: print " << endl;
         cout << "4: Notes" << endl;
         cout << "Q: Quit to menu" << endl;
 

@@ -16,6 +16,7 @@ class PizzaRepository
         friend istream& operator >> (istream& in, PizzaRepository& pizzaRepository);
         friend ostream& operator << (ostream& out, const PizzaRepository& pizzaRepository);
         void set_size_price();
+        void addNewOrderToTXT(vector<Pizza>& pizzaOrder);
 
     protected:
 
