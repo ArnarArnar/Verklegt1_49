@@ -9,7 +9,7 @@ Pizza::Pizza()
         double pizzaPrice = 0.0;
     */
 }
-Pizza::Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char delivery, string address, double pizzaPrice)
+Pizza::Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char delivery, string address, double pizzaPrice, char notes, string writeNotes)
 {
     this-> costumerName = costumerName;
     this-> pizzaSize = pizzaSize;
@@ -17,6 +17,8 @@ Pizza::Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char
     this-> delivery = delivery;
     this-> address = address;
     this-> pizzaPrice = pizzaPrice;
+    this -> notes = notes;
+    this -> writeNotes = writeNotes;
 }
 string Pizza::getCostumerName() const
 {
@@ -42,6 +44,15 @@ double Pizza::getPizzaPrice() const
 {
     return this->pizzaPrice;
 }
+char Pizza:: getNotes() const
+{
+    return this -> notes;
+}
+string Pizza::getWriteNotes() const
+{
+    return this ->writeNotes;
+}
+
 istream& operator >> (istream& in, Pizza& pizza)
 {
 
@@ -66,6 +77,8 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
     char delivery;
     string address = "";
     pizzaPrice = 0.0;
+    char notes;
+    string writeNotes;
     //char confirm = '0';
     cout << endl;
     cout << "Costumer name: " << endl;
@@ -160,8 +173,27 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
         cin >> ws;
         getline(cin, address);
     }
-    Pizza newPizzaOrder(costumerName, pizzaSize, toppings, delivery, address, pizzaPrice);
+
+    cout << endl;
+    cout << "Notes: " << endl;
+    cout << "1: YES" << endl;
+    cout << "2: NO" << endl;
+    cout << "Menu>Sales>Order: ";
+    cin >> notes;
+
+    if (notes == '1')
+    {
+        cout << endl << "Please enter notes: " << endl;
+        cout << "Menu>Sales>Order: ";
+        cin >> ws;
+        getline (cin, writeNotes);
+    }
+
+    Pizza newPizzaOrder(costumerName, pizzaSize, toppings, delivery, address, pizzaPrice, notes, writeNotes);
     pizzaOrder.push_back(newPizzaOrder);
+
+
+
 
 
 //}

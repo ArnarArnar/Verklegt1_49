@@ -14,13 +14,15 @@ class Pizza
 {
     public:
         Pizza();
-        Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char pickup, string address, double pizzaPrice);
+        Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char pickup, string address, double pizzaPrice , char notes, string writeNotes);
         string getCostumerName() const;
         char getPizzaSize() const;
         vector<Topping>  getToppingName() const;
         char getDelivery() const;
         string getAddress() const;
         double getPizzaPrice() const;
+        char getNotes() const;
+        string getWriteNotes() const;
        // friend istream& operator >> (istream& in, Pizza& pizza);
         //friend ostream& operator << (ostream& out, const Pizza& pizza);
         void PrintPizzaVector (const vector<Pizza>& pizzaOrder);
@@ -36,6 +38,10 @@ class Pizza
         char delivery;
         string address;
         double pizzaPrice;
+        char notes;
+        string writeNotes;
+       // int oven;
+        //ready or paid
 //        PizzaService pizzaService;
 };
 
