@@ -67,6 +67,15 @@ vector<Topping> ToppingService::listAllToppings()
         }
         cout << "Menu>Sales>Order: ";
         cin >> toppingSelection;
+        while(cin.fail())
+        {
+        cin.clear(); //clear input buffer to restore cin to a usable state
+        cin.ignore(INT_MAX, '\n'); //ignore last input
+        cout << "you can only enter numbers" << endl;
+        cout << "Menu>Sales>Order: ";
+        cin >> toppingSelection;
+        }
+    Topping topping;
 
         if (toppingSelection > 0 && toppingSelection <= (int)toppingToSelectFrom.size())
         {
