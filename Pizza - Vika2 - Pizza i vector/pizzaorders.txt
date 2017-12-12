@@ -1,2 +1,8 @@
 SiggiHall,2,1,husalind,0,
 hilmar,2,2,,0,
+Hilmar,2,2,,0,
+Hilmar,2,2,,0,
+Hilli,3,2,,0,
+Hills,3,2,,0,
+Kolla,3,2,,0,
+aron ernir,1,2,,,0,

@@ -23,6 +23,7 @@ void PizzaRepository::addNewOrderToTXT(vector<Pizza>& pizzaOrder){
         fout << pizzaOrder[i].getPizzaSize() << ",";
         fout << pizzaOrder[i].getDelivery() << ",";
         fout << pizzaOrder[i].getAddress() << ",";
+        fout << pizzaOrder[i].getNotes() << ",";
         fout << pizzaOrder[i].getPizzaPrice() << ",";
 
         fout << endl;
