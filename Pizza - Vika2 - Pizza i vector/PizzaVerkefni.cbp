@@ -56,9 +56,12 @@
 		<Unit filename="include/exeptions/InvalidPizzaSize.h" />
 		<Unit filename="include/exeptions/InvalidTopping.h" />
 		<Unit filename="include/models/Pizza.h" />
+		<Unit filename="include/models/pizzaorder.h" />
 		<Unit filename="include/models/topping.h" />
 		<Unit filename="include/repositories/PizzaRepository.h" />
+		<Unit filename="include/repositories/pizzaorderrepository.h" />
 		<Unit filename="include/repositories/toppingrepository.h" />
+		<Unit filename="include/service/pizzaorderservice.h" />
 		<Unit filename="include/service/pizzaservice.h" />
 		<Unit filename="include/service/toppingservice.h" />
 		<Unit filename="main.cpp" />
@@ -72,9 +75,12 @@
 		<Unit filename="src/exeptions/InvalidPizzaSize.cpp" />
 		<Unit filename="src/exeptions/InvalidTopping.cpp" />
 		<Unit filename="src/models/Pizza.cpp" />
+		<Unit filename="src/models/pizzaorder.cpp" />
 		<Unit filename="src/models/topping.cpp" />
 		<Unit filename="src/repositories/PizzaRepository.cpp" />
+		<Unit filename="src/repositories/pizzaorderrepository.cpp" />
 		<Unit filename="src/repositories/toppingrepository.cpp" />
+		<Unit filename="src/service/pizzaorderservice.cpp" />
 		<Unit filename="src/service/pizzaservice.cpp" />
 		<Unit filename="src/service/toppingservice.cpp" />
 		<Extensions>

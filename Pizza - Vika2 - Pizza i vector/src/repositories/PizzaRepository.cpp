@@ -8,28 +8,7 @@ PizzaRepository::~PizzaRepository()
 {
     //dtor
 }
-/*
-void PizzaRepository::setVerbose(bool v){
-        verbose = v;
-    }
-*/
-void PizzaRepository::addNewOrderToTXT(vector<Pizza>& pizzaOrder){
-    ofstream fout;
-    fout.open ("pizzaorders.txt", ios::app);
-    int toppingCount = pizzaOrder.size();
 
-    for(int i = 0; i < toppingCount; i++){
-        fout << pizzaOrder[i].getCostumerName() << ",";
-        fout << pizzaOrder[i].getPizzaSize() << ",";
-        fout << pizzaOrder[i].getDelivery() << ",";
-        fout << pizzaOrder[i].getAddress() << ",";
-        fout << pizzaOrder[i].getNotes() << ",";
-        fout << pizzaOrder[i].getPizzaPrice() << ",";
-
-        fout << endl;
-    }
-    fout.close();
-}
 
 void PizzaRepository::viewOrdersInTXT(){
     string str;

@@ -1,8 +1,7 @@
 #ifndef PIZZAREPOSITORY_H
 #define PIZZAREPOSITORY_H
-#include "Pizza.h"
-#include <iostream>
-using namespace std;
+#include "Pizzaservice.h"
+#include <fstream>
 
 class PizzaRepository
 {
@@ -10,13 +9,13 @@ class PizzaRepository
         PizzaRepository();
         PizzaRepository(char *name, double price);
         virtual ~PizzaRepository();
-        void storePizza(const Pizza& pizza);
-        Pizza retrievePizza();
+//        void storePizza(const Pizza& pizza);
+//        Pizza retrievePizza();
         void setVerbose(bool v);
         friend istream& operator >> (istream& in, PizzaRepository& pizzaRepository);
         friend ostream& operator << (ostream& out, const PizzaRepository& pizzaRepository);
         void set_size_price();
-        void addNewOrderToTXT(vector<Pizza>& pizzaOrder);
+//        void addNewOrderToTXT(vector<Pizza>& pizzaOrder);
         void viewOrdersInTXT();
 
     protected:

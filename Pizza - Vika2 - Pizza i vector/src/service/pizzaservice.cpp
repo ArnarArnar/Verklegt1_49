@@ -4,60 +4,59 @@ PizzaService::PizzaService()
 {
 
 }
-/*
-void PizzaService::FillPizzaVector(vector<Pizza>& pizzaOrder){
 
-        string costumerName;
-        cin >> costumerName;
-        string pizzaSize;
+void PizzaService::FillPizzaVectorService(vector<Pizza>& pizzas){
+
+        cout << "Pizza Size" << endl;
+        char pizzaSize;
         cin >> pizzaSize;
-        int pickup;
-        cin >> pickup;
-        double pizzaPrice;
-        cin >> pizzaPrice;
 
-        Pizza newPizzaOrder(costumerName, pizzaSize,  pickup, pizzaPrice);
-        pizzaOrder.push_back(newPizzaOrder);
-}
-*/
-void PizzaService::PrintToScreenPizzaVector (const vector<Pizza>& pizzaOrder) {
-    size_t vectorSize = pizzaOrder.size();
-    for(size_t i = 0; i < vectorSize; i++) {
-        cout << "Costumer Name: " << pizzaOrder[i].getCostumerName() << endl;
-        switch (pizzaOrder[i].getPizzaSize()){
-            case '1':{cout << "Pizza Size:    Small" << endl;} break;
-            case '2':{cout << "Pizza Size:    Medium" << endl;} break;
-            case '3':{cout << "Pizza Size:    Large" << endl;} break;
-        }
-        cout << "Pizza Size:    " << pizzaOrder[i].getPizzaSize() << endl;
-        cout << "Topping:       Virkni ekki tilbúin" << endl;
-        if (pizzaOrder[i].getDelivery() == '1'){
-            cout << "Delivery:      YES" << endl;
-            cout << "Address:       " << pizzaOrder[i].getAddress() << endl;
-        }
-        else{
-            cout << "Delivery:      NO" << endl;
-        }
-        if (pizzaOrder[i].getNotes() != ""){
-            cout << pizzaOrder[i].getNotes() << endl;
-        }
 
-        cout << "PizzaPrice:    " << pizzaOrder[i].getPizzaPrice() << endl;
-    }
+  //      toppings = listAllToppings();
+
+        Pizza newPizzaOrder(pizzaSize, toppings);
+        pizzas.push_back(newPizzaOrder);
 }
 /*
-void PizzaService::ToppingsInOrder (const vector<Topping>& topping) {
+vector<Topping> PizzaService::listAllToppings()
+{
+    ToppingRepository toppRepo;
+    Topping toppingAdd;
+    vector<Topping> toppingToSelectFrom = toppRepo.FillToppingsVectorFromTXT();
+    int toppingSelection = -1;
+    while (toppingSelection != 0)
+    {
+        cout << "Please enter id for toppings to add (0 to quit)" << endl;
+        for (size_t i = 0; i < toppingToSelectFrom.size(); i++)
+        {
+            cout << "[" << i+1 << "] " << toppingToSelectFrom[i].name << endl;
+        }
+        cout << "Menu>Sales>Order: ";
+        cin >> toppingSelection;
+        while(cin.fail())
+        {
+        cin.clear(); //clear input buffer to restore cin to a usable state
+        cin.ignore(INT_MAX, '\n'); //ignore last input
+        cout << "you can only enter numbers" << endl;
+        cout << "Menu>Sales>Order: ";
+        cin >> toppingSelection;
+        }
+    Topping topping;
+
+        if (toppingSelection > 0 && toppingSelection <= (int)toppingToSelectFrom.size())
+        {
+            toppingAdd.addTopping(toppingToSelectFrom[toppingSelection-1]);
+        }
+    }
+    return toppingToSelectFrom;
+}
+/*
+
+void PizzaService::ToppingsInOrder (const vector<Pizza>& pizzas) {
     Pizza toppingName;
     for (unsigned int i = 0; i < topping.size(); i++) {
         cout << toppingName.getToppingName();
     }
 }
+
 */
-
-void PizzaService::addNewOrderToTXTService(vector<Pizza>& pizzaOrder){
-    PizzaRepository pizzaRepo;
-    pizzaRepo.addNewOrderToTXT(pizzaOrder);
-
-
-}
-

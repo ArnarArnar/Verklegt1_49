@@ -2,7 +2,8 @@
 #define PIZZASERVICE_H
 #include "Pizza.h"
 #include "PizzaRepository.h"
-#include "MainUI.h"
+
+
 
 
 
@@ -10,14 +11,13 @@ class PizzaService
 {
     public:
         PizzaService();
-        void FillPizzaVector(vector<Pizza>& newPizzaOrder);
-        void PrintToScreenPizzaVector (const vector<Pizza>& pizzaOrder);
+        void FillPizzaVectorService(vector<Pizza>& pizzas);
+        vector<Topping> listAllToppings();
         void ToppingsInOrder (const vector<Topping>& topping);
-        void addNewOrderToTXTService(vector<Pizza>& pizzaOrder);
 
     private:
         vector<Pizza> pizzas;
-
+        vector<Topping> toppings;
 
 };
 

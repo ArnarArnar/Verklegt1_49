@@ -21,25 +21,27 @@ void SalesUI::SalesMenuUI() {
         cin >> selection;
         switch(selection) {
         case '1': {
-            Pizza pizza;
-            pizza.FillPizzaVector(pizzas);
+            PizzaOrder newpizza;
+//            newpizza.FillPizzaOrderVector(pizzaOrders);
             cout << endl;
         }
         break;
         case '2': {
-        vector<Pizza> order;
-        PizzaService pizzaService;
-        pizzaService.PrintToScreenPizzaVector(pizzas);
+    //    vector<Pizza> order;
+    //    PizzaService pizzaService;
+    //    pizzaService.PrintToScreenPizzaVector(pizzas);
             cout << endl;
         }
         break;
         case '3': {
-        PizzaService sendtoTXT;
-        sendtoTXT.addNewOrderToTXTService(pizzas);
+     //   PizzaService sendtoTXT;
+      //  sendtoTXT.addNewOrderToTXTService(pizzas);
             cout << endl;
         }
         break;
         case '4': {
+            Pizza pizzatest;
+//            pizzatest.FillPizzaVector(pizzas);
             cout << endl;
         }
         break;
