@@ -228,19 +228,22 @@
 	<iostream>
 	<vector>
 
-1512923254 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\toppingservice.h
+1512937514 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\toppingservice.h
 	"topping.h"
 	"toppingrepository.h"
+	"InvalidTopping.h"
+	<climits>
 
 1512845010 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\repositories\toppingrepository.h
 	<fstream>
 	"toppingservice.h"
 	<stdlib.h>
 
-1512674102 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidtopping.cpp
+1512937514 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidtopping.cpp
 	"InvalidTopping.h"
 
-1512674102 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidtopping.h
+1512937514 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidtopping.h
+	<string>
 
 1512937350 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\pizza.cpp
 	"Pizza.h"
@@ -266,7 +269,7 @@
 1512918841 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\repositories\toppingrepository.cpp
 	"toppingrepository.h"
 
-1512932787 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\toppingservice.cpp
+1512937514 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\toppingservice.cpp
 	"toppingservice.h"
 
 1512845036 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\adminui.cpp
@@ -301,13 +304,13 @@
 	"MainUI.h"
 	"Pizza.h"
 
-1512935802 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\pizzaservice.h
+1512937514 c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\pizzaservice.h
 	"Pizza.h"
 	"MainUI.h"
 
 1512937350 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\salesui.cpp
 	"salesui.h"
 
-1512935117 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\pizzaservice.cpp
+1512937563 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\pizzaservice.cpp
 	"pizzaservice.h"
 
