@@ -8,66 +8,23 @@ DeliveryUI::DeliveryUI()
 void DeliveryUI::DeliveryMenuUI() {
     char selection = '\0';
     while (selection != 'q') {
-        //mun breyta og setja í function. Er skýrara ef þetta er.
-        for(int i = 0; i < 50; i++)
-        {
-            cout << endl;
-        }
         cout << "DELIVERY MENU" << endl << endl;
-        cout << "O: Select outlet" << endl;
-        cout << "L: List of ordered pizza's" << endl;
-        cout << "R: List of ready pizza's" << endl;
-        cout << "S: Search orders" << endl;
-        cout << "P: Mark order as payed" << endl;
-        cout << "F: Mark order as finished" << endl;
-        cout << "Q: Quit to menu" << endl;
-
+        cout << "1: List of ready pizza's - Not ready" << endl;
+        cout << "2: Mark order as 'on the way' - Not ready" << endl;
+        cout << "0: Quit to menu" << endl;
+        cout << "Menu>Delivery: ";
         cin >> selection;
         switch(selection) {
-        case 'o':
-        case 'O': {
+        case '1': {
 
             cout << endl;
         }
         break;
-
-        case 'l':
-        case 'L': {
+        case '2': {
 
             cout << endl;
         }
-        break;
-
-        case 'r':
-        case 'R': {
-
-            cout << endl;
-        }
-        break;
-
-        case 's':
-        case 'S': {
-
-            cout << endl;
-        }
-        break;
-
-        case 'p':
-        case 'P': {
-
-            cout << endl;
-        }
-        break;
-
-        case 'f':
-        case 'F': {
-
-            cout << endl;
-        }
-        break;
-
-        case 'q':
-        case 'Q': {
+        case '0': {
             MainUI welcomeMenu;
             welcomeMenu.welcomeUI();
             cout << endl;
@@ -76,3 +33,4 @@ void DeliveryUI::DeliveryMenuUI() {
         }
     }
 }
+

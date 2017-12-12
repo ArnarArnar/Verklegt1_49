@@ -1,8 +1,4 @@
-#include <strings.h>
 #include "PizzaRepository.h"
-#include <fstream>
-#include "pizza.h"
-using namespace std;
 
 PizzaRepository::PizzaRepository()
 {
@@ -12,9 +8,66 @@ PizzaRepository::~PizzaRepository()
 {
     //dtor
 }
+/*
 void PizzaRepository::setVerbose(bool v){
         verbose = v;
     }
+*/
+void PizzaRepository::addNewOrderToTXT(vector<Pizza>& pizzaOrder){
+    ofstream fout;
+    fout.open ("pizzaorders.txt", ios::app);
+    int toppingCount = pizzaOrder.size();
+
+    for(int i = 0; i < toppingCount; i++){
+        fout << pizzaOrder[i].getCostumerName() << ",";
+        fout << pizzaOrder[i].getPizzaSize() << ",";
+        fout << pizzaOrder[i].getDelivery() << ",";
+        fout << pizzaOrder[i].getAddress() << ",";
+        fout << pizzaOrder[i].getPizzaPrice() << ",";
+
+        fout << endl;
+    }
+    fout.close();
+}
+
+void PizzaRepository::viewOrdersInTXT(){
+    string str;
+    ifstream fin;
+    fin.open("pizzaorders.txt");
+    if(fin.is_open()){
+        while(!fin.eof()){
+            getline(fin, str);
+            cout << str << endl;
+        }
+        cout << fin.eof() << endl;
+    }
+    else {
+        cout << "File not open" << endl;
+    }
+    fin.close();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 void PizzaRepository::set_size_price(){
     char answer;

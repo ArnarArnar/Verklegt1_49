@@ -10,10 +10,12 @@ void SalesUI::SalesMenuUI() {
     while (selection != 'q') {
         cout << "SALES MENU" << endl << endl;
         cout << "1: Make order" << endl;
-        cout << "2: View order" << endl;
-        cout << "3: Delivery or pickup" << endl;
-        cout << "4: Notes" << endl;
-        cout << "Q: Quit to menu" << endl;
+        cout << "2: View newest order" << endl;
+        cout << "3: test: print order to TXT " << endl;
+        cout << "4: List of ready pizza's - Not ready" << endl;
+        cout << "5: Search orders - Not ready" << endl;
+        cout << "6: Mark order as payed - Not ready" << endl;
+        cout << "0: Quit to menu" << endl;
 
         cout << "Menu>Sales: ";
         cin >> selection;
@@ -25,13 +27,15 @@ void SalesUI::SalesMenuUI() {
         }
         break;
         case '2': {
-           vector<Pizza> order;
+        vector<Pizza> order;
         PizzaService pizzaService;
         pizzaService.PrintToScreenPizzaVector(pizzas);
             cout << endl;
         }
         break;
         case '3': {
+        PizzaService sendtoTXT;
+        sendtoTXT.addNewOrderToTXTService(pizzas);
             cout << endl;
         }
         break;

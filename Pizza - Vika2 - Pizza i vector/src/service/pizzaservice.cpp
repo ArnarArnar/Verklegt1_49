@@ -38,6 +38,10 @@ void PizzaService::PrintToScreenPizzaVector (const vector<Pizza>& pizzaOrder) {
         else{
             cout << "Delivery:      NO" << endl;
         }
+        if (pizzaOrder[i].getNotes() != ""){
+            cout << pizzaOrder[i].getNotes() << endl;
+        }
+
         cout << "PizzaPrice:    " << pizzaOrder[i].getPizzaPrice() << endl;
     }
 }
@@ -49,4 +53,11 @@ void PizzaService::ToppingsInOrder (const vector<Topping>& topping) {
     }
 }
 */
+
+void PizzaService::addNewOrderToTXTService(vector<Pizza>& pizzaOrder){
+    PizzaRepository pizzaRepo;
+    pizzaRepo.addNewOrderToTXT(pizzaOrder);
+
+
+}
 
