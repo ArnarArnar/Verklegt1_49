@@ -1,11 +1,11 @@
 #ifndef MAINUI_H
 #define MAINUI_H
-#include "adminui.h"
-#include "salesui.h"
-#include "pizzaorder.h"
-#include "Pizza.h"
-#include "topping.h"
-#include "InvalidName.h"
+#include "../UI/adminui.h"
+#include "../UI/salesui.h"
+#include "../models/pizzaorder.h"
+#include "../models/Pizza.h"
+#include "../models/topping.h"
+#include "../exceptions/InvalidName.h"
 #include <vector>
 #include <string>
 using namespace std;

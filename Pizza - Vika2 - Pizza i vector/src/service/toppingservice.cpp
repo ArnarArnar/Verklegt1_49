@@ -4,7 +4,7 @@ ToppingService::ToppingService()
 {
     //ctor
 }
-vector<Topping> ToppingService::FillToppingsVectorFromTXTService()
+vector<Topping>& ToppingService::FillToppingsVectorFromTXTService()
 {
     ToppingRepository retrive;
     return retrive.FillToppingsVectorFromTXT();

@@ -1,8 +1,8 @@
 #ifndef SALESUI_H
 #define SALESUI_H
-#include "MainUI.h"
-//#include "pizzaorder.h"
-//#include "Pizza.h"
+#include "../UI/MainUI.h"
+#include "../models/pizzaorder.h"
+#include "../models/Pizza.h"
 
 
 
@@ -15,7 +15,7 @@ class SalesUI
 
     private:
 //        vector<Pizza> pizzas;
-  //      vector<PizzaOrder> pizzaOrders;
+//        vector<PizzaOrder> pizzaOrders;
 
 
 

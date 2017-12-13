@@ -1,8 +1,7 @@
 #ifndef PIZZAORDERSERVICE_H
 #define PIZZAORDERSERVICE_H
-#include "pizzaorder.h"
-#include "pizzaorderrepository.h"
-
+#include "../models/pizzaorder.h"
+#include "../repositories/pizzaorderrepository.h"
 
 class PizzaOrderService
 {

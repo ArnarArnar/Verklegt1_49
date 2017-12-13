@@ -1,9 +1,10 @@
 #ifndef TOPPINGSERVICE_H
 #define TOPPINGSERVICE_H
-#include "topping.h"
-#include "toppingrepository.h"
+#include "../models/topping.h"
+//#include "../repositories/toppingrepository.h"
 #include "InvalidTopping.h"
 #include <climits>
+#include <vector>
 
 
 class ToppingService

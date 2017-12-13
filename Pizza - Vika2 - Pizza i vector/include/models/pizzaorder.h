@@ -1,9 +1,7 @@
 #ifndef PIZZAORDER_H
 #define PIZZAORDER_H
-
-
-#include "topping.h"
-#include "salesui.h"
+#include "../models/topping.h"
+#include "../UI/salesui.h"
 
 class PizzaOrder
 {

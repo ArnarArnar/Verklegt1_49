@@ -55,7 +55,6 @@ void SalesUI::SalesMenuUI() {
     }
 }
 
-
 void SalesUI::OrderUI() {
     char selection = '\0';
     while (selection != 'q') {
