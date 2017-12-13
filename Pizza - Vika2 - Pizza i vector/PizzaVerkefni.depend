@@ -506,7 +506,7 @@
 1513167898 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\adminui.h
 	"toppingservice.h"
 
-1513166780 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\topping.h
+1513175546 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\topping.h
 	<vector>
 	<string>
 	<iostream>
@@ -567,10 +567,10 @@
 1512994081 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidtopping.cpp
 	"InvalidTopping.h"
 
-1513172221 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\pizza.cpp
+1513175523 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\pizza.cpp
 	"Pizza.h"
 
-1513162859 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\pizza.h
+1513175388 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\pizza.h
 	"topping.h"
 
 1512936673 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidtopping.h
@@ -593,7 +593,7 @@
 1513167898 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\pizza.h
 	"topping.h"
 
-1513171014 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\topping.cpp
+1513175546 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\topping.cpp
 	"topping.h"
 
 1513107556 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\repositories\pizzarepository.cpp
@@ -610,7 +610,7 @@
 1513162200 source:c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\pizzaservice.cpp
 	"pizzaservice.h"
 
-1513162934 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\pizzaservice.h
+1513173853 c:\users\arnar\onedrive - reykjavik university\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\pizzaservice.h
 	"Pizza.h"
 	<vector>
 	"PizzaRepository.h"

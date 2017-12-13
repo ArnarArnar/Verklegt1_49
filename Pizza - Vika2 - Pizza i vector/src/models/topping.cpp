@@ -25,14 +25,7 @@ ostream& operator << (ostream& out, vector<Topping>& toppingFromVector) {
     }
     return out;
 }
-/*
-ostream& operator << (ostream& out, const Topping& topping) {
-    out << topping.name << endl;
-    out << topping.price << endl;
->>>>>>> 44e47e7cf765e18d9ac9166964bbb38e7e125975
-    return out;
-}
-*/
+
 
 
 istream& operator >> (istream& in, vector<Topping>& toppingFromVector) {
@@ -57,8 +50,4 @@ istream& operator >> (istream& in, vector<Topping>& toppingFromVector) {
     return in;
 }
 
-
-void Topping::addTopping(Topping topping){
-    toppings.push_back(topping);
-}
 

@@ -19,18 +19,17 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzas){
 //    PizzaService.FillPizzaVector(pizzas);
 }
 
-/*
-ostream& operator << (ostream& out, vector<Pizza>& pizzasFromVector) {
-    for (unsigned int i = 0; i < pizzasFromVector.size(); i++){
-        out << "Pizza size (1 small, 2, medim, 3 large: " <<  pizzasFromVector[i].getPizzaSize() << endl;
-        for (unsigned int j = 0; j < toppings.getToppingName().size(); i++) {
-            out << "toppings: " << endl;
-            out << toppings.getToppingName();
-        }
 
-            return out;
+ostream& operator << (ostream& out, Pizza& pizza) {
+    out << "Pizza size (1 small, 2, medim, 3 large: " <<  pizza.getPizzaSize() << endl;
+    out << "toppings: " << endl;
+    for (unsigned int j = 0; j < pizza.toppings.size(); j++) {
+        out <<  pizza.toppings[j].get_name();
+    }
+     return out;
 }
-*/
+
+
     /*    cout << "pizzaSize: " << endl;
     cout << "1: Small" << endl;
     cout << "2: Medium" << endl;

@@ -12,13 +12,14 @@ class Pizza
         vector<Topping>  getToppingName() const;
         void PrintPizzaVector (const vector<Pizza>& pizzaOrder);
         void FillPizzaVector(vector<Pizza>& pizzaOrder);
-        friend ostream& operator << (ostream& out, const vector<Topping>& toppings);
+        friend ostream& operator << (ostream& out, Pizza& pizza);
 
 
     private:
-        vector<Pizza> pizzas;
+        //vector<Pizza> pizzas;
         vector<Topping> toppings;
         char pizzaSize;
+
 
 };
 
