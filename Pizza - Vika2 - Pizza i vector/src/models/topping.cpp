@@ -18,13 +18,13 @@ double Topping::get_price()const{
     return this->price;
 }
 
-<<<<<<< HEAD
 ostream& operator << (ostream& out, vector<Topping>& toppingFromVector) {
     for (unsigned int i = 0; i < toppingFromVector.size(); i++){
         out << "Name of topping  : " << toppingFromVector[i].get_name() << endl;
         out << "Price of topping : " << toppingFromVector[i].get_price() << endl;
     }
-=======
+    return out;
+}
 /*
 ostream& operator << (ostream& out, const Topping& topping) {
     out << topping.name << endl;
