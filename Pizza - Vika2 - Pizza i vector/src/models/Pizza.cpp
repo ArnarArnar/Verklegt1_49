@@ -47,6 +47,8 @@ istream& operator >> (istream& in, Pizza& pizza){
     */
     in >> pizza.pizzaSize;
     in >> pizza.toppings;
+
+    return in;
 }
 /*
     cout << endl;

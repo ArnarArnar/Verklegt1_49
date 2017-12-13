@@ -46,8 +46,9 @@ vector<Topping> PizzaService::listAllToppings()
     }
     return toppingToSelectFrom;
 }
-/*
+*/
 
+/*
 void PizzaService::ToppingsInOrder (const vector<Pizza>& pizzas) {
     Pizza toppingName;
     for (unsigned int i = 0; i < topping.size(); i++) {

@@ -38,6 +38,15 @@ istream& operator >> (istream& in, vector<Topping>& toppingFromVector)
     int numberOfToppings;
     cout << "Number of toppings: ";
     in >> numberOfToppings;
+    while(cin.fail())
+    {
+        cin.clear(); //clear input buffer to restore cin to a usable state
+        cin.ignore(INT_MAX, '\n'); //ignore last input
+        cout << "you can only enter numbers" << endl;
+        cout << "how many toppings? ";
+        in >> numberOfToppings;
+    }
+
     Topping topping;
 
     for(int i = 0; i < numberOfToppings; i++)
@@ -49,15 +58,6 @@ istream& operator >> (istream& in, vector<Topping>& toppingFromVector)
         cout << "Price: ";
         /// hér vantar að kasta villu ef ekki int.
         cin >> topping.price;
-        while(cin.fail())
-        {
-            cin.clear(); //clear input buffer to restore cin to a usable state
-            cin.ignore(INT_MAX, '\n'); //ignore last input
-            cout << "you can only enter numbers" << endl;
-            cout << "Price: ";
-            cin >> numberOfToppings;
-        }
-
         toppingFromVector.push_back(topping);
     }
 
