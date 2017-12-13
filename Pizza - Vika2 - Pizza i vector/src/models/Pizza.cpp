@@ -24,7 +24,7 @@ void Pizza::setPizzaSize(char Pizza)
 {
     this->pizzaSize = pizzaSize;
 }
-void Pizza::getToppingName(vector<Topping>)
+void Pizza::setToppingName(vector<Topping>)
 {
     this->toppings = toppings;
 }
@@ -46,7 +46,8 @@ istream& operator >> (istream& in, Pizza& pizza){
     cout << "Menu>Sales>Order: ";
     */
     in >> pizza.pizzaSize;
-    in >> pizza.toppings;
+
+    return in;
 }
 /*
     cout << endl;

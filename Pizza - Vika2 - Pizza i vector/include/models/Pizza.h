@@ -11,7 +11,7 @@ class Pizza
         char getPizzaSize() const;
         vector<Topping>  getToppingName() const;
         void setPizzaSize(char Pizza);
-        void getToppingName(vector<Topping>);
+        void setToppingName(vector<Topping>);
         void PrintPizzaVector (const vector<Pizza>& pizzaOrder);
         void FillPizzaVector(vector<Pizza>& pizzaOrder);
         friend ostream& operator << (ostream& out, Pizza& pizza);

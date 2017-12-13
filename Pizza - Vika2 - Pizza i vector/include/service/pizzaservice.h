@@ -15,7 +15,6 @@ class PizzaService
         vector<Pizza> pizzas;
         vector<Topping> toppings;
 
-
 };
 
 #endif // PIZZASERVICE_H

@@ -2,8 +2,8 @@
 #define SALESUI_H
 #include "../models/pizzaorder.h"
 #include "../models/Pizza.h"
-
-
+#include "../models/Topping.h"
+#include "ToppingService.h"
 
 class SalesUI
 {

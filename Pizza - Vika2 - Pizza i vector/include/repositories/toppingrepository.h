@@ -13,6 +13,8 @@ class ToppingRepository
         void storeAllToppingsToTXT(vector<Topping>& printTopping);
         vector<Topping> FillToppingsVectorFromTXT();
         Topping parseString (string line);
+        vector<Topping> listAllToppings();
+
     private:
         void deleteTextFromTXT();
 };

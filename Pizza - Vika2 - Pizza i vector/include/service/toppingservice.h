@@ -14,6 +14,7 @@ class ToppingService
         ToppingService();
         vector<Topping> FillToppingsVectorFromTXTService();
         void storeAllToppingsToTXTservice(vector<Topping>& printTopping);
+        vector<Topping> listAllToppings();
     private:
 
 };

@@ -21,8 +21,11 @@ void SalesUI::SalesMenuUI() {
         cin >> selection;
         switch(selection) {
         case '1': {
-            PizzaOrder newpizza;
+        Pizza newpizza;
 //            newpizza.FillPizzaOrderVector(pizzaOrders);
+        ToppingService toppService;
+        newpizza.setToppingName(toppService.listAllToppings());
+
             cout << endl;
         }
         break;
@@ -42,7 +45,8 @@ void SalesUI::SalesMenuUI() {
         case '4': {
             Pizza pizzatest;
             cin >> pizzatest;
-
+           // PizzaService pizzaService;
+           // pizza.toppings = pizzaService.listAllToppings();
             cout << pizzatest;
             cout << endl;
         }

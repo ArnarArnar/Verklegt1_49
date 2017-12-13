@@ -27,7 +27,6 @@ ostream& operator << (ostream& out, vector<Topping>& toppingFromVector) {
 }
 
 
-
 istream& operator >> (istream& in, vector<Topping>& toppingFromVector) {
     int numberOfToppings;
     cout << "Number of toppings: ";
@@ -50,4 +49,8 @@ istream& operator >> (istream& in, vector<Topping>& toppingFromVector) {
     return in;
 }
 
+
+void Topping::addTopping(Topping topping){
+    toppings.push_back(topping);
+}
 

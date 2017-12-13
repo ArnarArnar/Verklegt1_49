@@ -19,10 +19,12 @@ class Topping
         /// Næ ekki að hafa private eftir að ég setti inn istream& operator >> (istream& in, Topping& topping)
         string name;
         double price;
+        void addTopping(Topping topping);
+
 
     private:
 
-        //vector <Topping> toppings;
+        vector <Topping> toppings;
 
 };
 

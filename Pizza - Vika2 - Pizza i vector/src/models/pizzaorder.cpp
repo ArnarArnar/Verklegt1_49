@@ -54,6 +54,7 @@ char PizzaOrder::GetPayed() const
     return this->payed;
 }
 
+
 void PizzaOrder::FillPizzaOrderVector(vector<PizzaOrder>& newOrders)
 {
     string costumerName = "";
