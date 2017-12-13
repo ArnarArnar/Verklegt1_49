@@ -5,7 +5,7 @@ AdminUI::AdminUI(){ }
 
 void AdminUI::AdminMenuUI(){
     char selection = '\0';
-    while (selection != 'q') {
+    while (selection != '0') {
         /*
         cout << "S: Edit pizza sizes and price" << endl;
         cout << "T: Edit toppings selection" << endl;
@@ -18,6 +18,7 @@ void AdminUI::AdminMenuUI(){
         cout << "2. View all toppings in vector" << endl;
         cout << "3. Add some toppings *new* with vector!" << endl;
         cout << "4. Overwrite and store all topping in memory to TXT" << endl;
+        cout << "5. TEST" << endl;
         cout << "0: Return to menu" << endl;
         cout << endl;
 
@@ -30,31 +31,30 @@ void AdminUI::AdminMenuUI(){
         break;
         case '2': {
             cout << "Get all toppings" << endl;
-            toppingService.printToppingsToScreenFromVector(toppingVector);
+            cout << toppingVector;
+            cout << endl;
         }
         break;
         case '3': {
-            ToppingService add;
-            add.addToppingsVector(toppingVector);
+            cin >> toppingVector;
+
+            //ToppingService add;
+            //add.addToppingsVector(toppingVector);
         }
         break;
         case '4': {
-            ToppingRepository toppRepo2;
-            toppRepo2.storeAllToppings(toppingVector);
+            toppingService.storeAllToppingsToTXTservice(toppingVector);
         }
         break;
-        case 's':
-        case 'S': {
-//            PizzaRepository size_price;
- //           size_price.set_size_price();
-            cout << endl;
+        case '5': {
+
         }
         break;
 
         case 't':
         case 'T': {
-            Topping topping;
-//                topping.set_toppings();
+            // Topping topping;
+            // topping.set_toppings();
             cout << endl;
         }
         break;

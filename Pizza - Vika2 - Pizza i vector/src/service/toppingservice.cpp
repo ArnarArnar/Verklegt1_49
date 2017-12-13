@@ -4,23 +4,18 @@ ToppingService::ToppingService()
 {
     //ctor
 }
-vector<Topping>& ToppingService::FillToppingsVectorFromTXTService()
+vector<Topping> ToppingService::FillToppingsVectorFromTXTService()
 {
-    ToppingRepository retrive;
-//    return retrive.FillToppingsVectorFromTXT();
-    vector<Topping> toppings;
-    return toppings;
+  ToppingRepository toppingRepository;
+  return toppingRepository.FillToppingsVectorFromTXT();
 }
-void ToppingService::printToppingsToScreenFromVector(vector<Topping>& toppingFromVector)
-{
-    for (unsigned int i = 0; i < toppingFromVector.size(); i++)
-    {
-        cout << "Name of topping  : " << toppingFromVector[i].get_name() << endl;
-        cout << "Price of topping : " << toppingFromVector[i].get_price() << endl;
-    }
-    cout << endl;
+void ToppingService::storeAllToppingsToTXTservice(vector<Topping>& printTopping){
+    ToppingRepository storeToTXT;
+    storeToTXT.storeAllToppingsToTXT(printTopping);
 }
 
+///stroka út, má henda!
+/*
 void ToppingService::addToppingsVector(vector<Topping>& addtopping)
 {
     ToppingRepository toppRepo;
@@ -50,5 +45,5 @@ void ToppingService::addToppingsVector(vector<Topping>& addtopping)
     }
     cout << endl;
 }
-
+*/
 

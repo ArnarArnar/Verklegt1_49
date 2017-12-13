@@ -12,14 +12,10 @@ class ToppingService
 {
     public:
         ToppingService();
-        vector<Topping>& FillToppingsVectorFromTXTService();
-        void printToppingsToScreenFromVector(vector<Topping>& toppingFromVector);
-        void addToppingsVector(vector<Topping>& addtopping);
-        vector<Topping> listAllToppings();
-
-
-//        void printToppingsToScreenFromVector(vector<Topping>& toppingFromVector);
+        vector<Topping> FillToppingsVectorFromTXTService();
+        void storeAllToppingsToTXTservice(vector<Topping>& printTopping);
     private:
+
 };
 
 #endif // TOPPINGSERVICE_H

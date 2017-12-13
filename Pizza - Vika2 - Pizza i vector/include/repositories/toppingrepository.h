@@ -10,7 +10,7 @@ class ToppingRepository
 {
     public:
         ToppingRepository();
-        void storeAllToppings(vector<Topping>& printTopping);
+        void storeAllToppingsToTXT(vector<Topping>& printTopping);
         vector<Topping> FillToppingsVectorFromTXT();
         Topping parseString (string line);
     private:

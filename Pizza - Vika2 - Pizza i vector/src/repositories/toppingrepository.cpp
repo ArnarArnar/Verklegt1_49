@@ -5,7 +5,7 @@ ToppingRepository::ToppingRepository()
     //ctor
 }
 
-void ToppingRepository::storeAllToppings(vector<Topping>& printTopping){
+void ToppingRepository::storeAllToppingsToTXT(vector<Topping>& printTopping){
     ofstream fout;
     ToppingRepository removeText; ///Til ad eyða gamla listanum áður en sá nýji er skrifaðu í skránna
     removeText.deleteTextFromTXT();
@@ -36,9 +36,9 @@ vector<Topping> ToppingRepository::FillToppingsVectorFromTXT(){
        // cout << "The file 'toppings.txt' was sucsessfully loaded to vector" << endl;
     }
     else {
+    ///Hér þarf að kasta villu ef það virkar ekki.
      //   cout << "unable to open file" << endl;
     }
-
     return toppingsFromFile;
 }
 Topping ToppingRepository::parseString (string line){
