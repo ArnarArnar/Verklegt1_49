@@ -46,8 +46,8 @@ void SalesUI::SalesMenuUI() {
         }
         break;
         case '0': {
-            MainUI welcomeMenu;
-            welcomeMenu.welcomeUI();
+           // MainUI welcomeMenu;
+           // welcomeMenu.welcomeUI();
             cout << endl;
         }
         break;
@@ -75,8 +75,8 @@ void SalesUI::OrderUI() {
         }
         break;
         case '0': {
-            MainUI welcomeMenu;
-            welcomeMenu.welcomeUI();
+           // MainUI welcomeMenu;
+           // welcomeMenu.welcomeUI();
             cout << endl;
         }
         break;

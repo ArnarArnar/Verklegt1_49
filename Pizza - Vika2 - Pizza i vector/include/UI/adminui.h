@@ -1,8 +1,7 @@
 #ifndef ADMINUI_H
 #define ADMINUI_H
-#include "../models/topping.h"
-#include "../UI/MainUI.h"
 
+#include "toppingservice.h"
 
 class AdminUI
 {
@@ -11,7 +10,8 @@ class AdminUI
         void AdminMenuUI();
 
     private:
-        vector<Topping>& toppingVector;
+        ToppingService toppingService;
+        vector<Topping> toppingVector;
 };
 
 #endif // ADMINUI_H

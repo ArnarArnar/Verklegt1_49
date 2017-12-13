@@ -1,17 +1,13 @@
 #ifndef PIZZASERVICE_H
 #define PIZZASERVICE_H
-//#include "../models/Pizza.h"
-//#include "../repositories/PizzaRepository.h"
-
-
-
-
-
+#include "Pizza.h"
+#include <vector>
+#include "PizzaRepository.h"
 class PizzaService
 {
     public:
-        PizzaService();
-        void FillPizzaVectorService(vector<Pizza>& pizzas);
+        /// breytti parameters
+        void FillPizzaVectorService();
         vector<Topping> listAllToppings();
         void ToppingsInOrder (const vector<Topping>& topping);
 

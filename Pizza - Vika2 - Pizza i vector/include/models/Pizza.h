@@ -1,9 +1,7 @@
 #ifndef PIZZA_H
 #define PIZZA_H
-#include "salesui.h"
-//#include "topping.h"
-#include "../service/pizzaservice.h"
-#include <vector>
+#include "topping.h"
+
 
 class Pizza
 {

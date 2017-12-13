@@ -1,10 +1,10 @@
 #ifndef MAINUI_H
 #define MAINUI_H
-#include "../UI/adminui.h"
-#include "../UI/salesui.h"
-#include "../models/pizzaorder.h"
-#include "../models/Pizza.h"
-#include "../models/topping.h"
+#include "adminui.h"
+#include "salesui.h"
+//#include "../models/pizzaorder.h"
+//#include "../models/Pizza.h"
+//#include "../models/topping.h"
 #include "../exceptions/InvalidName.h"
 #include <vector>
 #include <string>
@@ -15,16 +15,16 @@ class MainUI
     public:
         MainUI();
         void welcomeUI();
-        void salesUI();
-        void bakerUI();
-        void deliveryUI();
+        //void salesUI();
+        //void bakerUI();
+        //void deliveryUI();
         void makeOrderUI();
         void makePizzaUI();
-        virtual ~MainUI();
 
-    protected:
 
     private:
+        SalesUI salesUI;
+        AdminUI adminUI;
 };
 
 #endif // MAINUI_H

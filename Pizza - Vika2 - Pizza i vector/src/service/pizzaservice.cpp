@@ -1,11 +1,7 @@
 #include "pizzaservice.h"
 
-PizzaService::PizzaService()
-{
 
-}
-
-void PizzaService::FillPizzaVectorService(vector<Pizza>& pizzas){
+void PizzaService::FillPizzaVectorService(){
 
         cout << "Pizza Size" << endl;
         char pizzaSize;

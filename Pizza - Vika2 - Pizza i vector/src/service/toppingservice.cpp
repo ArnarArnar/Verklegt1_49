@@ -7,8 +7,9 @@ ToppingService::ToppingService()
 vector<Topping>& ToppingService::FillToppingsVectorFromTXTService()
 {
     ToppingRepository retrive;
-    return retrive.FillToppingsVectorFromTXT();
-
+//    return retrive.FillToppingsVectorFromTXT();
+    vector<Topping> toppings;
+    return toppings;
 }
 void ToppingService::printToppingsToScreenFromVector(vector<Topping>& toppingFromVector)
 {

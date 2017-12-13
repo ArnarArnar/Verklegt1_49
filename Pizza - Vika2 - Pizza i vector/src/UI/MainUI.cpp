@@ -8,14 +8,9 @@
 #include "deliveryui.h"
 
 using namespace std;
-MainUI::MainUI()
-{
-    //ctor
-}
-MainUI::~MainUI()
-{
-    //dtor
-}
+
+MainUI::MainUI() { }
+
 void MainUI::welcomeUI() {
     char selection = '\0';
     bool quit = false;
@@ -37,23 +32,20 @@ void MainUI::welcomeUI() {
         switch(selection) {
         case '1': {
             cout << "***ADMIN MODE***"<< endl << endl;
-            AdminUI adminUI;
             adminUI.AdminMenuUI();
         }
         break;
         case '2': {
-            SalesUI salesUI;
             salesUI.SalesMenuUI();
         }
         break;
         case '3': {
-            BakerUI bakerUI;
-            bakerUI.BakerMenuUI();
+            //bakerUI.BakerMenuUI();
         }
         break;
         case '4': {
-            DeliveryUI deliveryUI;
-            deliveryUI.DeliveryMenuUI();
+            //DeliveryUI deliveryUI;
+            //deliveryUI.DeliveryMenuUI();
         }
         break;
         case '0': {

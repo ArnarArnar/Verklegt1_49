@@ -1,7 +1,10 @@
 #ifndef PIZZAREPOSITORY_H
 #define PIZZAREPOSITORY_H
 #include "Pizzaservice.h"
+#include <iostream>
 #include <fstream>
+
+using namespace std;
 
 class PizzaRepository
 {

@@ -1,6 +1,5 @@
 #ifndef SALESUI_H
 #define SALESUI_H
-#include "../UI/MainUI.h"
 #include "../models/pizzaorder.h"
 #include "../models/Pizza.h"
 

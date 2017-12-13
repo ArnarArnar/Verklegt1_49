@@ -1,7 +1,10 @@
 #ifndef PIZZAORDER_H
 #define PIZZAORDER_H
+#include <iostream>
 #include "../models/topping.h"
-#include "../UI/salesui.h"
+#include "invalidName.h"
+
+using namespace std;
 
 class PizzaOrder
 {

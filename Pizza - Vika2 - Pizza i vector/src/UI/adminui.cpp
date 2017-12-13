@@ -1,9 +1,7 @@
 #include "adminui.h"
 
-AdminUI::AdminUI()
-{
-    //ctor
-}
+
+AdminUI::AdminUI(){ }
 
 void AdminUI::AdminMenuUI(){
     char selection = '\0';
@@ -88,8 +86,8 @@ void AdminUI::AdminMenuUI(){
         }
         break;
         case '0': {
-            MainUI welcomeMenu;
-            welcomeMenu.welcomeUI();
+            //MainUI welcomeMenu;
+            //welcomeMenu.welcomeUI();
             cout << endl;
         }
         break;

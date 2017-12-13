@@ -1,14 +1,7 @@
 #include "Pizza.h"
 
 
-Pizza::Pizza()
-{
-    /*    string costumerName = "";
-        string pizzaSize = "";
-        int delivery = 0; /// If 2 = no - if 1 = yes
-        double pizzaPrice = 0.0;
-    */
-}
+Pizza::Pizza() {}
 Pizza::Pizza(char pizzaSize, vector<Topping>& toppings)
 {
     this-> pizzaSize = pizzaSize;
