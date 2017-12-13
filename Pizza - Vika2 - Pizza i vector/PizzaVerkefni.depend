@@ -317,81 +317,82 @@
 1513105137 source:c:\users\arnar\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\pizzaservice.cpp
 	"pizzaservice.h"
 
-1512921453 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\main.cpp
+1513172523 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\main.cpp
 	<iostream>
-	<string>
-	<fstream>
 	"MainUI.h"
 
-1512921452 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\mainui.h
+1513172523 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\mainui.h
 	"adminui.h"
+	"salesui.h"
+	"../exceptions/InvalidName.h"
+	<vector>
+	<string>
 
-1512921452 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\adminui.h
-	"topping.h"
+1513172523 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\adminui.h
 	"toppingservice.h"
-	"MainUI.h"
 
-1512921452 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\topping.h
+1513177181 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\topping.h
+	<vector>
 	<string>
 	<iostream>
-	<vector>
-
-1512943055 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\toppingservice.h
-	"topping.h"
-	"toppingrepository.h"
-	"InvalidTopping.h"
 	<climits>
 
-1512921453 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\repositories\toppingrepository.h
-	<fstream>
-	"toppingservice.h"
-	<stdlib.h>
+1513172523 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\toppingservice.h
+	"../models/topping.h"
+	"../repositories/toppingrepository.h"
+	"InvalidTopping.h"
+	<climits>
+	<vector>
+	<iostream>
 
-1512929042 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidtopping.h
+1513172523 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\repositories\toppingrepository.h
+	<fstream>
+	<stdlib.h>
+	<vector>
+	"../service/toppingservice.h"
+
+1513086690 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidtopping.h
 	<string>
 
 1512929091 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidtopping.cpp
 	"InvalidTopping.h"
 
-1512921453 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\topping.cpp
+1513177181 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\topping.cpp
 	"topping.h"
 
-1513000486 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\repositories\pizzarepository.cpp
+1513163990 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\repositories\pizzarepository.cpp
 	"PizzaRepository.h"
 
-1513000526 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\repositories\pizzarepository.h
-	"Pizza.h"
+1513172523 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\repositories\pizzarepository.h
+	"Pizzaservice.h"
 	<iostream>
+	<fstream>
 
-1513002642 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\pizza.h
-	"Topping.h"
-	"toppingservice.h"
-	"InvalidName.h"
-	"InvalidPizzaSize.h"
-	"InvalidDelivery.h"
-	<iostream>
+1513175843 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\pizza.h
+	"topping.h"
 
-1512921453 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\repositories\toppingrepository.cpp
+1513172523 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\repositories\toppingrepository.cpp
 	"toppingrepository.h"
 
-1512921453 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\adminui.cpp
+1513172523 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\adminui.cpp
 	"adminui.h"
 
-1512921453 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\bakerui.cpp
+1513003949 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\bakerui.cpp
 	"bakerui.h"
 
-1512921452 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\bakerui.h
+1513003949 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\bakerui.h
 	"MainUI.h"
+	"PizzaRepository.h"
 	<iostream>
 
-1512921453 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\deliveryui.cpp
+1513003949 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\deliveryui.cpp
 	"deliveryui.h"
 
 1512921452 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\deliveryui\deliveryui.h
 	"MainUI.h"
 	<iostream>
 
-1512921453 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\mainui.cpp
+1513172523 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\mainui.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -401,44 +402,43 @@
 	"bakerui.h"
 	"deliveryui.h"
 
-1512943055 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\salesui.h
-	"pizzaservice.h"
-	"MainUI.h"
-	"Pizza.h"
+1513172523 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\ui\salesui.h
+	"../models/pizzaorder.h"
+	"../models/Pizza.h"
 
-1513000485 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\pizzaservice.h
+1513175843 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\pizzaservice.h
 	"Pizza.h"
+	<vector>
 	"PizzaRepository.h"
-	"MainUI.h"
 
-1513003022 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\pizza.cpp
+1513175843 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\pizza.cpp
 	"Pizza.h"
 
-1513000486 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\pizzaservice.cpp
+1513172523 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\pizzaservice.cpp
 	"pizzaservice.h"
 
-1513000158 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\toppingservice.cpp
+1513172523 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\toppingservice.cpp
 	"toppingservice.h"
 
-1513000526 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\salesui.cpp
+1513172523 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\ui\salesui.cpp
 	"salesui.h"
 
-1512951083 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidname.cpp
+1513086690 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidname.cpp
 	"InvalidName.h"
 
-1512951062 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidname.h
+1513086690 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidname.h
 	<string>
 
-1512953031 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidpizzasize.h
+1513086690 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invalidpizzasize.h
 	<string>
 
-1512954344 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidpizzasize.cpp
+1513086690 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invalidpizzasize.cpp
 	"InvalidPizzaSize.h"
 
-1512955571 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invaliddelivery.h
+1513086690 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exeptions\invaliddelivery.h
 	<string>
 
-1512955638 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invaliddelivery.cpp
+1513086690 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\exeptions\invaliddelivery.cpp
 	"InvalidDelivery.h"
 
 1512938120 D
@@ -914,4 +914,29 @@
 
 1513085200 c:\users\kolbrún\desktop\hilli\hr\verklegt\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exceptions\invalidname.h
 	<string>
+
+1513178669 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\models\pizzaorder.h
+	<iostream>
+	"../models/topping.h"
+	"invalidName.h"
+
+1513084608 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\exceptions\invalidname.h
+	<string>
+
+1513163990 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\models\pizzaorder.cpp
+	"pizzaorder.h"
+
+1513163990 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\repositories\pizzaorderrepository.cpp
+	"pizzaorderrepository.h"
+
+1513163990 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\repositories\pizzaorderrepository.h
+	"../service/pizzaorderservice.h"
+	<fstream>
+
+1513163990 c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\include\service\pizzaorderservice.h
+	"../models/pizzaorder.h"
+	"../repositories/pizzaorderrepository.h"
+
+1513163990 source:c:\users\oddny\documents\github\verklegt1_49\pizza - vika2 - pizza i vector\src\service\pizzaorderservice.cpp
+	"pizzaorderservice.h"
 

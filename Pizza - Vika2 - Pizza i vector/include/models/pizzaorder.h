@@ -20,6 +20,15 @@ class PizzaOrder
         char getInTheOven() const;
         char GetReady() const;
         char GetPayed() const;
+
+        void getCostumerName(string costumerNamename);
+        void getAddress(string address);
+        void getDelivery(char delivery);
+        void getPizzaPrice(double pizzaPrice);
+        void getNotes(string notes);
+        void getInTheOven(char inTheOven);
+        void GetReady(char ready);
+        void GetPayed(char payed);
         void FillPizzaOrderVector(vector<PizzaOrder>& newOrders);
 
     private:

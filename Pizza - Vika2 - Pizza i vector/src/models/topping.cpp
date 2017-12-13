@@ -5,21 +5,26 @@ Topping::Topping()
     //ctor
 }
 
-Topping::Topping(string name, double price){
+Topping::Topping(string name, double price)
+{
     this->price = price;
     this->name = name;
 }
 
-string Topping::get_name() const{
+string Topping::get_name() const
+{
     return this->name;
 }
 
-double Topping::get_price()const{
+double Topping::get_price()const
+{
     return this->price;
 }
 
-ostream& operator << (ostream& out, vector<Topping>& toppingFromVector) {
-    for (unsigned int i = 0; i < toppingFromVector.size(); i++){
+ostream& operator << (ostream& out, vector<Topping>& toppingFromVector)
+{
+    for (unsigned int i = 0; i < toppingFromVector.size(); i++)
+    {
         out << "Name of topping  : " << toppingFromVector[i].get_name() << endl;
         out << "Price of topping : " << toppingFromVector[i].get_price() << endl;
     }
@@ -28,7 +33,8 @@ ostream& operator << (ostream& out, vector<Topping>& toppingFromVector) {
 
 
 
-istream& operator >> (istream& in, vector<Topping>& toppingFromVector) {
+istream& operator >> (istream& in, vector<Topping>& toppingFromVector)
+{
     int numberOfToppings;
     cout << "Number of toppings: ";
     in >> numberOfToppings;
@@ -43,6 +49,15 @@ istream& operator >> (istream& in, vector<Topping>& toppingFromVector) {
         cout << "Price: ";
         /// hér vantar að kasta villu ef ekki int.
         cin >> topping.price;
+        while(cin.fail())
+        {
+            cin.clear(); //clear input buffer to restore cin to a usable state
+            cin.ignore(INT_MAX, '\n'); //ignore last input
+            cout << "you can only enter numbers" << endl;
+            cout << "Price: ";
+            cin >> numberOfToppings;
+        }
+
         toppingFromVector.push_back(topping);
     }
 
