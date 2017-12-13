@@ -1,0 +1,3 @@
+Pepperoni,50,
+Skinka,40,
+Sveppir,30,

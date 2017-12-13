@@ -75,20 +75,19 @@ istream& operator >> (istream& in, vector<Topping>& toppingFromVector)
                 getline(cin, topping.name);
             }
         }
-        toppingFromVector.push_back(topping);
+
         cout << "Price: ";
-        /// hér vantar að kasta villu ef ekki int.
+
         cin >> topping.price;
 
-       /* while(cin.fail())                     ///virkar ekki skoða betur, því þetta er inní forlúppu
+        while(cin.fail())
         {
             cin.clear(); //clear input buffer to restore cin to a usable state
             cin.ignore(INT_MAX, '\n'); //ignore last input
             cout << "you can only enter numbers" << endl;
-            cout << "Number of toppings? ";
-            in >> numberOfToppings;
+            cout << "Price: ";
+            cin >> topping.price;
         }
-*/
         toppingFromVector.push_back(topping);
     }
 
