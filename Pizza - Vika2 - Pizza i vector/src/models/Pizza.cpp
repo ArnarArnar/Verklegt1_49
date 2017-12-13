@@ -1,6 +1,11 @@
 #include "Pizza.h"
 
-Pizza::Pizza() {}
+Pizza::Pizza() {
+
+    pizzaSize = '0';
+
+
+}
 Pizza::Pizza(char pizzaSize, vector<Topping>& toppings)
 {
     this-> pizzaSize = pizzaSize;
@@ -15,10 +20,14 @@ vector<Topping> Pizza::getToppingName() const
 {
     return this->toppings;
 }
-void Pizza::FillPizzaVector(vector<Pizza>& pizzas){
-//    PizzaService.FillPizzaVector(pizzas);
+void Pizza::setPizzaSize(char Pizza)
+{
+    this->pizzaSize = pizzaSize;
 }
-
+void Pizza::getToppingName(vector<Topping>)
+{
+    this->toppings = toppings;
+}
 
 ostream& operator << (ostream& out, Pizza& pizza) {
     out << "Pizza size (1 small, 2, medim, 3 large: " <<  pizza.getPizzaSize() << endl;
@@ -29,37 +38,17 @@ ostream& operator << (ostream& out, Pizza& pizza) {
      return out;
 }
 
-
-    /*    cout << "pizzaSize: " << endl;
+istream& operator >> (istream& in, Pizza& pizza){
+   /* cout << "pizzaSize: " << endl;
     cout << "1: Small" << endl;
     cout << "2: Medium" << endl;
     cout << "3: Large" << endl;
     cout << "Menu>Sales>Order: ";
-    cin >> pizzaSize;
-    InvalidPizzaSize CheckIfValidPizzaSize;
-    while (CheckIfValidPizzaSize.isValdPizzaSize(pizzaSize))
-    {
-        try
-        {
-            while (CheckIfValidPizzaSize.isValdPizzaSize(pizzaSize))
-            {
-                throw InvalidPizzaSize("That is not a valid pizzaSize");
-            }
-        }
-        catch (InvalidPizzaSize e)             //spurning um að setja þetta í service?
-        {
-            //eða ef villuboð koma að byrja upp á nýtt?
-            cout << endl;
-            cout << e.getMessage() << endl << endl;;
-            cout << "pizzaSize: " << endl;
-            cout << "1: Small" << endl;
-            cout << "2: Medium" << endl;
-            cout << "3: Large" << endl;
-            cout << "Menu>Sales>Order: ";
-            cin >> pizzaSize;
-        }
-    }
-
+    */
+    in >> pizza.pizzaSize;
+    in >> pizza.toppings;
+}
+/*
     cout << endl;
     toppings = listToppings.listAllToppings();
     cout << endl;

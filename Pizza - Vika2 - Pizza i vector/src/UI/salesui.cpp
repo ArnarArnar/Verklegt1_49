@@ -41,7 +41,9 @@ void SalesUI::SalesMenuUI() {
         break;
         case '4': {
             Pizza pizzatest;
-//            pizzatest.FillPizzaVector(pizzas);
+            cin >> pizzatest;
+
+            cout << pizzatest;
             cout << endl;
         }
         break;
