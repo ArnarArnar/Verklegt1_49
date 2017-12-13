@@ -21,10 +21,15 @@ void SalesUI::SalesMenuUI() {
         cin >> selection;
         switch(selection) {
         case '1': {
+
         Pizza newpizza;
 //            newpizza.FillPizzaOrderVector(pizzaOrders);
         ToppingService toppService;
         newpizza.setToppingName(toppService.listAllToppings());
+
+
+//            PizzaOrder newpizza;
+//          newpizza.FillPizzaOrderVector(pizzaOrders);
 
             cout << endl;
         }

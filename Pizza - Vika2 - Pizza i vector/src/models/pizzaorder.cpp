@@ -53,6 +53,40 @@ char PizzaOrder::GetPayed() const
 {
     return this->payed;
 }
+void PizzaOrder:: getCostumerName(string costumerName)
+{
+    this-> costumerName = costumerName;
+}
+void PizzaOrder:: getAddress(string address)
+{
+    this-> address = address;
+}
+void PizzaOrder::getDelivery(char delivery)
+{
+    this -> delivery = delivery;
+}
+void PizzaOrder::getPizzaPrice(double pizzaPrice)
+{
+    this-> pizzaPrice = pizzaPrice;
+}
+void PizzaOrder::getNotes(string notes)
+{
+    this-> notes = notes;
+}
+void PizzaOrder::getInTheOven(char inTheOven)
+{
+    this-> inTheOven = inTheOven;
+}
+void PizzaOrder:: GetReady(char ready)
+{
+    this-> ready = ready;
+}
+void PizzaOrder::GetPayed(char payed)
+{
+    this-> payed = payed;
+}
+
+
 
 
 void PizzaOrder::FillPizzaOrderVector(vector<PizzaOrder>& newOrders)
