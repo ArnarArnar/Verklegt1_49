@@ -5,6 +5,7 @@
 #include <string>
 #include <iostream>
 #include <climits>
+#include "InvalidName.h"
 using namespace std;
 
 
