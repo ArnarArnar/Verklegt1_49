@@ -1,0 +1,4 @@
+SiggiHall,2,1,husalind,0,
+hilmar,2,2,,0,
+Hilmar,3,2,,Ekki ost takk,0,
+Hilmar,3,2,,Thetta eru trjar pizzur,0,

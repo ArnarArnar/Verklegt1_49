@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PizzaVerkefni" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PizzaVerkefni" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include/UI" />
+					<Add directory="include/models" />
+					<Add directory="include/repositories" />
+					<Add directory="include/service" />
+					<Add directory="include/exeptions" />
+					<Add directory="include" />
+					<Add directory="include/DeliveryUI" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PizzaVerkefni" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include/UI" />
+					<Add directory="include/models" />
+					<Add directory="include/repositories" />
+					<Add directory="include/service" />
+					<Add directory="include/exeptions" />
+					<Add directory="include" />
+					<Add directory="include/DeliveryUI" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/DeliveryUI/deliveryui.h" />
+		<Unit filename="include/UI/MainUI.h" />
+		<Unit filename="include/UI/adminui.h" />
+		<Unit filename="include/UI/bakerui.h" />
+		<Unit filename="include/UI/salesui.h" />
+		<Unit filename="include/exeptions/InvalidDelivery.h" />
+		<Unit filename="include/exeptions/InvalidName.h" />
+		<Unit filename="include/exeptions/InvalidPizzaSize.h" />
+		<Unit filename="include/exeptions/InvalidTopping.h" />
+		<Unit filename="include/models/Pizza.h" />
+		<Unit filename="include/models/topping.h" />
+		<Unit filename="include/repositories/PizzaRepository.h" />
+		<Unit filename="include/repositories/toppingrepository.h" />
+		<Unit filename="include/service/pizzaservice.h" />
+		<Unit filename="include/service/toppingservice.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/UI/MainUI.cpp" />
+		<Unit filename="src/UI/adminui.cpp" />
+		<Unit filename="src/UI/bakerui.cpp" />
+		<Unit filename="src/UI/deliveryui.cpp" />
+		<Unit filename="src/UI/salesui.cpp" />
+		<Unit filename="src/exeptions/InvalidDelivery.cpp" />
+		<Unit filename="src/exeptions/InvalidName.cpp" />
+		<Unit filename="src/exeptions/InvalidPizzaSize.cpp" />
+		<Unit filename="src/exeptions/InvalidTopping.cpp" />
+		<Unit filename="src/models/Pizza.cpp" />
+		<Unit filename="src/models/topping.cpp" />
+		<Unit filename="src/repositories/PizzaRepository.cpp" />
+		<Unit filename="src/repositories/toppingrepository.cpp" />
+		<Unit filename="src/service/pizzaservice.cpp" />
+		<Unit filename="src/service/toppingservice.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
