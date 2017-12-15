@@ -9,9 +9,6 @@ class PizzaRepository
 public:
     PizzaRepository();
     PizzaRepository(char *name, double price);
-    virtual ~PizzaRepository();
-    void storePizza(const Pizza& pizza);
-    Pizza retrievePizza();
     void setVerbose(bool v);
     friend istream& operator >> (istream& in, PizzaRepository& pizzaRepository);
     friend ostream& operator << (ostream& out, const PizzaRepository& pizzaRepository);

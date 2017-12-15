@@ -34,7 +34,6 @@ vector<Topping> ToppingRepository::FillToppingsVectorFromTXT(){
             Topping topp = parseString(line);
             toppingsFromFile.push_back(topp);
         }
-       // cout << "The file 'toppings.txt' was sucsessfully loaded to vector" << endl;
     }
     else {
         cout << "unable to open file" << endl;

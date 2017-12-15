@@ -50,8 +50,6 @@ void ToppingService::addToppingsVector(vector<Topping>& addtopping)
     cout << endl;
 }
 
-
-
 vector<Topping> ToppingService::listAllToppings()
 {
     ToppingRepository toppRepo;

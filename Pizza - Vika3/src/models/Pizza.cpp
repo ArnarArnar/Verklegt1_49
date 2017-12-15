@@ -3,11 +3,7 @@
 
 Pizza::Pizza()
 {
-    /*    string costumerName = "";
-        string pizzaSize = "";
-        int delivery = 0; /// If 2 = no - if 1 = yes
-        double pizzaPrice = 0.0;
-    */
+
 }
 Pizza::Pizza(string costumerName, char pizzaSize, vector<Topping> toppings, char delivery, string address, double pizzaPrice, string notes, char inTheOven, char ready, char payed)
 {
@@ -70,20 +66,9 @@ char Pizza::GetpPayed() const
 
 istream& operator >> (istream& in, Pizza& pizza)
 {
-
-
-
     return in;
 }
-/*
-void Pizza::PrintPizzaVector (const vector<Pizza>& pizzaOrder){
-        size_t vectorSize = pizzaOrder.size();
 
-        for(size_t i = 0; i < vectorSize; i++){
-            cout << pizzaOrder << endl;
-                }
-}
-*/
 void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
 {
     string costumerName;
@@ -97,10 +82,8 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
     char ready = '0';
     char payed = '0';
     char youWantToAddNote = '0';
-    //char confirm = '0';
     cout << endl;
-    cout << "Costumer name: " << endl;
-    cout << "Menu>Sales>Order: ";
+    cout << "Costumer name: ";
     cin >> ws;
     getline(cin, costumerName);
     InvalidName CheckIfValidName;
@@ -117,14 +100,14 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
         {
             cout << endl;
             cout << e.getMessage() << endl << endl;
-            cout << "Costumer name: " << endl;
+            cout << "Costumer name: ";
             cin >> ws;
             getline(cin, costumerName);
         }
     }
 
     cout << endl;
-    cout << "How many pizzas? " << endl;
+    cout << "How many pizzas? ";
     int howManyPizzas;
     cin >> howManyPizzas;
     for (int i = 0; i < howManyPizzas; i++)
@@ -133,7 +116,6 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
         cout << "1: Small" << endl;
         cout << "2: Medium" << endl;
         cout << "3: Large" << endl;
-        cout << "Menu>Sales>Order: ";
         cin >> pizzaSize;
         InvalidPizzaSize CheckIfValidPizzaSize;
         while (CheckIfValidPizzaSize.isValdPizzaSize(pizzaSize))
@@ -145,16 +127,14 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
                     throw InvalidPizzaSize("That is not a valid pizzaSize");
                 }
             }
-            catch (InvalidPizzaSize e)             //spurning um að setja þetta í service?
+            catch (InvalidPizzaSize e)
             {
-                //eða ef villuboð koma að byrja upp á nýtt?
                 cout << endl;
                 cout << e.getMessage() << endl << endl;;
                 cout << "pizzaSize: " << endl;
                 cout << "1: Small" << endl;
                 cout << "2: Medium" << endl;
                 cout << "3: Large" << endl;
-                cout << "Menu>Sales>Order: ";
                 cin >> pizzaSize;
             }
         }
@@ -166,7 +146,6 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
     cout << "Delivery: " << endl;
     cout << "1: YES" << endl;
     cout << "2: NO" << endl;
-    cout << "Menu>Sales>Order: ";
     cin >> delivery;
     InvalidDelivery CheckIfValidDelivery;
     while (CheckIfValidDelivery.isValdDelivery(delivery))   //kannski óþafi að hafa þetta?
@@ -185,7 +164,6 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
             cout << "Delivery: " << endl;
             cout << "1: YES" << endl;
             cout << "2: NO" << endl;
-            cout << "Menu>Sales>Order: ";
             cin >> delivery;
         }
     }
@@ -193,7 +171,6 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
     if (delivery == '1')
     {
         cout << endl << "Please enter a delivery address: " << endl;
-        cout << "Menu>Sales>Order: ";
         cin >> ws;
         getline(cin, address);
     }
@@ -201,12 +178,10 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
     cout << endl << "do you want to add a note?" << endl;
     cout << "1: YES" << endl;
     cout << "2: NO" << endl;
-    cout << "Menu>Sales>Order: ";
     cin >> youWantToAddNote;
     if (youWantToAddNote == '1')
     {
         cout << endl << "Please enter notes: " << endl;
-        cout << "Menu>Sales>Order: ";
         cin >> ws;
         getline (cin, notes);
     }
@@ -216,17 +191,6 @@ void Pizza::FillPizzaVector(vector<Pizza>& pizzaOrder)
         Pizza newPizzaOrder(costumerName, pizzaSize, toppings, delivery, address, pizzaPrice, notes,  inTheOven, ready, payed);
         pizzaOrder.push_back(newPizzaOrder);
     }
-
-//}
-    /*
-    ostream& operator << (ostream& out, const Pizza& toppings) {
-        out << "toppings: " << endl;
-        for (unsigned int i = 0; i < toppings.getToppingName().size(); i++) {
-            out << toppings.getToppingName();
-        }
-
-            return out;
-    */
 
 };
 

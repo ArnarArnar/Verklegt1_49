@@ -13,8 +13,6 @@ void BakerUI::BakerMenuUI()
     {
         cout << "BAKERS MENU" << endl << endl;
         cout << "1: List of ordered pizza's - Not ready" << endl;
-        cout << "2: Mark as in progress - Not ready" << endl;
-        cout << "3: Mark as ready - Not ready" << endl;
         cout << "0: Quit to menu" << endl;
         cout << "Menu>Bakers: ";
         cin >> selection;
@@ -24,18 +22,6 @@ void BakerUI::BakerMenuUI()
         {
             PizzaRepository viewOrders;
             viewOrders.viewOrdersInTXT();
-            cout << endl;
-        }
-        break;
-        case '2':
-        {
-
-            cout << endl;
-        }
-        break;
-        case '3':
-        {
-
             cout << endl;
         }
         break;

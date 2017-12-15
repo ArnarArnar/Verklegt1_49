@@ -4,22 +4,7 @@ PizzaService::PizzaService()
 {
 
 }
-/*
-void PizzaService::FillPizzaVector(vector<Pizza>& pizzaOrder){
 
-        string costumerName;
-        cin >> costumerName;
-        string pizzaSize;
-        cin >> pizzaSize;
-        int pickup;
-        cin >> pickup;
-        double pizzaPrice;
-        cin >> pizzaPrice;
-
-        Pizza newPizzaOrder(costumerName, pizzaSize,  pickup, pizzaPrice);
-        pizzaOrder.push_back(newPizzaOrder);
-}
-*/
 void PizzaService::PrintToScreenPizzaVector (const vector<Pizza>& pizzaOrder)
 {
     size_t vectorSize = pizzaOrder.size();
@@ -45,7 +30,7 @@ void PizzaService::PrintToScreenPizzaVector (const vector<Pizza>& pizzaOrder)
         break;
         }
         cout << "Pizza Size:    " << pizzaOrder[i].getPizzaSize() << endl;
-        cout << "Topping:       Virkni ekki tilbúin" << endl;
+        cout << "Topping: " << endl;
         if (pizzaOrder[i].getDelivery() == '1')
         {
             cout << "Delivery:      YES" << endl;
@@ -63,20 +48,10 @@ void PizzaService::PrintToScreenPizzaVector (const vector<Pizza>& pizzaOrder)
         cout << "PizzaPrice:    " << pizzaOrder[i].getPizzaPrice() << endl;
     }
 }
-/*
-void PizzaService::ToppingsInOrder (const vector<Topping>& topping) {
-    Pizza toppingName;
-    for (unsigned int i = 0; i < topping.size(); i++) {
-        cout << toppingName.getToppingName();
-    }
-}
-*/
 
 void PizzaService::addNewOrderToTXTService(vector<Pizza>& pizzaOrder)
 {
     PizzaRepository pizzaRepo;
     pizzaRepo.addNewOrderToTXT(pizzaOrder);
-
-
 }
 

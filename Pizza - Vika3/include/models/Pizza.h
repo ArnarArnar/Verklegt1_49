@@ -25,14 +25,7 @@ public:
     char getInTheOven() const;
     char GetReady() const;
     char GetpPayed() const;
-
-
-
-    // friend istream& operator >> (istream& in, Pizza& pizza);
-    //friend ostream& operator << (ostream& out, const Pizza& pizza);
-    void PrintPizzaVector (const vector<Pizza>& pizzaOrder);
     void FillPizzaVector(vector<Pizza>& pizzaOrder);
-    friend ostream& operator << (ostream& out, const vector<Topping>& toppings);
 
 
 private:

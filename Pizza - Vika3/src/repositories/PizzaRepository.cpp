@@ -4,10 +4,6 @@ PizzaRepository::PizzaRepository()
 {
     //ctor
 }
-PizzaRepository::~PizzaRepository()
-{
-    //dtor
-}
 
 void PizzaRepository::setVerbose(bool v)
 {
@@ -55,69 +51,44 @@ void PizzaRepository::viewOrdersInTXT()
     fin.close();
 }
 
-void PizzaRepository::set_size_price()
-{
+void PizzaRepository::set_size_price(){
     char answer;
-    do
-    {
-        PizzaRepository size_price;
-        size_price.setVerbose(true);
-        ifstream fin;
-        string str;
-        fin.open("size_price.txt");
-        if(fin.is_open())
-        {
-            while(!fin.eof())
-            {
-                getline(fin, str);
-                cout << str << endl;
-            }
-            cout << fin.eof() << endl;
+    do {
+    PizzaRepository pizzas;
+    pizzas.setVerbose(true);
+    ifstream fin;
+    string str;
+    fin.open("pizzas.txt");
+    if(fin.is_open()){
+        while(!fin.eof()){
+            getline(fin, str);
+            cout << str << endl;
         }
-        else
-        {
-            cout << "File not open" << endl;
-        }
-        fin.close();
+        cout << fin.eof() << endl;
+    }
+    else {
+        cout << "File not open" << endl;
+    }
+    fin.close();
 
-        cin >> size_price;
-        ofstream fout;
-        fout.open("size_price.txt", ios::app);
-        size_price.setVerbose(false);
-        fout << size_price;
-        fout.close();
+    cin >> pizzas;
+    ofstream fout;
+    fout.open("pizzas.txt", ios::app);
+    pizzas.setVerbose(false);
+    fout << pizzas;
+    fout.close();
 
-        fin.open("size_price.txt", ios::app);
-        fin.close();
-        size_price.setVerbose(true);
-        cout << size_price;
+    fin.open("pizzas.txt", ios::app);
+    fin.close();
+    pizzas.setVerbose(true);
+    cout << pizzas;
 
-        cout << "Do you want to add another pizza?(y/n)";
+    cout << "Do you want to add another pizza?(y/n)";
 
-        cin >> answer;
+    cin >> answer;
     }
     while (answer == 'y');
 }
-/*
-void PizzaRepository::storePizza(const Pizza& pizza) {
-
-    ofstream fout;
-    fout.open("pizzaSizes.txt");
-    fout << pizza;
-    fout.close();
-
-}
-Pizza PizzaRepository::retrievePizza() {
-
-    ifstream fin;
-    fin.open("pizzaSizes.txt");
-    Pizza pizza;
-    fin >> pizza;
-
-    fin.close();
-    return pizza;
-}
-*/
 istream& operator >> (istream& in, PizzaRepository& pizzaRepository)
 {
     if (pizzaRepository.verbose)
@@ -146,7 +117,7 @@ ostream& operator << (ostream& out, const PizzaRepository& pizzaRepository)
     {
         out << "Price: ";
     }
-    out << pizzaRepository.price << ",";
+    out << pizzaRepository.price << "," << endl;
     cout << endl;
 
     return out;
@@ -155,7 +126,7 @@ void PizzaRepository::listOfPizzas()
 {
     string str;
     ifstream fin;
-    fin.open("size_price.txt");
+    fin.open("pizzas.txt");
     if(fin.is_open())
     {
         while(!fin.eof())

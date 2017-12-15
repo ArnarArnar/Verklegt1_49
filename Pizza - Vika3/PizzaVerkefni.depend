@@ -794,3 +794,129 @@
 1513259437 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\pizza - vika2 - pizza i vector\src\ui\salesui.cpp
 	"salesui.h"
 
+1512936673 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+
+1513288823 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\ui\mainui.h
+	"adminui.h"
+
+1513288854 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\ui\adminui.h
+	"topping.h"
+	"toppingservice.h"
+	"MainUI.h"
+
+1513289313 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\models\topping.h
+	<string>
+	<iostream>
+	<vector>
+
+1513288914 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\service\toppingservice.h
+	"topping.h"
+	"toppingrepository.h"
+	"InvalidTopping.h"
+	<climits>
+
+1513259437 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\repositories\toppingrepository.h
+	<fstream>
+	"toppingservice.h"
+	<stdlib.h>
+
+1513259437 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\exeptions\invalidtopping.h
+	<string>
+
+1513259304 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\exeptions\invaliddelivery.cpp
+	"InvalidDelivery.h"
+
+1513259437 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\exeptions\invaliddelivery.h
+	<string>
+
+1513259304 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\exeptions\invalidname.cpp
+	"InvalidName.h"
+
+1512995523 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\exeptions\invalidname.h
+	<string>
+
+1513259304 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\exeptions\invalidpizzasize.cpp
+	"InvalidPizzaSize.h"
+
+1512995523 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\exeptions\invalidpizzasize.h
+	<string>
+
+1513259304 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\exeptions\invalidtopping.cpp
+	"InvalidTopping.h"
+
+1513290320 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\models\pizza.cpp
+	"Pizza.h"
+
+1513289457 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\models\pizza.h
+	"Topping.h"
+	"toppingservice.h"
+	"InvalidName.h"
+	"InvalidPizzaSize.h"
+	"InvalidDelivery.h"
+	<iostream>
+
+1513288153 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\models\topping.cpp
+	"topping.h"
+
+1513288153 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\repositories\toppingrepository.cpp
+	"toppingrepository.h"
+
+1513288369 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\service\pizzaservice.cpp
+	"pizzaservice.h"
+
+1513288978 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\service\pizzaservice.h
+	"Pizza.h"
+	"PizzaRepository.h"
+	"MainUI.h"
+
+1513289165 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\repositories\pizzarepository.h
+	"Pizza.h"
+	<iostream>
+
+1513288369 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\service\toppingservice.cpp
+	"toppingservice.h"
+
+1513290512 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\ui\adminui.cpp
+	"adminui.h"
+	"PizzaRepository.h"
+
+1513288659 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\ui\bakerui.cpp
+	"bakerui.h"
+
+1513259437 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\ui\bakerui.h
+	"MainUI.h"
+	"PizzaRepository.h"
+	<iostream>
+
+1513259437 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\ui\deliveryui.cpp
+	"deliveryui.h"
+
+1513259437 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\deliveryui\deliveryui.h
+	"MainUI.h"
+	<iostream>
+
+1513288540 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\ui\mainui.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"MainUI.h"
+	"Pizza.h"
+	"salesui.h"
+	"bakerui.h"
+	"deliveryui.h"
+
+1513288769 c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\include\ui\salesui.h
+	"pizzaservice.h"
+	"MainUI.h"
+	"Pizza.h"
+
+1513290511 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\ui\salesui.cpp
+	"salesui.h"
+
+1513290004 source:c:\users\kolbrún\desktop\hilli\hr\verklegt\prufa\src\repositories\pizzarepository.cpp
+	"PizzaRepository.h"
+
